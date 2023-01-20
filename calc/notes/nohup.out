@@ -29,3 +29,34 @@ Opening in existing browser session.
 
 (google-chrome:5583): Gtk-WARNING **: 12:57:16.927: Theme parsing error: gtk.css:10940:17: Not using units is deprecated. Assuming 'px'.
 Opening in existing browser session.
+** Message: 16:21:25.726: Connecting to org.freedesktop.Tracker3.Miner.Files
+
+(google-chrome:22099): Gtk-WARNING **: 16:21:43.239: Theme parsing error: gtk.css:7190:16: Junk at end of value for color
+
+(google-chrome:22099): Gtk-WARNING **: 16:21:43.239: Theme parsing error: gtk.css:7237:15: unknown value for property
+
+(google-chrome:22099): Gtk-WARNING **: 16:21:43.239: Theme parsing error: gtk.css:7284:5: 'boder' is not a valid property name
+
+(google-chrome:22099): Gtk-WARNING **: 16:21:43.239: Theme parsing error: gtk.css:7329:0: Expected a valid selector
+
+(google-chrome:22099): Gtk-WARNING **: 16:21:43.247: Theme parsing error: gtk.css:10832:13: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:22099): Gtk-WARNING **: 16:21:43.247: Theme parsing error: gtk.css:10874:17: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:22099): Gtk-WARNING **: 16:21:43.247: Theme parsing error: gtk.css:10940:17: Not using units is deprecated. Assuming 'px'.
+Opening in existing browser session.
+
+(google-chrome:22225): Gtk-WARNING **: 16:21:49.834: Theme parsing error: gtk.css:7190:16: Junk at end of value for color
+
+(google-chrome:22225): Gtk-WARNING **: 16:21:49.834: Theme parsing error: gtk.css:7237:15: unknown value for property
+
+(google-chrome:22225): Gtk-WARNING **: 16:21:49.834: Theme parsing error: gtk.css:7284:5: 'boder' is not a valid property name
+
+(google-chrome:22225): Gtk-WARNING **: 16:21:49.834: Theme parsing error: gtk.css:7329:0: Expected a valid selector
+
+(google-chrome:22225): Gtk-WARNING **: 16:21:49.842: Theme parsing error: gtk.css:10832:13: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:22225): Gtk-WARNING **: 16:21:49.842: Theme parsing error: gtk.css:10874:17: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:22225): Gtk-WARNING **: 16:21:49.842: Theme parsing error: gtk.css:10940:17: Not using units is deprecated. Assuming 'px'.
+Opening in existing browser session.

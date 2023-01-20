@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  17 JAN 2023 22:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  19 JAN 2023 20:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1129,50 +1129,50 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen330
 )) (/home/catsoup/dev/latex/template/macros.tex)
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 10.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 11.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./notes.aux)
 \openout1 = `notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 10.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 10.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 11.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 11.
  (/usr/share/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 10.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 10.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 11.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 11.
  (/usr/share/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 10.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 10.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 11.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 11.
  (/usr/share/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 10.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 10.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 11.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 11.
  (/usr/share/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1227,10 +1227,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 10.
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+Package hyperref Info: Link coloring ON on input line 11.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
 \c@lstlisting=\count471
  (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -1243,41 +1243,41 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 12.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 13.
  (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 12.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 13.
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 12.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 13.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <16> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.8> on input line 12.
+(Font)              <10> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.6> on input line 12.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+(Font)              <12> on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 12.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 13.
  (/usr/share/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 12.
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 13.
  (/usr/share/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 12.
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 13.
  (/usr/share/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
@@ -1288,30 +1288,41 @@ Missing character: There is no ¹ in font lmsy10!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49     \begin
+l.50     \begin
                {Large} [1]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 59.
+(Font)              <7.3> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.3> on input line 59.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 59.
+(Font)              <5.5> on input line 60.
 
 Missing character: There is no ¹ in font lmsy10!
-[2] (./notes.aux) ) 
+<1.png, id=54, 322.20375pt x 277.035pt>
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 64.
+(pdftex.def)             Requested size: 257.76334pt x 221.6283pt.
+\g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1_none_none_box=\box148
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 76.
+(/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Missing character: There is no ¹ in font lmsy10!
+[2 <./1.png>]
+Missing character: There is no ¹ in font lmsy10!
+[3] [4] [5] (./notes.aux) ) 
 Here is how much of TeX's memory you used:
- 36632 strings out of 478238
- 732137 string characters out of 5850455
- 1095450 words of memory out of 5000000
- 54185 multiletter control sequences out of 15000+600000
- 525608 words of font info for 93 fonts, out of 8000000 for 9000
+ 36699 strings out of 478238
+ 733649 string characters out of 5850455
+ 1103454 words of memory out of 5000000
+ 54239 multiletter control sequences out of 15000+600000
+ 529928 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,8n,102p,479b,1373s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb>
-Output written on notes.pdf (3 pages, 138388 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb>
+Output written on notes.pdf (6 pages, 276576 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

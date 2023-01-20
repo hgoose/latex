@@ -6,6 +6,7 @@
 \title{\Huge{Calculus 1 Notes}}
 \author{\huge{Nathan Warner}}
 \date{\huge{December 17, 2023}}
+\graphicspath{{./}}
 
 \begin{document}
     \maketitle
@@ -57,6 +58,162 @@
    
     \bigbreak \noindent 
     \qs{}{Can we find an equation of the tangent line to $y=x^2$ at the point P(1,1)?}
-     
+   
+    \bigbreak \noindent 
+    \begin{center}
+        \includegraphics[scale=0.8]{1.png}    
+    \end{center}
+    
+    \pf{Explanation}{. \\
+        $y=x^2$: Red parabola \\
+        Tangent line: Blue line \\ 
+        Secent Line: Pink line with points q and p
+    }
+
+    We are asked to get the equation of the tangent line to $y=x^2$ at the point P(1,1), 
+    However to find the equation of this line we know we need \textbf{2 things,} 
+    \begin{itemize}
+        \item Point
+        \item Slope
+    \end{itemize}
+
+    \noindent Since we only have one point, we cannot find slope. Therefore, we must use 
+    another point as an approximation and create a secent line instead. \textbf{This secent line is 
+    the pink line in the above graphic.}
+    
+    \bigbreak \noindent 
+    \textbf{So}, lets use the point Q(0,0) as our second point. Now we can find slope with 
+    P(1,1), and Q(0,0).
+
+    \bigbreak \noindent 
+    \begin{large}
+        \textbf{If} Slope = $\frac{y2-y1}{x2-x1}$, Then M of PQ $\rightarrow$ $ \frac{1-0}{1-0}$ = 1
+    \end{large}
+
+    \bigbreak \noindent 
+    \textbf{Lets} get a better approximation by using a point closer to the tangent line
+    Lets use Q(0.9, 0.81)
+
+    \bigbreak \noindent 
+    \begin{large}
+        \textbf{So} M of PQ $\rightarrow$ $\frac{1-0.81}{1-0.9}$ = 1.9
+    \end{large}
+
+    \bigbreak \noindent 
+    \textbf{Now}, lets get an even closer approximation by using the point Q(0.99, 0.9801)
+    
+    \bigbreak \noindent 
+    \begin{large}
+       \textbf{So}, M of  PQ $\rightarrow$ $ \frac{1-0.9801}{1-0.99}$ = 1.99
+    \end{large}
+
+    \pagebreak
+    \noindent \textbf{Notice}, as the point Q gets closer to P, the slope of PQ is getting closer to 2
+    
+    \bigbreak \noindent 
+    \textbf{We write}, 
+    \begin{center}
+        \begin{large}
+            $\lim\limits_{Q \to P}${M of PQ} = m
+        \end{large}
+    \end{center}
+
+    \bigbreak \noindent 
+    Where \textbf{m} on the right of equation is slope of tangent line at \textbf{P}, 
+    And \textbf{M of PQ} is slope of the secent line
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+        \textbf{Now,}     
+    \end{large}
+    \bigbreak \noindent 
+    We will use our approximation of $m \approx 2$ to write the equation of the tangent line,
+    using the orginial point P(1,1).
+
+    \begin{align*}
+        y-1=2\left(x-1\right) \\
+        y-1=2x-2 \\
+        y=2x-1
+    .\end{align*}
+    
+    
+    \pagebreak
+    \begin{large}
+       \noindent \textbf{The Velocity Problem:} 
+    \end{large}
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{itemize}
+        \item Average Velocity: $\frac{distance\ traveled}{time\ elapsed}$, which is 
+            represented by the slope of the secent line.
+        \item Instantaneous Velocity = Velocity at a given instant of time, which is represented 
+            by the slope of the tangent line
+    \end{itemize}
+
+    \bigbreak \noindent \bigbreak \noindent  
+    \ex{}{If a rock is thrown upward on the planet Mars, with a Velocity of 10 m/s, It's
+    height in meters t seconds later is  given by $y=10t-1.86t^2$}
+
+    \bigbreak \noindent 
+    \qs{}{Find the average Velocity over the given time intervals:}
+    
+    \bigbreak \noindent 
+    \textbf{(i)} \textbf{[1,2]} $\rightarrow$ 1 and 2 represent values of \textit{t}
+    
+    \bigbreak \noindent 
+    \begin{center}
+        Substitute values into equation above
+    \end{center}
+    \begin{align*}
+        y\left(1\right)=10\left(1\right)-1.86\left(1\right)^2 \\
+        = 8.14
+    .\end{align*}
+
+    \begin{align*}
+        y\left(2\right)=10 \left(2\right) - 1.86 \left(2\right) ^2 \\
+        = 12.56
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \textbf{If} Average Velocity = $\frac{distance\ traveled}{time\ elapsed}$ Or better yet
+    $ \frac{Change\ in\ height}{change\ in\ time}$
+
+    \bigbreak \noindent 
+    \textbf{And} we have the points (1,8.14) and (2,12.56)
+
+    \bigbreak \noindent 
+    \textbf{Then,}
+
+    \begin{align*}
+        Average\ Velocity = \frac{12.56-8.14}{2-1} \\
+        =4.42 m\diagdown s
+   .\end{align*}
+
+    \pagebreak
+    \textbf{(ii) [1,1.5]}
+    
+    \begin{center}
+        Substitute values into equation above
+    \end{center}
+    \begin{align*}
+        y\left(1\right)=10\left(1\right)-1.86\left(1\right)^2 \\
+        = 8.14
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \begin{align*}
+        y \left(1.5\right) = 10 \left(1.5\right) - 1.86 \left(1.5\right) ^2 \\
+        =10.815 
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \textbf{After} solving theses equations we have the points (1,8.14) and (1.5,10.815)
+    \bigbreak \noindent 
+    \textbf{So,}
+    
+    \begin{align*}
+        Average\ Velocity = \frac{10.815-8.14}{1.5-1} \\
+        = 5.35 m \diagdown s
+    .\end{align*}
 
 \end{document}

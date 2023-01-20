@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  18 JAN 2023 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  19 JAN 2023 18:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1256,11 +1256,11 @@ LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 1
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <16> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 12.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.8> on input line 12.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.6> on input line 12.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1292,21 +1292,21 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 \end{document}
+l.55 \end{document}
                     [1] (./prereq.aux) ) 
 Here is how much of TeX's memory you used:
- 36539 strings out of 478238
- 730378 string characters out of 5850455
- 1094454 words of memory out of 5000000
- 54093 multiletter control sequences out of 15000+600000
- 507096 words of font info for 66 fonts, out of 8000000 for 9000
+ 36531 strings out of 478238
+ 730306 string characters out of 5850455
+ 1095452 words of memory out of 5000000
+ 54092 multiletter control sequences out of 15000+600000
+ 504165 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,7n,102p,480b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb>
-Output written on prereq.pdf (2 pages, 144254 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb>
+Output written on prereq.pdf (2 pages, 128039 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 125 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
