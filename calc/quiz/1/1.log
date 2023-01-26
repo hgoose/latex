@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  26 JAN 2023 08:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  26 JAN 2023 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**2.1.tex
-(./2.1.tex
+**1.tex
+(./1.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10> (/usr/share/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
@@ -998,8 +998,8 @@ Package: titletoc 2021/07/05 v2.14 TOC entries
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 11.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./2.1.aux)
-\openout1 = `2.1.aux'.
+) (./1.aux)
+\openout1 = `1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -1118,35 +1118,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 24.
+(Font)              <7> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 24.
+(Font)              <5> on input line 29.
 \g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1_none_none_box=\box148
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63     \section
-                 {\Large{Question 2}} [1] [2] [3]
-<hw4.png, id=78, 446.66875pt x 74.2775pt>
-File: hw4.png Graphic file (type png)
-<use hw4.png>
-Package pdftex.def Info: hw4.png  used on input line 150.
-(pdftex.def)             Requested size: 312.66599pt x 51.99388pt.
- [4 <./hw4.png>] (./2.1.aux) ) 
+l.68     \begin
+               {Large} [1] [2] (./1.aux) ) 
 Here is how much of TeX's memory you used:
- 34725 strings out of 478238
- 711321 string characters out of 5850455
- 1093631 words of memory out of 5000000
- 52319 multiletter control sequences out of 15000+600000
+ 34605 strings out of 478238
+ 708890 string characters out of 5850455
+ 1092619 words of memory out of 5000000
+ 52211 multiletter control sequences out of 15000+600000
  515736 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,9n,102p,477b,1373s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 2.1.pdf (5 pages, 193565 bytes).
+ 96i,11n,102p,475b,674s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
+Output written on 1.pdf (3 pages, 168738 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

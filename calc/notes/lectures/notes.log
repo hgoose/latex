@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  24 JAN 2023 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  26 JAN 2023 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1174,20 +1174,32 @@ File: ./images/abc.png Graphic file (type png)
 <use ./images/abc.png>
 Package pdftex.def Info: ./images/abc.png  used on input line 425.
 (pdftex.def)             Requested size: 423.58145pt x 142.53215pt.
- [10 <./images/ass.png> <./images/line.png> <./images/abc.png>] (./notes.aux) ) 
+ [10 <./images/ass.png> <./images/line.png> <./images/abc.png>]
+<./images/laws.png, id=128, 715.67375pt x 576.1525pt>
+File: ./images/laws.png Graphic file (type png)
+<use ./images/laws.png>
+Package pdftex.def Info: ./images/laws.png  used on input line 442.
+(pdftex.def)             Requested size: 465.18242pt x 374.49467pt.
+ [11 <./images/laws.png>] [12] [13] [14]
+<./images/gr.png, id=156, 346.29375pt x 358.33875pt>
+File: ./images/gr.png Graphic file (type png)
+<use ./images/gr.png>
+Package pdftex.def Info: ./images/gr.png  used on input line 725.
+(pdftex.def)             Requested size: 173.14644pt x 179.16893pt.
+ [15 <./images/gr.png>] [16] [17] (./notes.aux) ) 
 Here is how much of TeX's memory you used:
- 34951 strings out of 478238
- 716342 string characters out of 5850455
- 1098649 words of memory out of 5000000
- 52533 multiletter control sequences out of 15000+600000
- 521993 words of font info for 65 fonts, out of 8000000 for 9000
+ 35029 strings out of 478238
+ 718103 string characters out of 5850455
+ 1100649 words of memory out of 5000000
+ 52592 multiletter control sequences out of 15000+600000
+ 527868 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,9n,102p,479b,1691s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on notes.pdf (11 pages, 830939 bytes).
+ 96i,11n,102p,479b,1691s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on notes.pdf (18 pages, 964225 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 16 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 
