@@ -1,0 +1,202 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{Chapter 3 Notes: Image Files}}
+\author{\huge{Nathan Warner}}
+\date{\huge{Jan 27, 2023}}
+
+\begin{document}
+    \maketitle
+
+    \begin{Large}
+        \noindent \textbf{Learning Outcomes:}
+    \end{Large}
+    \begin{itemize}
+        \item Convey the difference between painting and drawing programs. 
+        \item Demonstrate an understanding of file Extensions and file types.
+        \item Recognize the role that compression and Resolution play in file sizes.
+    \end{itemize}
+   
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+       \noindent \textbf{Define Key Terms:} 
+    \end{Large}
+    \begin{itemize}
+        \item \textbf{Paint Program:} Genral term for graphics software that uses pixels to create an image.
+            \item \textbf{Drawing Program:} Genaral term for graphics software that uses mathematically defined lines to create an image.
+            \item \textbf{Pixels:} Specific color at a specific location in a matrix or grid.
+            \item \textbf{Gui:} Graphical user interface, makes it possible to use a device such as a mouse to interact with the computer.
+            \item \textbf{Bandwidth:} The speed at which a computer can transfer information along a network.
+            \item \textbf{Compression:} The process of reducing the size of an image
+            \item \textbf{Pixel Dimension:} The number of pixels in a row and column of a raster grid.
+            \item \textbf{Resolution:} The density of pixels in an image.
+            \item \textbf{Resampling:} Adding or removing pixels during the process of resizing.
+            \item \textbf{Aspect Ratio:} The ratio of the width to the height of an image.
+    \end{itemize}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Key Concepts:}
+    \end{Large} 
+    \begin{enumerate}
+        \item  Image programs can be categorized into two groups: paint programs and drawing programs. 
+        \item Paint programs produce images using pixels. Each pixel consists of a spe-cific color. Images produced by paint programs are called raster images or bitmapped images. 
+        \item Drawing programs use vectors or lines to produce an image. The vectors are created using a series of mathematical points. Images produced by drawing programs are called vector images. 
+        \item Extensions for the most common raster file types are .bmp, .tif, .gif, .jpg,and .png. 
+        \item Extensions for the file formats that are typically used for the Web are .gif, .jpg, and .png. 
+        \item Extensions for the most common vector file formats are .svg and .eps.  
+        \item Different file formats are appropriate for different situations. 
+        \item JPG image file sizes are reduced using a lossy compression algorithm  that removes unnecessary pixels. GIF, PNG, and TIF use a lossless  compression. 
+        \item Resolution and pixel density help determine the size of a file. 
+        \item Resizing is best done maintaining the aspect ratio.
+    \end{enumerate}
+
+    \pagebreak
+    \begin{Large}
+        \noindent \textbf{Distinguish between Graphic Programs:}
+    \end{Large}
+    
+    \bigbreak \noindent 
+    There are two types of Graphic Programs: \textbf{drawing} and \textbf{painting}. \textbf{Paint Programs}
+    create images by using pixels. \textbf{drawing programs} use vectors or lines to produce an image.
+    These lines are created using a series of mathematical points that can be changes without
+    distorting the image.
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+        \textbf{Raster-Based Paint Programs:}
+    \end{large}
+    \bigbreak \noindent 
+    Paint Programs create images by assigning each pixel to a point on a grid of x and y coordinates. 
+    This grid is called a \textbf{raster.} Images that are created using this grid of pixels 
+    are called \textbf{raster images} or \textbf{bitmaps}.
+
+    \bigbreak \noindent  
+    Photographs use raster graphics because of the wide range of colors that are available for the pixels. 
+    However because of the nature of pixels, enlarging these raster images can cause pixelation within the image.
+    Making raster images smaller can cause a loss of sharpness.
+    
+    \bigbreak \noindent 
+    \nt{Adobe Photoshop is a popular software that is used to manage raster images. }
+
+    \bigbreak \noindent  \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Determinig Image file formats:}
+    \end{Large}
+
+    \bigbreak \noindent 
+    A file extension is the 3 or 4 letters that follow the dot at the end of the file name.
+    This extension indicates the file format, and which programs can open the file.
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Types of file Extensions:}
+    \end{Large}
+
+    \bigbreak \noindent 
+    \begin{itemize}
+        \item \textbf{BMP:} Bitmaps, One of the earliest file types. these files 
+            are usually placed in word processing documents. Bitmap file sizes are usually 
+            quite large even though they are limited to 256 colors because they are created without
+            any kind of compression.
+        \item \textbf{JPG:} Joint Photographic Experts Group, These files use up to 16 million
+            colors. JPG images reproduce the quality, color, and detail found in photographs or graphics
+            that use blends and gradients. Most cameras save images as JPG to conserve memory space
+            on the cameras storage. JPG in the most common nonnative raster file format in use today.
+        \item \textbf{GIF:} Graphics Interchange Format, GIFs are compressed and only use 256 colors. 
+            The file sizes for GIFs are usually quite small. Much of the quality is lost if 
+            files are saved as GIFs. However, they are suitable for line drawings, images with
+            transparent backgrounds, and animated figures. GIFs are commonly used in web page design.
+        \item \textbf{TIF:} Tagged Image Format. These files work well in all enviornments. Like Bitmaps, 
+            these files are quite large. TIF files can support up to 16 million colors and are 
+            often used in print documents. Some cameras save photos as TIF aswell as the standard JPG
+        \item \textbf{PNG:} Portable Network Graphics. PNGs are a popular choice for use on the internet.
+            They retain 16 million colors and supports transparency. Often used to replace GIFs because 
+            they are quite small and support a large ammount of colors.
+        \item \textbf{EPS:} Encapsulated Postscript. This is a general purpose vector file format
+            that has both the vector image data and a screen preview in the same file. 
+            It is most commonly used for printing purposes.
+        \item \textbf{SVG:} Scaleable Vector Graphics. This is a vector format designed for use 
+            on the web. SVG images are created using HTML code. Software such as Adobe Illustrator
+            can be used to create an image and covert it to SVG. These files are a popular choice for 
+            mobile devices because of its small file size.
+    \end{itemize}
+
+    \pagebreak
+    \begin{Large}
+        \noindent \textbf{Managing Image Sizes:}       
+    \end{Large} 
+
+    \bigbreak \noindent 
+    There are two ways to look at image sizes. The first is the ammount of space the 
+    image takes up on disk. The other is the visual image size. Raster images that are 
+    visually large take up more space on disk than smaller ones. Vector images
+    do not change their storage requirements based upon size.
+
+    \bigbreak \noindent 
+    It is important to keep file size in mind. Some websites and email services restrict the size of image files that can be uploaded.
+    At a minimum, huge attached images can slow email delivery. 
+
+    \bigbreak \noindent 
+    File size is a consideration when adding images to a website. The time it takes 
+    to download a graphic and display it in a browser depends on both the size of the file and thetype of 
+    internet connection. Dial up connections that require a modem and telephone
+    recieve data over a narrow Bandwidth. Broadband connections using DSL, cable, or wireless
+    connections are much faster because they have a larger Bandwidth.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Compression:}
+    \end{Large}
+
+    \bigbreak \noindent 
+    To reduce image file sizes, several algorithms have been written to reduce, or compress 
+    the size of an image file. 
+
+    \bigbreak \noindent 
+    There are \textbf{Two} types of compression
+    \begin{itemize}
+        \item Lossless
+        \item Lossy
+    \end{itemize}
+
+    \bigbreak \noindent 
+    Lossless compression reduces the file size without losing any pixels. Files saved as .png, .gif, and .tif
+    use lossless compression
+    \bigbreak \noindent 
+    Lossy compression deletes or changes some pixels when saving. The .jpg file format uses 
+    lossy compression. It is important to know that each time you change a lossy image 
+    and then save it, the file is compressed again. If you save several times in this way, 
+    you will see that image has begun to degrade. If you make all your changes in a native format, 
+    and then save the last copy as a jpg, you will not encounter this problem. 
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent  
+    \begin{Large}
+        \textbf{Resolution, Resizing, and Resampling}
+    \end{Large}
+
+    \bigbreak \noindent 
+    Bitmaps have visual sizes measured in two ways:
+    \begin{itemize}
+        \item physical size.
+        \item number of pixels in one inch. 
+    \end{itemize}
+
+    \bigbreak \noindent 
+    Physical sizes are measured in pixel Dimension. 
+
+    \bigbreak \noindent 
+    The Resolution of an image is measured in pixel density, or pixels per inch (ppi). Images 
+    with a higher ppi will produce a greater quality image. If you are sending an image using
+    email, you will want to use a lower resolution. If you are printing an image, you will
+    want the highest resolution possible.
+
+    \bigbreak \noindent 
+    \textbf{Resampling} is an option that allows you to add or remove pixels when you resize an 
+    image. When resampling is on, changing the size of the image will not change its resolution, but 
+    it will become larger or smaller. If you turn off resampling, changing the physical dimension
+    of image will change its resolution.
+\end{document}
+

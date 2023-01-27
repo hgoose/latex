@@ -1,0 +1,18 @@
+** Message: 15:18:59.343: Connecting to org.freedesktop.Tracker3.Miner.Files
+
+(org.gnome.Nautilus:7161): Gtk-WARNING **: 15:19:00.913: Broken accounting of active state for widget 0x55c691665650(GtkPopoverMenu)
+
+(google-chrome:7274): Gtk-WARNING **: 15:19:05.883: Theme parsing error: gtk.css:7190:16: Junk at end of value for color
+
+(google-chrome:7274): Gtk-WARNING **: 15:19:05.883: Theme parsing error: gtk.css:7237:15: unknown value for property
+
+(google-chrome:7274): Gtk-WARNING **: 15:19:05.883: Theme parsing error: gtk.css:7284:5: 'boder' is not a valid property name
+
+(google-chrome:7274): Gtk-WARNING **: 15:19:05.883: Theme parsing error: gtk.css:7329:0: Expected a valid selector
+
+(google-chrome:7274): Gtk-WARNING **: 15:19:05.892: Theme parsing error: gtk.css:10832:13: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:7274): Gtk-WARNING **: 15:19:05.892: Theme parsing error: gtk.css:10874:17: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:7274): Gtk-WARNING **: 15:19:05.892: Theme parsing error: gtk.css:10940:17: Not using units is deprecated. Assuming 'px'.
+Opening in existing browser session.
