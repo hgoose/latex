@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1674966350 "notes.tex" "notes.pdf" "notes" 1674966351
+["pdflatex"] 1675016236 "notes.tex" "notes.pdf" "notes" 1675016237
   "/home/catsoup/dev/latex/template/macros.tex" 1671326306 3389 93000260d2aea292d29c76d4ace77a29 ""
   "/home/catsoup/dev/latex/template/preamble.tex" 1674599710 20158 02304a23f690f2818364a061c8ec2797 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1650183167 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -242,8 +242,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1671568974 4408072 42ceaa83bae76aebad711d3f3dd7f55f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1671568965 2927663 5d14edd6d7c814164a93b6a806537d4f ""
-  "notes.aux" 1674966351 808 8d985d97ab353d3e19e97e0f0150b53e "pdflatex"
-  "notes.tex" 1674966349 9393 a1c4774cc98e3c8dab76e98b6d263d6f ""
+  "images/virus.png" 1675015026 188312 0945b91628d129cb08ed17d9ca92e5c1 ""
+  "notes.aux" 1675016237 808 85c6d21307421394eb8234869cbfef3d "pdflatex"
+  "notes.tex" 1675016235 13704 2f8c59ae3e79c8d780a26598cb730b68 ""
   (generated)
   "notes.aux"
   "notes.log"
