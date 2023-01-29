@@ -1,0 +1,17 @@
+** Message: 17:52:48.830: Connecting to org.freedesktop.Tracker3.Miner.Files
+** Message: 18:06:31.233: Connecting to org.freedesktop.Tracker3.Miner.Files
+
+(google-chrome:19048): Gtk-WARNING **: 18:06:39.784: Theme parsing error: gtk.css:7190:16: Junk at end of value for color
+
+(google-chrome:19048): Gtk-WARNING **: 18:06:39.785: Theme parsing error: gtk.css:7237:15: unknown value for property
+
+(google-chrome:19048): Gtk-WARNING **: 18:06:39.785: Theme parsing error: gtk.css:7284:5: 'boder' is not a valid property name
+
+(google-chrome:19048): Gtk-WARNING **: 18:06:39.785: Theme parsing error: gtk.css:7329:0: Expected a valid selector
+
+(google-chrome:19048): Gtk-WARNING **: 18:06:39.793: Theme parsing error: gtk.css:10832:13: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:19048): Gtk-WARNING **: 18:06:39.793: Theme parsing error: gtk.css:10874:17: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:19048): Gtk-WARNING **: 18:06:39.793: Theme parsing error: gtk.css:10940:17: Not using units is deprecated. Assuming 'px'.
+Opening in existing browser session.
