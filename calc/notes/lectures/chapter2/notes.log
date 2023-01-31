@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  26 JAN 2023 15:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  31 JAN 2023 15:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1126,80 +1126,86 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 60.
-<./images/1.png, id=54, 322.20375pt x 277.035pt>
-File: ./images/1.png Graphic file (type png)
-<use ./images/1.png>
-Package pdftex.def Info: ./images/1.png  used on input line 64.
+<../images/1.png, id=54, 322.20375pt x 277.035pt>
+File: ../images/1.png Graphic file (type png)
+<use ../images/1.png>
+Package pdftex.def Info: ../images/1.png  used on input line 64.
 (pdftex.def)             Requested size: 257.76334pt x 221.6283pt.
 \g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1_none_none_box=\box148
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 76.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2 <./images/1.png>] [3] [4] [5]
-<./images/tbale.png, id=84, 360.34625pt x 690.58pt>
-File: ./images/tbale.png Graphic file (type png)
-<use ./images/tbale.png>
-Package pdftex.def Info: ./images/tbale.png  used on input line 233.
+) [2 <../images/1.png>] [3] [4] [5]
+<../images/tbale.png, id=84, 360.34625pt x 690.58pt>
+File: ../images/tbale.png Graphic file (type png)
+<use ../images/tbale.png>
+Package pdftex.def Info: ../images/tbale.png  used on input line 233.
 (pdftex.def)             Requested size: 180.17268pt x 345.28915pt.
-<./images/table2.png, id=85, 218.8175pt x 396.48125pt>
-File: ./images/table2.png Graphic file (type png)
-<use ./images/table2.png>
-Package pdftex.def Info: ./images/table2.png  used on input line 261.
+<../images/table2.png, id=85, 218.8175pt x 396.48125pt>
+File: ../images/table2.png Graphic file (type png)
+<use ../images/table2.png>
+Package pdftex.def Info: ../images/table2.png  used on input line 261.
 (pdftex.def)             Requested size: 109.40848pt x 198.24013pt.
- [6 <./images/tbale.png>] [7 <./images/table2.png>]
-<./images/ht.png, id=99, 655.44875pt x 305.14pt>
-File: ./images/ht.png Graphic file (type png)
-<use ./images/ht.png>
-Package pdftex.def Info: ./images/ht.png  used on input line 283.
+ [6 <../images/tbale.png>] [7 <../images/table2.png>]
+<../images/ht.png, id=99, 655.44875pt x 305.14pt>
+File: ../images/ht.png Graphic file (type png)
+<use ../images/ht.png>
+Package pdftex.def Info: ../images/ht.png  used on input line 283.
 (pdftex.def)             Requested size: 327.72357pt x 152.56961pt.
- [8 <./images/ht.png>]
-<./images/graph.png, id=112, 362.35374pt x 338.26375pt>
-File: ./images/graph.png Graphic file (type png)
-<use ./images/graph.png>
-Package pdftex.def Info: ./images/graph.png  used on input line 341.
+ [8 <../images/ht.png>]
+<../images/graph.png, id=112, 362.35374pt x 338.26375pt>
+File: ../images/graph.png Graphic file (type png)
+<use ../images/graph.png>
+Package pdftex.def Info: ../images/graph.png  used on input line 341.
 (pdftex.def)             Requested size: 253.64589pt x 236.78299pt.
-<./images/ass.png, id=117, 857.2025pt x 292.09125pt>
-File: ./images/ass.png Graphic file (type png)
-<use ./images/ass.png>
-Package pdftex.def Info: ./images/ass.png  used on input line 381.
+<../images/ass.png, id=117, 857.2025pt x 292.09125pt>
+File: ../images/ass.png Graphic file (type png)
+<use ../images/ass.png>
+Package pdftex.def Info: ../images/ass.png  used on input line 381.
 (pdftex.def)             Requested size: 428.6002pt x 146.04526pt.
- [9 <./images/graph.png>]
-<./images/line.png, id=122, 541.02126pt x 260.975pt>
-File: ./images/line.png Graphic file (type png)
-<use ./images/line.png>
-Package pdftex.def Info: ./images/line.png  used on input line 415.
+ [9 <../images/graph.png>]
+<../images/line.png, id=122, 541.02126pt x 260.975pt>
+File: ../images/line.png Graphic file (type png)
+<use ../images/line.png>
+Package pdftex.def Info: ../images/line.png  used on input line 415.
 (pdftex.def)             Requested size: 270.50996pt x 130.48718pt.
-<./images/abc.png, id=123, 847.165pt x 285.065pt>
-File: ./images/abc.png Graphic file (type png)
-<use ./images/abc.png>
-Package pdftex.def Info: ./images/abc.png  used on input line 425.
+<../images/abc.png, id=123, 847.165pt x 285.065pt>
+File: ../images/abc.png Graphic file (type png)
+<use ../images/abc.png>
+Package pdftex.def Info: ../images/abc.png  used on input line 425.
 (pdftex.def)             Requested size: 423.58145pt x 142.53215pt.
- [10 <./images/ass.png> <./images/line.png> <./images/abc.png>]
-<./images/laws.png, id=128, 715.67375pt x 576.1525pt>
-File: ./images/laws.png Graphic file (type png)
-<use ./images/laws.png>
-Package pdftex.def Info: ./images/laws.png  used on input line 442.
+ [10 <../images/ass.png> <../images/line.png> <../images/abc.png>]
+<../images/laws.png, id=128, 715.67375pt x 576.1525pt>
+File: ../images/laws.png Graphic file (type png)
+<use ../images/laws.png>
+Package pdftex.def Info: ../images/laws.png  used on input line 442.
 (pdftex.def)             Requested size: 465.18242pt x 374.49467pt.
- [11 <./images/laws.png>] [12] [13] [14]
-<./images/gr.png, id=156, 346.29375pt x 358.33875pt>
-File: ./images/gr.png Graphic file (type png)
-<use ./images/gr.png>
-Package pdftex.def Info: ./images/gr.png  used on input line 725.
+ [11 <../images/laws.png>] [12] [13] [14]
+<../images/gr.png, id=156, 346.29375pt x 358.33875pt>
+File: ../images/gr.png Graphic file (type png)
+<use ../images/gr.png>
+Package pdftex.def Info: ../images/gr.png  used on input line 725.
 (pdftex.def)             Requested size: 173.14644pt x 179.16893pt.
- [15 <./images/gr.png>] [16] [17] (./notes.aux) ) 
+ [15 <../images/gr.png>] [16]
+<../images/observe.png, id=171, 385.44pt x 301.125pt>
+File: ../images/observe.png Graphic file (type png)
+<use ../images/observe.png>
+Package pdftex.def Info: ../images/observe.png  used on input line 830.
+(pdftex.def)             Requested size: 308.35242pt x 240.90031pt.
+ [17 <../images/observe.png>] [18] (./notes.aux) ) 
 Here is how much of TeX's memory you used:
- 35029 strings out of 478238
- 718103 string characters out of 5850455
- 1100649 words of memory out of 5000000
- 52592 multiletter control sequences out of 15000+600000
+ 35051 strings out of 478238
+ 718656 string characters out of 5850455
+ 1100650 words of memory out of 5000000
+ 52611 multiletter control sequences out of 15000+600000
  527868 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,11n,102p,479b,1691s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on notes.pdf (18 pages, 964225 bytes).
+Output written on notes.pdf (19 pages, 1005498 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

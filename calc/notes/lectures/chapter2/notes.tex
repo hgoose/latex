@@ -1,0 +1,895 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{Calculus 1 Notes}}
+\author{\huge{Nathan Warner}}
+\date{\huge{December 17, 2023}}
+\graphicspath{{../images}}
+
+\begin{document}
+    \maketitle
+
+    \begin{center}
+        \Huge{Chapter 2}
+    \end{center}
+    \line(1,0){470} 
+
+    \bigbreak \noindent \bigbreak \noindent  
+    \begin{Huge}
+        \noindent \textbf{Contents}
+    \end{Huge}
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{2.1: The Tangent and Velocity Problems }
+        \bigbreak \noindent \bigbreak \noindent  
+        \textbf{2.2.1 The Limits of a Function }
+        \bigbreak \noindent \bigbreak \noindent  
+        \textbf{2.2.2 Infinite Limits }
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{2.2.3 Finding Limits of a Trigonometric Function }
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{2.3 Calculating Limits Using Limit Laws}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{2.5.1 Continuity }
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{2.5.2 One-Sided Continuity}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{2.6 Limits at Infinity: Horizontal Asymptotes}
+        \bigbreak \noindent \bigbreak \noindent  
+        \textbf{2.7 Derivatives and Rates of Change}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{2.8.1 The Derivative of a Function}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{2.8.2 Finding The Derivatives Using The Limit Definition}
+    \end{Large}
+
+    \pagebreak
+    \begin{Large}
+        \noindent \textbf{2.1: The Tangent and Velocity Problems}
+    \end{Large}
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+       \noindent \textbf{The Tangent Problem: } 
+    \end{large}
+   
+    \bigbreak \noindent 
+    \qs{}{Can we find an equation of the tangent line to $y=x^2$ at the point P(1,1)?}
+   
+    \bigbreak \noindent 
+    \begin{center}
+        \includegraphics[scale=0.8]{1.png}    
+    \end{center}
+    
+    \pf{Explanation}{. \\
+        $y=x^2$: Red parabola \\
+        Tangent line: Blue line \\ 
+        Secent Line: Pink line with points q and p
+    }
+
+    We are asked to get the equation of the tangent line to $y=x^2$ at the point P(1,1), 
+    However to find the equation of this line we know we need \textbf{2 things,} 
+    \begin{itemize}
+        \item Point
+        \item Slope
+    \end{itemize}
+
+    \noindent Since we only have one point, we cannot find slope. Therefore, we must use 
+    another point as an approximation and create a secent line instead. \textbf{This secent line is 
+    the pink line in the above graphic.}
+    
+    \bigbreak \noindent 
+    \textbf{So}, lets use the point Q(0,0) as our second point. Now we can find slope with 
+    P(1,1), and Q(0,0).
+
+    \bigbreak \noindent 
+    \begin{large}
+        \textbf{If} Slope = $\frac{y2-y1}{x2-x1}$, Then M of PQ $\rightarrow$ $ \frac{1-0}{1-0}$ = 1
+    \end{large}
+
+    \bigbreak \noindent 
+    \textbf{Lets} get a better approximation by using a point closer to the tangent line
+    Lets use Q(0.9, 0.81)
+
+    \bigbreak \noindent 
+    \begin{large}
+        \textbf{So} M of PQ $\rightarrow$ $\frac{1-0.81}{1-0.9}$ = 1.9
+    \end{large}
+
+    \bigbreak \noindent 
+    \textbf{Now}, lets get an even closer approximation by using the point Q(0.99, 0.9801)
+    
+    \bigbreak \noindent 
+    \begin{large}
+       \textbf{So}, M of  PQ $\rightarrow$ $ \frac{1-0.9801}{1-0.99}$ = 1.99
+    \end{large}
+
+    \pagebreak
+    \noindent \textbf{Notice}, as the point Q gets closer to P, the slope of PQ is getting closer to 2
+    
+    \bigbreak \noindent 
+    \textbf{We write}, 
+    \begin{center}
+        \begin{large}
+            $\lim\limits_{Q \to P}${M of PQ} = m
+        \end{large}
+    \end{center}
+
+    \bigbreak \noindent 
+    Where \textbf{m} on the right of equation is slope of tangent line at \textbf{P}, 
+    And \textbf{M of PQ} is slope of the secent line
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+        \textbf{Now,}     
+    \end{large}
+    \bigbreak \noindent 
+    We will use our approximation of $m \approx 2$ to write the equation of the tangent line,
+    using the orginial point P(1,1).
+
+    \begin{align*}
+        y-1=2\left(x-1\right) \\
+        y-1=2x-2 \\
+        y=2x-1
+    .\end{align*}
+    
+    
+    \pagebreak
+    \begin{large}
+       \noindent \textbf{The Velocity Problem:} 
+    \end{large}
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{itemize}
+        \item Average Velocity: $\frac{distance\ traveled}{time\ elapsed}$, which is 
+            represented by the slope of the secent line.
+        \item Instantaneous Velocity = Velocity at a given instant of time, which is represented 
+            by the slope of the tangent line
+    \end{itemize}
+
+    \bigbreak \noindent \bigbreak \noindent  
+    \ex{}{If a rock is thrown upward on the planet Mars, with a Velocity of 10 m/s, It's
+    height in meters t seconds later is  given by $y=10t-1.86t^2$}
+
+    \bigbreak \noindent 
+    \qs{}{Find the average Velocity over the given time intervals:}
+    
+    \bigbreak \noindent 
+    \textbf{(i)} \textbf{[1,2]} $\rightarrow$ 1 and 2 represent values of \textit{t}
+    
+    \bigbreak \noindent 
+    \begin{center}
+        Substitute values into equation above
+    \end{center}
+    \begin{align*}
+        y\left(1\right)=10\left(1\right)-1.86\left(1\right)^2 \\
+        = 8.14
+    .\end{align*}
+
+    \begin{align*}
+        y\left(2\right)=10 \left(2\right) - 1.86 \left(2\right) ^2 \\
+        = 12.56
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \textbf{If} Average Velocity = $\frac{distance\ traveled}{time\ elapsed}$ Or better yet
+    $ \frac{Change\ in\ height}{change\ in\ time}$
+
+    \bigbreak \noindent 
+    \textbf{And} we have the points (1,8.14) and (2,12.56)
+
+    \bigbreak \noindent 
+    \textbf{Then,}
+
+    \begin{align*}
+        Average\ Velocity = \frac{12.56-8.14}{2-1} \\
+        =4.42 m\diagdown s
+   .\end{align*}
+
+    \pagebreak
+    \textbf{(ii) [1,1.5]}
+    
+    \begin{center}
+        Substitute values into equation above
+    \end{center}
+    \begin{align*}
+        y\left(1\right)=10\left(1\right)-1.86\left(1\right)^2 \\
+        = 8.14
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \begin{align*}
+        y \left(1.5\right) = 10 \left(1.5\right) - 1.86 \left(1.5\right) ^2 \\
+        =10.815 
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \textbf{After} solving theses equations we have the points (1,8.14) and (1.5,10.815)
+    \bigbreak \noindent 
+    \textbf{So,}
+    
+    \begin{align*}
+        Average\ Velocity = \frac{10.815-8.14}{1.5-1} \\
+        = 5.35 m \diagdown s
+    .\end{align*}
+
+
+    \pagebreak
+    \begin{Large}
+        \textbf{2.1.1 The Limit of a Function:}
+    \end{Large}
+    
+   \bigbreak \noindent \bigbreak \noindent  
+    \qs{}{Consider the values of $f \left(x\right) = x^2$ + 2 near $x=2$}
+
+    \bigbreak \noindent 
+    We want to know whats going on near x=2, so we make a table
+
+    \bigbreak \noindent 
+    \begin{center}
+        \includegraphics[scale=0.5]{../images/tbale.png}
+    \end{center}
+
+    \textbf{Now} we want to look at the closet x values to 2, 
+    which is the 2 that are above and below \textbf{2}, \textbf{We observe that as x values approach
+    2, then f(x) values approach 6}
+
+    \bigbreak \noindent 
+    \textbf{so we write,}    
+
+    \begin{large}
+        \begin{align*}
+            \lim\limits_{x \to 2}{f \left(x\right) = 6}
+        .\end{align*}
+    \end{large}
+    
+    \bigbreak \noindent 
+    \ex{}{Use a table of values to estimate the limit:$\lim\limits_{x \to 0 }{ \frac{tan3x}{tan5x}}$}
+    
+    \bigbreak \noindent 
+    Rememeber the value \textbf{0} is \textbf{a} so we want to contruct our table where a 
+    is in the middle, so use values that are smaller and larger than a.
+
+    \bigbreak \noindent 
+    Using arbitrary values that are close to 0, we get the table, 
+
+    \bigbreak \noindent 
+    \begin{center}
+        \includegraphics[scale=0.5]{../images/table2.png}
+    \end{center}
+    
+    \bigbreak \noindent 
+    Now after looking at our table, we can conclude that
+
+    \bigbreak \noindent 
+
+    \begin{large}
+        \begin{align*}
+            \lim\limits_{x \to0 }{ \frac{tan3x}{tan5x} = 0.6}
+        .\end{align*}
+    \end{large}
+
+    \pagebreak
+    \begin{large}
+        \noindent \textbf{One Sided Limits:}
+    \end{large}
+   
+    
+    \bigbreak \noindent 
+    \begin{center}
+        \includegraphics[scale=0.5]{../images/ht.png} 
+    \end{center}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \nt{if there is a \textbf{minus} sign after a, that means you are approaching limit from the left
+        if there is a \textbf{plus} sign after a, that means you are approaching limit from the right, 
+        if you see a limit with either of these, it is called a two sided limit
+    }
+    \bigbreak \noindent 
+    \textbf{What is $\lim\limits_{t \to 0- }{h \left(t\right)}$}
+
+    \bigbreak \noindent 
+    So looking at the bottom line, coming from the left, as we approach 0, the y value is 
+    0.
+
+    \bigbreak \noindent 
+    \textbf{so $\rightarrow$}
+
+    \begin{align*}
+        \lim\limits_{t \to 0- }{h \left(t\right) = 0}
+    .\end{align*}
+
+
+    \bigbreak \noindent 
+    \textbf{What is $\lim\limits_{t \to 0+}{h \left(t\right)}$} 
+
+    \bigbreak \noindent 
+    Given that we are approaching from the right, we are now looking at the top line, 
+    we can see that as we approach 0, y is 1
+
+    \bigbreak \noindent 
+    \textbf{so}
+
+    \begin{align*}
+        \lim\limits_{t \to 0+ }{h \left(t\right) = 1}
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \nt{The first one is our \textbf{Left hand limit} and the bottom one is our \textbf{right hand limit} 
+        if the side we our approaching from is not specified, \textbf{we cannot find the limit, so we would say DNE}
+    }
+
+    \bigbreak \noindent 
+    \textbf{So}
+
+    \bigbreak \noindent 
+    $\lim\limits_{x \to 0}{f \left(x\right) = l}$ \textbf{iff} (if and only if) $\lim\limits_{x \to 0- }{f \left(x\right) = L}$ \textbf{and} $\lim\limits_{x \to 0+ }{f \left(x\right) = L}$
+
+    \bigbreak \noindent 
+    in other words, we can only drop the + or - after the a if the right and left hand limits are the same
+
+    \pagebreak
+    \begin{large}
+       \noindent \textbf{Infinite Limits:} 
+    \end{large}
+    
+    \bigbreak \noindent \bigbreak 
+    \begin{center}
+        \includegraphics[scale=0.7]{../images/graph.png}
+    \end{center}
+    
+    \bigbreak \noindent 
+    \textbf{if we look at }
+
+    \begin{large}
+        \begin{align*}
+            \lim\limits_{x \to 0+}{f(x) = ?}
+        .\end{align*}
+    \end{large}
+    
+    \bigbreak \noindent 
+    We notice that as we approach 0 from the right, f(x) goes to infinity
+
+    \bigbreak \noindent 
+    \textbf{So:}
+    
+    \begin{large}
+        \begin{align*}
+            \lim\limits_{x \to 0+}{f(x) = \infty}
+        .\end{align*}
+    \end{large}
+    
+    \bigbreak \noindent 
+    This is also the same for x $\rightarrow$ $0-$
+    
+    \bigbreak \noindent 
+    \textbf{So:}
+
+    \begin{large}
+        \begin{align*}
+            \lim\limits_{x \to 0-}{f \left(x\right) = \infty}
+        .\end{align*}
+    \end{large}
+
+    \bigbreak \noindent 
+    \nt{x = 0 is a vertical Asymptote}
+
+    \begin{center}
+        \includegraphics[scale=0.5]{../images/ass.png}
+    \end{center}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+       \textbf{Examples: Determine the infitite limit} 
+    \end{large}
+
+    \bigbreak \noindent 
+    \begin{large}
+       \textbf{1.)} $\lim\limits_{x \to 5-}{ \frac{x+1}{x-5}}$ 
+    \end{large}
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{center}
+        \begin{large}
+            x + 1 $\longrightarrow$ 6 \\
+            x - 5 $\longrightarrow$ 0 
+        \end{large}
+    \end{center}
+
+    \bigbreak 
+    \begin{large}
+        If you have a $ \frac{nonzero\ constant}{approaching\ 0} $ 
+        its either going to be approaching $\infty$ or $-\infty$ the way we find which version of infinity
+        it will be is with either a table or a numberline
+    \end{large}
+    
+    \bigbreak 
+    To make the numerline we want to list the zeros, so -1 and 5. Then pick a value thats close to a
+    and approachs in the correct direction. Then plug this number into the equation and whatever sign you get
+    will be the sign for infinity.
+    \bigbreak \noindent 
+    \begin{center}
+        \includegraphics[scale=.5]{../images/line.png}
+    \end{center}
+    
+    \bigbreak \noindent \bigbreak \noindent  
+    \begin{large}
+        \textbf{2.)} $\lim\limits_{x \to 5-}{ \frac{e^x}{ \left(x-5\right)^3}}$ 
+    \end{large}
+
+    \bigbreak \noindent 
+    \begin{center}
+       \includegraphics[scale=0.5]{ ../images/abc.png } 
+    \end{center}
+    
+   \pagebreak
+   \begin{Large}
+      \noindent \textbf{2.3: Calculating using limit laws} 
+    \end{Large}
+  
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+        \begin{center}
+            \textbf{The limit laws:} 
+        \end{center}
+    \end{large}
+   
+    \bigbreak \noindent 
+    \begin{center}
+        \includegraphics[scale=0.65]{ ../images/laws.png }
+    \end{center}
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Find the limit if $\lim\limits_{x \to 2}{f \left(x\right) = 4}$ and $\lim\limits_{x \to -2}{f \left(x\right) = -2}$}
+    \bigbreak \noindent 
+    \textbf{ $\lim\limits_{x \to 2}{f \left(x\right)+5g \left(x\right)}$}
+    
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \noindent Using limit laws 1 and 3 we can solve this problem
+
+    \begin{align*}
+    \lim\limits_{x \to 2}{f \left(x\right)} + \lim\limits_{x \to 2}{5g \left(x\right)} \rightarrow \textbf{law\ 1} \\ 
+        \lim\limits_{x \to 2}{f \left(x\right)} + 5 \lim\limits_{x \to 2}{g \left(x\right)} \rightarrow \textbf{Law\ 3} \\ 
+        4 + 5 \left(-2\right) = -6
+    .\end{align*}
+
+   \pagebreak
+    \qs{}{Given $\lim\limits_{x \to 2}{g \left(x\right)= -2}$ $\lim\limits_{x \to 2}{h \left(x\right) = 0}$
+        find $\lim\limits_{x \to 2}{ \frac{g \left(x\right)}{h \left(x\right)}}$
+    }
+
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    Using limit law 5 we can solve this
+
+    \begin{align*}
+        \frac{ \lim\limits_{x \to 2}{g \left(x\right)}}{ \lim\limits_{x \to 2}{h \left(h\right)}} = \frac{-2}{0} \\
+        \textbf{DNE}
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \begin{large}
+       \textbf{Direct Substitution Property:} 
+    \end{large}
+
+    \bigbreak \noindent 
+    \dfn{}{if f is a polynomial or a rational function and a is in the domain of f, then 
+        $\lim\limits_{x \to a}{f \left(x\right)= f \left(a\right)}$
+    }
+
+    \bigbreak \noindent 
+    \begin{large}
+       \textbf{Example:} 
+       $\lim\limits_{x \to 2}{ \frac{2x^2+1}{x^2+6x-4}}$
+    \end{large}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \textbf{a) what function is this?}
+    \pf{Answer}{} 
+    \noindent This is a \textbf{rational} function 
+
+
+    \bigbreak \noindent \bigbreak \noindent  
+    \textbf{b) is 2 in the domain of the function?}
+    \pf{Answer}{}
+    \noindent if we plug in 2 in the denomonator, the function does not equal 2, 
+    so \textbf{Yes}, 2 is in the domain of this function, therefore, we can solve for f(a)
+    and get the limit of this function
+
+    \begin{align*}
+        \frac{2 \cdot 2^2+1}{2^2+6*2-4} \\
+        = \frac{9}{12} \\
+        = \frac{3}{4}
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \begin{large}
+       \textbf{Example 3: Evaluate the limit, if exists:} 
+        \bigbreak \noindent 
+        $\lim\limits_{x \to 1}{ \frac{x^3-1}{x^2-1}}$
+    \end{large}
+    
+   \pf{Solution}{} 
+   \noindent In this case, if we plug in 1 to the denomonator, we get 0. Therefore \textbf{a} is not in the domain of \textbf{f}. 
+   So we must attempt to find the limit of this function with \textbf{Factoring}
+
+   \pagebreak
+   \begin{large}
+      \noindent \textbf{Review: Factoring sums or difference of cubes:} 
+   \end{large}
+
+   \bigbreak \noindent \bigbreak \noindent 
+   Difference of cubes: $a^3-b^3 = \left(a-b\right) \left(a^2+ab+b^2\right)$ 
+   \bigbreak \noindent 
+   Sum of cubes: $a^3+b^3 = \left(a+b\right) \left(a^2-ab-b^2\right)$
+
+   \bigbreak \noindent \bigbreak \noindent 
+   \begin{large}
+      \noindent \textbf{Example of difference of cubes} 
+   \end{large}
+    
+   \bigbreak \noindent 
+   \textbf{a) $x^3-8$}
+
+    \bigbreak \noindent 
+    This is \textbf{$a^3-b^3$}, Where a = x and b = 2 because $2^3 = 8$
+
+    \bigbreak \noindent 
+    \textbf{So:}
+ 
+    \begin{align*}
+        \left(x-2\right) \left(x^2+2x+4\right)
+    .\end{align*}
+    
+    \bigbreak \noindent 
+    \textbf{Back to Example 3:}
+    So using difference of cubes we get
+    
+    \begin{align*}
+        \lim\limits_{x \to 1}{\frac{ \left(x-1\right) \left(x^2+x+1\right)}{ \left(x-1\right) \left(x+1\right)}} 
+    .\end{align*}
+    
+    \bigbreak \noindent 
+    \noindent Now if we \textbf{cancel} out \textbf{common factors, we get: }
+
+    \begin{align*}
+        \lim\limits_{x \to 1}{ \frac{ \left(x^2+x+1\right)}{ \left(x+1\right)}}
+    .\end{align*}
+
+    \bigbreak \noindent 
+    Now with this new equation, \textbf{1 is} in the domain. So we plug 1 into the new equation and get:
+
+    \begin{align*}
+        \frac{1^1+1+1}{1+1} \\
+        = \frac{3}{2}
+    .\end{align*}
+
+    \bigbreak \noindent \bigbreak \noindent  
+    \begin{large}
+        \textbf{Example 4: $\lim\limits_{h \to 0}{ \frac{\sqrt{9+h} -3}{h}}$ } 
+    \end{large}
+
+    \bigbreak \noindent \bigbreak \noindent  
+    Straight away, we can see that h = 0 is \textbf{not} in the domain of the function. 
+    So we want to try and get rid of this radical in the numerator by multiplying by the
+    conjugate
+    
+    \bigbreak \noindent 
+    \textbf{So:}
+
+    \begin{align*}
+        \lim\limits_{h \to 0}{ \frac{\sqrt{9+h} - 3}{h}} \cdot \frac{ \left(\sqrt{9+h} +3\right)}{ \left(\sqrt{9+h} +3\right)} \\       
+        = \lim\limits_{h \to 0}{ \frac{9+h-9}{h \left(\sqrt{9+h}+3\right)}} \\ 
+        = \lim\limits_{h \to 0}{ \frac{h}{h \left(\sqrt{9+h}+3\right)}} \\
+        = \lim\limits_{h \to 0}{ \frac{1}{\sqrt{9+h}+3}} \\
+    .\end{align*}
+
+    \noindent \textbf{Now with this new equation, 0 is in the domain, so we can plug in 0.}
+
+    \begin{align*}
+        = \frac{1}{\sqrt{9+0}+3} \\
+        = \frac{1}{6}
+    .\end{align*}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+       \textbf{Example 5: $\lim\limits_{x \to 4}{ \frac{x^2-4x}{x^2-3x-4}}$} 
+    \end{large}
+   
+    \bigbreak \noindent 
+    Straight away we can see that if we plug 4 into the denomonator, we get 0. For this reason
+    we know that 4 is not in the domain. Therefore we must factor
+    
+    \bigbreak \noindent 
+    \textbf{So:}
+    \begin{align*}
+       \lim\limits_{x \to 4}{ \frac{x \left(x-4\right)}{ \left(x+1\right) \left(x-4\right)}} 
+    .\end{align*}
+
+    \bigbreak \noindent 
+    After canceling out the common factor of $x-4$, we get the equation:
+
+    \begin{align*}
+        \lim\limits_{x \to 4}{ \frac{x}{x+1}}
+    .\end{align*}
+
+    \bigbreak \noindent 
+    Now we can plug 4 into this new equation and get:
+
+    \begin{align*}
+        \frac{4}{5}
+    .\end{align*}
+
+    \bigbreak \noindent \bigbreak \noindent 
+   \begin{large}
+      \textbf{Example 6: $\lim\limits_{x \to -1}{ \frac{x^2-4x}{x^2-3x-4}}$} 
+   \end{large}
+
+   \bigbreak \noindent 
+   Again we can see that -1 is not in the domain. However, with this example, if we factor
+   out the equation and then plug -1 into our new equation, we get:
+
+   \begin{align*}
+       \frac{-1}{0}
+   .\end{align*}
+    
+   \bigbreak \noindent 
+   so we can see that the direct Substitution will not work. Therefore, our limit is either 
+   $\infty$, or DNE, Rememeber that this is the case for $\frac{nonzero\ constant}{0}$. 
+   Now we must test the equation to get the sign of $\infty$
+
+   \bigbreak \noindent 
+   \textbf{First test: Left side (Testing with -1.1)}
+
+   \begin{align*}
+       \lim\limits_{x \to -1-}{ \frac{x}{x+1}}
+   .\end{align*}
+
+   \bigbreak \noindent 
+   If we plug -1.1 into the equation, we can see that both the numerator and the denomonator are negative, 
+   therefore our sign is \textbf{Positive} $\infty$
+
+   \bigbreak \noindent 
+   \textbf{Second Test: Right side (testing with -0.9)}
+   
+   \bigbreak \noindent 
+   If we plug -0.9 into the equation, we can see that the numerator is negative, but the denomonator
+   is positive. Therefore our sign is \textbf{Negative} $\infty$
+
+   \bigbreak \noindent 
+   Because the \textbf{Left and Right hand limits are not the same}, we can deduce that the limit is DNE
+
+   \bigbreak \noindent 
+   \textbf{So:}
+
+   \begin{align*}
+       \lim\limits_{x \to -1}{ \frac{x^2-4x}{x^2-3x-4}} \\
+       = DNE
+   .\end{align*}
+   
+   \bigbreak \noindent \bigbreak \noindent 
+   \begin{large}
+       \noindent \textbf{Example 7: $\lim\limits_{x \to -6}{ \frac{2x+12}{\abs{x+6}}}$} 
+   \end{large}
+
+   \bigbreak \noindent \textbf{} 
+   \nt{\textbf{Because we see absolute value in the denomonator, we want to rewrite as piecewise.}}
+   
+   \bigbreak \noindent \bigbreak \noindent 
+   \begin{large}
+      \textbf{Review of Piecewise:} 
+   \end{large}
+
+   \bigbreak \noindent \bigbreak \noindent 
+   \textbf{Recall: }
+  
+   \bigbreak \noindent 
+   \begin{equation}
+    f(x)= \abs{x} =
+        \begin{cases}
+            x & \text{if } x \geq 0 \\ 
+            -x & \text{if } x < 0 
+        \end{cases}
+    \end{equation}
+
+    \bigbreak \noindent 
+    \begin{large}
+       \textbf{Example: abs as piecewise:} 
+    \end{large}
+
+    \begin{align*}
+        g \left(x\right) = \abs{5-2x}
+    .\end{align*}
+
+    \bigbreak \noindent 
+    First we want to figure out where the quantity inside the absolute value changes signs,
+    to do this we set the quanity inside the absolute value \textbf{equal to 0}.
+    
+    \bigbreak \noindent 
+    \textbf{So:}
+
+    \begin{align*}
+        5-2x=0 \\
+        x= \frac{5}{2} 
+    .\end{align*}
+
+    \bigbreak \noindent 
+    To visualize this, refer to this graph:
+
+    \bigbreak \noindent 
+    \begin{center}
+        \includegraphics[scale=0.5]{../images/gr.png  }
+    \end{center}
+
+    \bigbreak \noindent \bigbreak \noindent
+    We can see that the output values beyond $\frac{5}{2}$ will be reflected about the x-axis
+    
+    \bigbreak \noindent 
+    So to write this Algebraically, Whever the zero is for the quanity inside the absolute value, 
+    thats where we split the domain.
+
+    \bigbreak \noindent 
+    \textbf{So:}
+
+    \bigbreak \noindent 
+       \begin{equation}
+        g(x)=
+            \begin{cases}
+                5-2x  & \text{if } x < \displaystyle{\frac{5}{2}} \\ 
+                - \left(5-2x\right)      & \text{if } \displaystyle{ x \geq \frac{5}{2}} 
+            \end{cases}
+        \end{equation}
+
+        \bigbreak \noindent 
+        \begin{large}
+           \textbf{Back to example 7:} 
+        \end{large}
+        
+        \bigbreak \noindent 
+        We want to rewrite the denomonator as a piecewise function.
+
+        \bigbreak \noindent 
+        \textbf{So:}
+
+        \bigbreak \noindent 
+           \begin{equation}
+           \abs{x+6}=
+                \begin{cases}
+                    x+6 & \text{if } x \geq -6 \\ 
+                    - \left(x+6\right) & \text{if } x < -6 
+                \end{cases}
+            \end{equation}
+
+        \bigbreak \noindent 
+        Now we want to rewrite the entire equation
+
+        \bigbreak \noindent 
+        \textbf{So:}
+
+           \begin{equation}
+               \frac{2 \left(x+6\right)}{\abs{x+6}}=
+                \begin{cases}
+                    \frac{2 \left(x+6\right)}{x+6} & \text{if } x > -6 \\ 
+                    \frac{2 \left(x+6\right)}{-x+6} & \text{if } x < -6 
+                \end{cases}
+            \end{equation}
+
+        \bigbreak \noindent 
+        Now we can simplify this further by canceling out common factors x+6, and we are left with:
+
+        \bigbreak \noindent 
+           \begin{equation}
+            \frac{2 \left(x+6\right)}{\abs{x+6}} =
+                \begin{cases}
+                     2 & \text{if } x > -6 \\
+                     -2 & \text{if } x < -6 
+                \end{cases}
+            \end{equation}
+
+        \bigbreak \noindent 
+        Now we can find the limit, Since the direction is not specified, we must check at both sides.
+
+        \bigbreak \noindent 
+        \begin{align*}
+            \lim\limits_{x \to -6- }{\frac{2x+12}{\abs{x+6}}} = -2
+        .\end{align*}
+
+        \bigbreak \noindent 
+        The limit is -2 because if we approaching -6 from the left, we are looking
+        at values that are smaller than -6, and if we look at our piecewise function, we can
+        see that it would be -2 for values smaller than -6
+
+        \begin{align*}
+            \lim\limits_{x \to -6+}{\frac{2x+12}{\abs{x+6}}} = 2
+        .\end{align*}        
+
+        \bigbreak \noindent 
+        Since left and right limits are not equal, this means that:
+
+        \begin{align*}
+            \lim\limits_{x \to -6}{\frac{2x+12}{\abs{x+6}}} \\ 
+            = DNE
+        .\end{align*}
+        
+        \pagebreak
+        \begin{Large}
+            \noindent \textbf{Continuity and the Intermediate Value Theorem:}
+        \end{Large}
+
+        \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Continuity:}
+        \end{large}
+
+        \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.8]{../images/observe.png }
+        \end{center}
+
+        \bigbreak \noindent 
+        What can we observe about f(x) at a?
+        
+        \bigbreak \noindent 
+        \begin{itemize}
+            \item f(x) is defined at a
+            \item $\lim\limits_{x \to a}{f \left(x\right)}$ exists 
+            \item $\lim\limits_{x \to a}{f \left(x\right) = f \left(a\right)}$
+        \end{itemize}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \dfn{}{A function f is continuous at a if $\lim\limits_{x \to a}{f \left(x\right) = f \left(a\right)}$}
+
+        \bigbreak \noindent
+        \nt{Above 3 cases are required for f to be continuous at a, if that last bullet is true, then we know
+            automatically that the first 2 bullets are also \textbf{\textit{satisfied}} 
+        }
+
+        \pagebreak
+        \noindent \textbf{Example: Show f is continuous at a}
+
+        \begin{align*}
+            f \left(x\right) = x^2 + \sqrt{7-x}, a = 4 
+        .\end{align*}
+
+        \bigbreak \noindent
+        Remember that a is the x value we are investigating. Show we need to show that 
+        the 3 bullets above are true for this equation. 
+
+        \bigbreak \noindent 
+        So First we need to find the domain of this function and see if \textbf{4} lies within
+        that domain.
+
+        \bigbreak \noindent 
+        Since this function is a polynomial function \textbf{\textit{and a radical function}}, 
+        we know that the domain of a polynomial function is $\mathbb{R}$. But because it is 
+        also a radical function, we know we must set whats inside the radical $\geq$ 0 
+
+        \bigbreak \noindent 
+        \textbf{So if we solve the inequality:} 
+
+        \begin{align*}
+            x \leq 7
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{Therefore the domain of this function is:}
+
+        \begin{align*}
+            (-8, 7] 
+        .\end{align*} 
+
+        \bigbreak \noindent 
+        \nt{Remember, when you solve for an inequality, and divide by a negative, 
+            you must \textbf{\textit{flip the inequality}.}
+        }
+
+        \bigbreak \noindent 
+        Since 4 $\in$ D, then f(x) is defined at a=4
+
+
+\end{document}
+
