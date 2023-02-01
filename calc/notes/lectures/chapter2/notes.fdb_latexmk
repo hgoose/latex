@@ -1,7 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1675221100 "notes.tex" "notes.pdf" "notes" 1675221104
+["pdflatex"] 1675284329 "notes.tex" "notes.pdf" "notes" 1675284333
   "../images/1.png" 1675202813 24247 0af106febde88fc4b791fbdc12cdd631 ""
   "../images/10.png" 1675220617 84057 1cb310a1552e5ce56a5bbdfc8aac9f01 ""
+  "../images/11.png" 1675281805 176585 da8ebc6384371f4bdc8013d3c56a8e40 ""
+  "../images/12.png" 1675282360 58381 4bffb996863de2e6a0dd9d46a391d61a ""
+  "../images/13.png" 1675283311 138755 4de14d3f5414e5f2d95fca2f177de643 ""
   "../images/2.png" 1675203486 28867 7f52a7b7e2cd3a5feab8b606b4ea84c4 ""
   "../images/3.png" 1675203897 21552 8afd7817e00096fe6a49d0f8c38abc7f ""
   "../images/4.png" 1675205241 24774 c034385a71c790d328cd435b279d6931 ""
@@ -62,6 +65,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb" 1650183167 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb" 1650183167 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb" 1650183167 30696 2654571912f9cd384da9f7cb8a60c568 ""
+  "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb" 1650183167 31443 ba2241b179aa231f73e052863720cb42 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb" 1650183167 30789 be3ebdf20b6442cc4aaf81a81e17daf4 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb" 1650183167 119235 f35b44530a1d90eb90fe15d9cba67ea0 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb" 1650183167 113634 f99c44d58bae0863375faf0e1d74d612 ""
@@ -280,8 +284,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1671568974 4408072 42ceaa83bae76aebad711d3f3dd7f55f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1671568965 2927663 5d14edd6d7c814164a93b6a806537d4f ""
-  "notes.aux" 1675221103 809 55ba13f8c66d283c99c50ee87695a284 "pdflatex"
-  "notes.tex" 1675221100 43446 27e1dc57e0803f9a6eea6858da21a7de ""
+  "notes.aux" 1675284333 809 0b4f1723b4a1258d9f837e9825f409b0 "pdflatex"
+  "notes.tex" 1675284328 48840 c874da19c781d7497c2c33a838ece052 ""
   (generated)
   "notes.aux"
   "notes.log"
