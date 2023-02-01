@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  31 JAN 2023 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  31 JAN 2023 22:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**notes.tex
-(./notes.tex
+**2.5.tex
+(./2.5.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10> (/usr/share/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
@@ -995,30 +995,30 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen330
 )) (/home/catsoup/dev/latex/template/macros.tex)
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 11.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 10.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./notes.aux)
-\openout1 = `notes.aux'.
+) (./2.5.aux)
+\openout1 = `2.5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1073,10 +1073,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 11.
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+Package hyperref Info: Link coloring ON on input line 10.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
 \c@lstlisting=\count467
  (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -1089,179 +1089,58 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 13.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 12.
  (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 13.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 12.
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 13.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 12.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <16> on input line 13.
+(Font)              <16> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 13.
+(Font)              <10> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 13.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+(Font)              <12> on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 18.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 18.
+\g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1_none_none_box=\box148
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50     \begin
-               {Large} [1]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 60.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 60.
-<../images/1.png, id=55, 408.52625pt x 366.36874pt>
-File: ../images/1.png Graphic file (type png)
-<use ../images/1.png>
-Package pdftex.def Info: ../images/1.png  used on input line 64.
-(pdftex.def)             Requested size: 326.82144pt x 293.09538pt.
-\g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1_none_none_box=\box148
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 76.
- (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2 <../images/1.png>] [3] [4] [5] [6]
-<../images/tbale.png, id=89, 360.34625pt x 690.58pt>
-File: ../images/tbale.png Graphic file (type png)
-<use ../images/tbale.png>
-Package pdftex.def Info: ../images/tbale.png  used on input line 233.
-(pdftex.def)             Requested size: 180.17268pt x 345.28915pt.
-<../images/table2.png, id=90, 218.8175pt x 396.48125pt>
-File: ../images/table2.png Graphic file (type png)
-<use ../images/table2.png>
-Package pdftex.def Info: ../images/table2.png  used on input line 261.
-(pdftex.def)             Requested size: 109.40848pt x 198.24013pt.
- [7 <../images/tbale.png>] [8 <../images/table2.png>]
-<../images/ht.png, id=103, 655.44875pt x 305.14pt>
-File: ../images/ht.png Graphic file (type png)
-<use ../images/ht.png>
-Package pdftex.def Info: ../images/ht.png  used on input line 283.
-(pdftex.def)             Requested size: 327.72357pt x 152.56961pt.
- [9 <../images/ht.png>]
-<../images/graph.png, id=116, 362.35374pt x 338.26375pt>
-File: ../images/graph.png Graphic file (type png)
-<use ../images/graph.png>
-Package pdftex.def Info: ../images/graph.png  used on input line 341.
-(pdftex.def)             Requested size: 253.64589pt x 236.78299pt.
-<../images/ass.png, id=121, 857.2025pt x 292.09125pt>
-File: ../images/ass.png Graphic file (type png)
-<use ../images/ass.png>
-Package pdftex.def Info: ../images/ass.png  used on input line 381.
-(pdftex.def)             Requested size: 428.6002pt x 146.04526pt.
- [10 <../images/graph.png>]
-<../images/line.png, id=126, 541.02126pt x 260.975pt>
-File: ../images/line.png Graphic file (type png)
-<use ../images/line.png>
-Package pdftex.def Info: ../images/line.png  used on input line 415.
-(pdftex.def)             Requested size: 270.50996pt x 130.48718pt.
-<../images/abc.png, id=127, 847.165pt x 285.065pt>
-File: ../images/abc.png Graphic file (type png)
-<use ../images/abc.png>
-Package pdftex.def Info: ../images/abc.png  used on input line 425.
-(pdftex.def)             Requested size: 423.58145pt x 142.53215pt.
- [11 <../images/ass.png> <../images/line.png> <../images/abc.png>]
-<../images/laws.png, id=132, 715.67375pt x 576.1525pt>
-File: ../images/laws.png Graphic file (type png)
-<use ../images/laws.png>
-Package pdftex.def Info: ../images/laws.png  used on input line 442.
-(pdftex.def)             Requested size: 465.18242pt x 374.49467pt.
- [12 <../images/laws.png>] [13] [14] [15]
-<../images/gr.png, id=160, 346.29375pt x 358.33875pt>
-File: ../images/gr.png Graphic file (type png)
-<use ../images/gr.png>
-Package pdftex.def Info: ../images/gr.png  used on input line 725.
-(pdftex.def)             Requested size: 173.14644pt x 179.16893pt.
- [16 <../images/gr.png>] [17]
-<../images/observe.png, id=175, 385.44pt x 301.125pt>
-File: ../images/observe.png Graphic file (type png)
-<use ../images/observe.png>
-Package pdftex.def Info: ../images/observe.png  used on input line 830.
-(pdftex.def)             Requested size: 308.35242pt x 240.90031pt.
- [18 <../images/observe.png>] [19]
-File: ../images/1.png Graphic file (type png)
-<use ../images/1.png>
-Package pdftex.def Info: ../images/1.png  used on input line 932.
-(pdftex.def)             Requested size: 285.96642pt x 256.45636pt.
-<../images/2.png, id=194, 430.60875pt x 371.3875pt>
-File: ../images/2.png Graphic file (type png)
-<use ../images/2.png>
-Package pdftex.def Info: ../images/2.png  used on input line 944.
-(pdftex.def)             Requested size: 301.42406pt x 259.96947pt.
- [20 <../images/2.png>]
-<../images/3.png, id=200, 360.34625pt x 366.36874pt>
-File: ../images/3.png Graphic file (type png)
-<use ../images/3.png>
-Package pdftex.def Info: ../images/3.png  used on input line 959.
-(pdftex.def)             Requested size: 216.20941pt x 219.82294pt.
-<../images/4.png, id=201, 475.7775pt x 360.34625pt>
-File: ../images/4.png Graphic file (type png)
-<use ../images/4.png>
-Package pdftex.def Info: ../images/4.png  used on input line 972.
-(pdftex.def)             Requested size: 285.46869pt x 216.20941pt.
- [21 <../images/3.png> <../images/4.png>] [22]
-<../images/5.png, id=213, 435.6275pt x 312.16624pt>
-File: ../images/5.png Graphic file (type png)
-<use ../images/5.png>
-Package pdftex.def Info: ../images/5.png  used on input line 1064.
-(pdftex.def)             Requested size: 348.50247pt x 249.73334pt.
- [23 <../images/5.png>]
-<../images/6.png, id=218, 668.4975pt x 210.7875pt>
-File: ../images/6.png Graphic file (type png)
-<use ../images/6.png>
-Package pdftex.def Info: ../images/6.png  used on input line 1094.
-(pdftex.def)             Requested size: 434.51822pt x 137.01025pt.
-<../images/7.png, id=219, 1206.5075pt x 730.73pt>
-File: ../images/7.png Graphic file (type png)
-<use ../images/7.png>
-Package pdftex.def Info: ../images/7.png  used on input line 1099.
-(pdftex.def)             Requested size: 482.59445pt x 292.28682pt.
- [24 <../images/6.png> <../images/7.png>] [25]
-<../images/8.png, id=229, 516.93124pt x 359.3425pt>
-File: ../images/8.png Graphic file (type png)
-<use ../images/8.png>
-Package pdftex.def Info: ../images/8.png  used on input line 1142.
-(pdftex.def)             Requested size: 361.8494pt x 251.53802pt.
- [26 <../images/8.png>]
-<../images/9.png, id=238, 1218.5525pt x 454.69875pt>
-File: ../images/9.png Graphic file (type png)
-<use ../images/9.png>
-Package pdftex.def Info: ../images/9.png  used on input line 1211.
-(pdftex.def)             Requested size: 487.41237pt x 181.87627pt.
- [27 <../images/9.png>] [28]
-<../images/10.png, id=252, 784.9325pt x 656.4525pt>
-File: ../images/10.png Graphic file (type png)
-<use ../images/10.png>
-Package pdftex.def Info: ../images/10.png  used on input line 1363.
-(pdftex.def)             Requested size: 313.96744pt x 262.57634pt.
- [29 <../images/10.png>] (./notes.aux) ) 
+l.89     \pf{Solution}{}
+                         [1] [2] [3] [4] (./2.5.aux) ) 
 Here is how much of TeX's memory you used:
- 35141 strings out of 478238
- 720206 string characters out of 5850455
- 1100650 words of memory out of 5000000
- 52678 multiletter control sequences out of 15000+600000
- 527868 words of font info for 67 fonts, out of 8000000 for 9000
+ 34609 strings out of 478238
+ 708949 string characters out of 5850455
+ 1093626 words of memory out of 5000000
+ 52213 multiletter control sequences out of 15000+600000
+ 518682 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,12n,102p,479b,1691s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on notes.pdf (30 pages, 1704343 bytes).
+ 96i,10n,102p,477b,674s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on 2.5.pdf (5 pages, 180102 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 359 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

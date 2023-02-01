@@ -23,17 +23,17 @@
     
     \bigbreak \noindent \bigbreak \noindent 
     \begin{Large}
-        \textbf{2.1: The Tangent and Velocity Problems }
+        \textbf{2.1: The Tangent and Velocity Problems } 1-7
         \bigbreak \noindent \bigbreak \noindent  
-        \textbf{2.2.1 The Limits of a Function }
+        \textbf{2.2.1 The Limits of a Function } 8-12
         \bigbreak \noindent \bigbreak \noindent  
         \textbf{2.2.2 Infinite Limits }
         \bigbreak \noindent \bigbreak \noindent 
         \textbf{2.2.3 Finding Limits of a Trigonometric Function }
         \bigbreak \noindent \bigbreak \noindent 
-        \textbf{2.3 Calculating Limits Using Limit Laws}
+        \textbf{2.3 Calculating Limits Using Limit Laws} 13-18
         \bigbreak \noindent \bigbreak \noindent 
-        \textbf{2.5.1 Continuity }
+        \textbf{2.5.1 Continuity } 19-30
         \bigbreak \noindent \bigbreak \noindent 
         \textbf{2.5.2 One-Sided Continuity}
         \bigbreak \noindent \bigbreak \noindent 
@@ -817,7 +817,7 @@
         
         \pagebreak
         \begin{Large}
-            \noindent \textbf{Continuity and the Intermediate Value Theorem:}
+            \noindent \textbf{2.5: Continuity and the Intermediate Value Theorem:}
         \end{Large}
 
         \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
@@ -860,7 +860,7 @@
         the 3 bullets above are true for this equation. 
 
         \bigbreak \noindent 
-        So First we need to find the domain of this function and see if \textbf{4} lies within
+        \textbf{First} we need to find the domain of this function and see if \textbf{4} lies within
         that domain.
 
         \bigbreak \noindent 
@@ -879,7 +879,7 @@
         \textbf{Therefore the domain of this function is:}
 
         \begin{align*}
-            (-8, 7] 
+            (-\infty, 7] 
         .\end{align*} 
 
         \bigbreak \noindent 
@@ -888,7 +888,483 @@
         }
 
         \bigbreak \noindent 
-        Since 4 $\in$ D, then f(x) is defined at a=4
+        \textbf{Since 4 $\in$ D, then f(x) is defined at a=4}
+
+        \bigbreak \noindent 
+        \line(1,0){470}
+        \bigbreak \noindent \bigbreak \noindent  
+        \textbf{Second}, we need to show that $\lim\limits_{x \to 4}{f \left(x\right)}$ exists. 
+        So we will first try to use direct Substitution and plug 4 into x:
+
+        \begin{align*}
+            \lim\limits_{x \to 4}{ \left(4\right)^2 + \sqrt{7-4}} \\ 
+            = 16 + \sqrt{3}
+        .\end{align*}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{Third}, we want to show that:
+        
+        \begin{align*}
+            f \left(4\right) = \lim\limits_{x  \to 4}{x^2 + \sqrt{7-4}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        So again, like step 2, we will plug in 4 for x:
+
+        \begin{align*}
+            f \left(4\right) = 4^2 + \sqrt{7-4} \\ 
+            = 16 + \sqrt{3}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{Since all 3 of these steps pass, we have shown Continuity at $ x = 4 $.}
+
+        \pagebreak
+        \begin{large}
+            \noindent \textbf{Discontinuities:}
+        \end{large} 
+
+        \bigbreak \noindent \bigbreak \noindent 
+        If we look at the following graph:
+
+        \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.7]{../images/1.png}
+        \end{center}
+
+        \bigbreak \noindent 
+        at we investigate a = 2, we can see that the $\lim\limits_{x \to 2}{f \left(x\right)}$
+        does exist, \textbf{however,} f(x) is not defined at 2.
+
+        \bigbreak \noindent \bigbreak \noindent 
+        If we look at the following graph:
+
+        \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.7]{../images/2.png}
+        \end{center}
+
+        \bigbreak \noindent 
+        we can see that the $\lim\limits_{x \to 2}{f \left(x\right)}$ does exist, and 
+        f(2) \textbf{\textit{is defined}}, However, $\lim\limits_{x \to 2}{f \left(x\right)}$ $\neq$ f(2)
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{These 2 are \textit{Removable Discontinuities}} because the limit \textbf{does exist} at that point a = 2
+
+        \bigbreak \noindent \bigbreak \noindent 
+        Now if we look at: at a = 0 
+
+        \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.6]{../images/3.png}
+        \end{center}
+
+        \bigbreak \noindent 
+        We can see that $\lim\limits_{x \to 0}{f \left(x\right) = \infty}$, Since the limit 
+        is not a \textbf{\textit{finite number}}, that means that it is impossible for the 
+        limit to equal the function value.
+
+        \bigbreak \noindent \bigbreak \noindent 
+        Now if we look at:
+
+        \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.6]{../images/4.png}
+        \end{center}
+
+        \bigbreak \noindent
+        We can see that the $\lim\limits_{x \to a}{f \left(x\right) = DNE, \text{where a is any integer}}$
+
+        \pagebreak
+        \noindent \textbf{Example: Explain why f is Discontinuous at a = 1, sketch the graph of f.}
+
+        \bigbreak \noindent \bigbreak \noindent 
+           \begin{equation}
+            f \left(x\right)=
+                \begin{cases}
+                    \frac{x^2-x}{x^2-1} & \text{if } x \neq 1 \\
+                    1 & \text{if } x = 1 
+                \end{cases}
+            \end{equation}
+
+        \bigbreak \noindent 
+        \textbf{First}, We will check if f(1) defined.
+
+        \begin{align*}
+            f \left(1\right) = 1
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{Second}, we want to check if $\lim\limits_{x \to 1}{f \left(x\right)}$ exists
+
+        \bigbreak \noindent 
+        We can see that if we plug 1 into the denomonator, we will get an output of 0, 
+        \textbf{\textit{therefore}}, direct Substitution will not work and we must factor this
+        equation 
+
+        \begin{align*}
+            \lim\limits_{x \to 1}{ \frac{x^2-x}{x^2-1}} \\ 
+            = \lim\limits_{x \to 1}{ \frac{x \left(x - 1\right)}{ \left(x+1\right) \left(x-1\right)}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        now we can cancel out the common factor of (x-1).
+
+        \begin{align*}
+            \lim\limits_{x \to 1}{ \frac{x}{x+1}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        now if we plug in 1 to the equation we get:
+
+        \begin{align*}
+            \frac{1}{2}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{Third}, We have to see if f(1) = $\lim\limits_{x \to 1}{f \left(x\right)}$, and
+        we can see that:
+
+        \begin{align*}
+            1 \neq \frac{1}{2}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{Therefore,} f(x) is not continuous at a = 1.
+
+        \bigbreak \noindent 
+        Before we make our graph, we want to make a new piecewise function with the factored version.
+
+           \begin{equation}
+            f \left(x\right)=
+                \begin{cases}
+                    \frac{x}{x+1} & \text{if } x \neq 1 \\
+                    1 & \text{if } x = 1 
+                \end{cases}
+            \end{equation}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        Since the graph is Discontinuous, we will have a hole in the graph at (1, $ \frac{1}{2}$), 
+        We also know that we will have a V.A at x = -1, we know this because we set the denomonator = 0 and solve.
+        And a H.A at y = 1. This is because the degree of the numerator is the same as the degree of the denomonator, 
+        so we take the ratio of the coefficents of the leading terms of each, this is just $ \frac{1}{1}$
+
+        \bigbreak \noindent 
+        To get additional points for the graph, we can plug in x values to the updated function. So if x = 0, we get 
+        y = 0. So we have the point (0,0), and since on the piecewise we can see that at x=1 the value is 1,
+        we will plot an additonal point at (1,1) (this will be a point on the asymptote not connected to the line of the graph)
+
+        \pagebreak
+        \begin{large}
+            \noindent \textbf{Graph:}
+        \end{large}
+
+        \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.8]{../images/5.png}
+        \end{center}
+
+        \pagebreak
+        \begin{large}
+            \noindent \textbf{Continuity from one side:}
+        \end{large}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        continuous from the right:
+        \begin{align*}
+            \lim\limits_{x \to a+}{f \left(x\right) = f \left(a\right)}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        continuous from the left:
+        \begin{align*}
+            \lim\limits_{x \to a-}{f \left(x\right) = f \left(a\right)}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        continuous on an interval: iff f is continuous at every number on the interval 
+
+        \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Theorem:}
+        \end{large}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.65]{../images/6.png  }
+        \end{center}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.4]{../images/7.png  }
+        \end{center}
+
+        \pagebreak
+        \begin{large}
+            \noindent \textbf{Example: Use Continuity to Evaluate: }
+        \end{large}
+
+        \begin{align*}
+            \lim\limits_{x \to \pi}{\sin \left(x+\sin x\right)}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        By the theorem, sin is continuous on its domain, which is $\mathbb{R}$
+
+        \bigbreak \noindent 
+        \textbf{So:}
+        \begin{align*}
+            \sin \left( \lim\limits_{x \to \pi}{ \left(x + \sin x\right)}\right) 
+        .\end{align*}
+
+        \bigbreak \noindent 
+        So we plug in $\pi$ for x, and since sin $\left(\pi\right)$ = 0, We are just left with:
+
+        \begin{align*}
+            \sin \left(\pi+0\right) \\ 
+            = 0 
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Because the sin of $\pi$ is zero.
+
+        \pagebreak
+        \begin{Large}
+            \noindent \textbf{The Intermediate Value Theorem:}
+        \end{Large}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        Suppose f is continuous on [a, b]. Let N be any number between f(a) and f(b), where
+        f(a) $\neq$ f(b). Then There exists c $\in$ (a,b) such that f(c) = N
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.7]{../images/8.png}
+        \end{center}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \noindent \textbf{Example: Use the IVT to show that there is a root of f(x) = $\sqrt[3]{x} -1 + x$ in (0,1)}
+        \end{large}
+
+        \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+        \textbf{1.) Show that f is continuous on [0,1]}
+
+        \bigbreak \noindent 
+        By theorem, we know that f is continuous on its domain because its a sum of a polynomial
+        and a radical function.
+
+        \bigbreak \noindent 
+        \textbf{Because the index on the radical is odd, the domain in $\mathbb{R}$}, and [0,1] 
+        lies in the domain on $\mathbb{R}$.
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{2.) Show that f(0) $\neq$ f(1)} 
+
+        \bigbreak \noindent 
+        so f(0):
+        \begin{align*}
+            \sqrt[3]{0}-1 + 0 \\ 
+            = -1
+        .\end{align*}
+
+        \bigbreak \noindent 
+        f(1):
+        \begin{align*}
+            \sqrt[3]{1}-1 + 1 \\ 
+            = 1
+        .\end{align*}
+
+        \bigbreak \noindent 
+        As you can see these 2 function values do not equal eachother
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.) Show that n $\in$ (f(0), f(1)}
+
+        \bigbreak \noindent 
+        If they are asking for a root, then N = 0, and we can see that 0 $\in$ (-1,1)
+
+        \pagebreak
+        \begin{Large}
+            \noindent \textbf{One-Sided Continuity:}
+        \end{Large}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        continuous from the right:
+        \begin{align*}
+            \lim\limits_{x \to a+}{f \left(x\right) = f \left(a\right)}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        continuous from the left:
+        \begin{align*}
+            \lim\limits_{x \to a-}{f \left(x\right) = f \left(a\right)}
+        .\end{align*}
+    
+        \bigbreak \noindent \bigbreak \noindent 
+        \nt{If $\lim\limits_{x \to a}{f \left(x\right)}$ \textbf{\textit{Exists,}} Then you dont have
+            to worry what side the Continuity is coming from
+        } 
+        
+        \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.4]{../images/9.png}
+        \end{center}
+
+        \nt{You only have to be carefull with root functions if \textbf{n} is \textbf{\textit{even}}}
+
+        \bigbreak \noindent 
+        Remember you need to check conditions 1-3 on \textbf{\textit{piecewise functions}}
+
+        \pagebreak
+        \begin{large}
+            \noindent \textbf{Example 1: Find the numbers at which f is Discontinuous, At which of
+                these numbers if f continuous form the right, from the left, or neither, and then
+                sketch the graph.
+            }
+        \end{large}
+
+        \bigbreak \noindent \bigbreak \noindent 
+           \begin{equation}
+            f \left(x\right)=
+                \begin{cases}
+                    x^2 & \text{if } x < -1  \\
+                     x & \text{if } -1 \leq x < 1 \\
+                     \frac{1}{x} & \text{if } x \geq 1 
+                \end{cases}
+            \end{equation}
+
+        \bigbreak \noindent 
+        By theorem, that on ($-\infty$, -1) and (-1,1) f(x) is a polynomial. So it is continuous.
+
+        \bigbreak \noindent 
+        by theorem, on (1, $\infty$), f(x) is a rational function, so it will be continuous on its domain.
+        So x cannot be 0. \textbf{But (1, $\infty$)} does not include zero, so we are in the clear
+
+        \bigbreak \noindent 
+        So we only need to investigate \textbf{\textit{2 values}, at x = -1, and x = 1}, because
+        that is where the domain splits in the piecewise function.
+
+        \bigbreak \noindent 
+        \textbf{So we will start by investigating x = -1}
+
+        \bigbreak \noindent 
+        \textbf{1.)}
+        \begin{align*}
+            f \left(-1\right) = -1
+        .\end{align*}
+
+        \bigbreak \noindent  
+        We plug this into the middle portion of our piecewise function because this 
+        is where the value \textbf{\textit{-1}} falls.
+
+        \bigbreak \noindent 
+        \textbf{2.)}
+        \begin{align*}
+            \lim\limits_{x \to -1}{f \left(x\right)}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        We must check the limit from both sides, 
+
+        \bigbreak \noindent 
+        \textbf{Left:}
+        
+        \begin{align*}
+            \lim\limits_{x \to -1-}{x^2} = \left(-1\right)^2 \\ 
+            = 1
+        .\end{align*}
+
+        \bigbreak \noindent 
+        We use the first portion of the piecewise function because we are checking for values
+        \textbf{\textit{smaller}} than -1
+
+        \bigbreak \noindent 
+        \textbf{Right:}
+
+        \begin{align*}
+            \lim\limits_{x \to -1+}{x} = -1
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Using the Second portion of the piecewise function
+
+        \bigbreak \noindent 
+        \textbf{We can see that the limit from the left is not equal to the limit
+            from the right
+        }
+
+        \bigbreak \noindent 
+        \textbf{So we know:}
+
+        \begin{align*}
+            \lim\limits_{x \to -1}{f \left(x\right) = DNE}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{This tells us that f(x) is Discontinuities at x = -1}
+
+        \bigbreak \noindent 
+        Notice that from step 1, we got f(-1) = -1, and this is \textbf{\textit{the same}} 
+        as the right hand limit, so that means that f(x) is continuous from the right at x = -1 
+
+        \pagebreak
+        \bigbreak \noindent 
+        Now we will investigate at x = 1.
+
+        \bigbreak \noindent 
+        \textbf{1.)}
+        \begin{align*}
+            f \left(1\right) = \frac{1}{1} \\ 
+            = 1
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{2.)} 
+        \begin{align*}
+            \lim\limits_{x \to 1}{f \left(x\right)}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        We must check the limit from both sides, 
+
+        \bigbreak \noindent 
+        \textbf{Left:}
+        \begin{align*}
+            \lim\limits_{x \to 1-}{x} = 1 \\ 
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{Right:}
+        \begin{align*}
+            \lim\limits_{x \to 1+}{ \frac{1}{x}} = \frac{1}{1} \\ 
+            =  1
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{We can see that the limit from the left \textbf{\textit{is}} equal to the limit 
+            from the right, 
+        }
+        \textbf{So we know:}
+        \begin{align*}
+            \lim\limits_{x \to 1}{f \left(x\right)} = 1
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{This tells us that f(x) is \textbf{\textit{continuous}} at \textbf{1}}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Graph:}
+        \end{large}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.4]{../images/10.png}
+        \end{center}
+
+        \bigbreak \noindent 
+
 
 
 \end{document}
