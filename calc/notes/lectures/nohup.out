@@ -1,0 +1,22 @@
+** Message: 22:22:23.802: Connecting to org.freedesktop.Tracker3.Miner.Files
+
+(google-chrome:48337): Gtk-WARNING **: 22:22:31.803: Theme parsing error: gtk.css:7190:16: Junk at end of value for color
+
+(google-chrome:48337): Gtk-WARNING **: 22:22:31.803: Theme parsing error: gtk.css:7237:15: unknown value for property
+
+(google-chrome:48337): Gtk-WARNING **: 22:22:31.803: Theme parsing error: gtk.css:7284:5: 'boder' is not a valid property name
+
+(google-chrome:48337): Gtk-WARNING **: 22:22:31.804: Theme parsing error: gtk.css:7329:0: Expected a valid selector
+
+(google-chrome:48337): Gtk-WARNING **: 22:22:31.810: Theme parsing error: gtk.css:10832:13: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:48337): Gtk-WARNING **: 22:22:31.810: Theme parsing error: gtk.css:10874:17: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:48337): Gtk-WARNING **: 22:22:31.810: Theme parsing error: gtk.css:10940:17: Not using units is deprecated. Assuming 'px'.
+Warning: disabling flag --expose_wasm due to conflicting flags
+[48337:48362:0202/222247.381227:ERROR:print_backend_cups.cc(217)] CUPS: Error getting default printer: No destinations added.
+[48337:48337:0202/222247.381465:ERROR:device_event_log_impl.cc(215)] [22:22:47.381] Printer: local_printer_handler_default.cc:224 Failure getting default printer name, result: kFailed
+Warning: disabling flag --expose_wasm due to conflicting flags
+[48337:48362:0202/222330.147210:ERROR:print_backend_cups.cc(217)] CUPS: Error getting default printer: No destinations added.
+Warning: disabling flag --expose_wasm due to conflicting flags
+Warning: disabling flag --expose_wasm due to conflicting flags
