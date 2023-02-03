@@ -61,7 +61,7 @@
    
     \bigbreak \noindent 
     \begin{center}
-        \includegraphics[scale=0.8]{1.png}    
+        \includegraphics[scale=0.8]{14.png}    
     \end{center}
     
     \pf{Explanation}{. \\
@@ -219,7 +219,7 @@
 
     \pagebreak
     \begin{Large}
-        \textbf{2.1.1 The Limit of a Function:}
+        \textbf{2.2.1 The Limit of a Function:}
     \end{Large}
     
    \bigbreak \noindent \bigbreak \noindent  
@@ -370,7 +370,7 @@
 
     \begin{large}
         \begin{align*}
-            \lim\limits_{x \to 0-}{f \left(x\right) = \infty}
+            \lim\limits_{x \to 0-}{f \left(x\right) = -\infty}
         .\end{align*}
     \end{large}
 
@@ -1534,5 +1534,389 @@
 
         \bigbreak \noindent \bigbreak \noindent 
         \textbf{1.) Divide by the highest degree of the denomonator.}
+        
+        \bigbreak \noindent \bigbreak \noindent 
+        So we are going to divide the numerator and the denomonator by \textbf{\textit{x}}
+
+        \bigbreak \noindent 
+        \textbf{So:}
+
+        \begin{align*}
+            \lim\limits_{x \to \infty}{ \frac{3 + \frac{5}{x}}{1- \frac{4}{x}}}
+        .\end{align*}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{2.) Take the limit of each of the terms in the numerator and denominator}
+
+        \bigbreak \noindent 
+        \textbf{So:}
+
+        \begin{align*}
+            \frac{ \lim\limits_{x \to \infty}{3} + \lim\limits_{x \to \infty}{ \frac{5}{x}}}{ \lim\limits_{x \to \infty}{1} - \lim\limits_{x \to \infty}{ \frac{4}{x}}}
+        .\end{align*}
+
+        \nt{Remember if we take the limit as x approaches $\infty$ of a \textbf{\textit{ constant that doesn't change}}, over x, the limit \textbf{\textit{will be zero!}}}
+
+        \bigbreak \noindent 
+        \textbf{So we have:}
+
+        \begin{align*}
+            \frac{3+0}{1-0} \\ 
+            = 3
+        .\end{align*}
+
+        \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Example:}
+        \end{large}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{2.) $\lim\limits_{x \to - \infty}{ \frac{t^2 + 2}{t^3+t^2-1}}$}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{1.) Again, divide by the highest degree in the denominator, which is \textbf{\textit{$t^3$}}}
+
+        \bigbreak \noindent 
+        \textbf{So we will have:}
+
+        \begin{align*}
+            \lim\limits_{t \to - \infty}{\frac{ \frac{1}{t} + \frac{2}{t^3}}{ 1 + \frac{1}{t} - \frac{1}{t^3}}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Just like the previous example, if we take the limit of each of the terms in both the 
+        numerator and the denominator, we get:
+
+        \begin{align*}
+            \frac{0 + 0}{1+0-0}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Which is just:
+
+        \begin{align*}
+            \frac{0}{1} \\
+            = 0
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \nt{If the degree in the denominator is higher than the degree of the denominator, than the equation 
+            of the H.A is automatically \textbf{\textit{y=0}}
+        }
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Example:}
+        \end{large}
+
+        \bigbreak \noindent 
+        \textbf{3.) $\lim\limits_{x \to \infty}{ \frac{x+2}{ \sqrt{9x^2+1}}}$}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{Recall: $\sqrt{x^2} = \abs{x}$}
+        
+        \bigbreak \noindent 
+        Which is the piecewise:
+
+           \begin{equation}
+               \abs{x}=
+                \begin{cases}
+                    x & \text{if } x \geq 0  \\
+                    -x & \text{if } x < 0
+                \end{cases}
+            \end{equation}
+
+        \bigbreak \noindent 
+        \textbf{So we divide numerator and denominator by $\abs{x}$, and we have to look at 
+            the piecewise function to retrieve the sign of x, since we are going to \textbf{\textit{positive}}
+            $\infty$, we will use the top portion of the piecewise. Because this is for \textbf{\textit{positive}} values 
+            of x
+        }
+
+        \bigbreak \noindent 
+        \textbf{So the numerator will be:}
+        
+        \begin{align*}
+            1 + \frac{2}{x}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Then for the denominator, we need to divide by $\sqrt{x^2}$
+
+        \bigbreak \noindent 
+        \textbf{So:}
+
+        \begin{align*}
+            \sqrt{ \frac{9x^2+1}{x^2}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Which gives us:
+
+        \begin{align*}
+            \sqrt{9 + \frac{1}{x^2}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        So our equation is:
+
+        \begin{align*}
+            \lim\limits_{x \to \infty}{ \frac{1+ \frac{2}{x}}{ \sqrt{9+ \frac{1}{x^2}}}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Now if we take the limit of each term in the numerator and denominator, we get:
+
+        \begin{align*}
+            \frac{1+0}{ \sqrt{9+0}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Which is simplifed to:
+
+        \begin{align*}
+            \frac{1}{3}
+        .\end{align*}
+
+        \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Example: Negative $\infty$}
+        \end{large}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{4.) $\lim\limits_{x \to - \infty}{ \frac{ \sqrt{9x^6 - x}}{x^3 + 1}}$}
+
+        \bigbreak \noindent 
+        Notice that we have $\sqrt{x^6}$, which means we have $\abs{x^3}$
+
+        \bigbreak \noindent 
+        \nt{We dont need to do absolute value with piecewise for terms like $\sqrt{x^8}$,
+            this is because if it simplifes to x with an \textbf{\textit{even power}}, 
+            we know that any value plugged in for x will be even automatically. 
+        }
+
+        \bigbreak \noindent 
+        So we rewrite $\abs{3}$ as piecewise
+
+        \bigbreak \noindent 
+        \textbf{So:}
+
+           \begin{equation}
+               \abs{3}=
+                \begin{cases}
+                    x^3 & \text{if } x \geq 0 \\
+                    -x^3 & \text{if } x < 0  
+                \end{cases}
+            \end{equation}
+
+        \bigbreak \noindent 
+        So now we check which way the limit is going to determine which part of the piecewise function
+        we will use, since we are going to - $\infty$, we will use the \textbf{\textit{bottom}} portion of the 
+        piecewise.
+
+        \bigbreak \noindent 
+        So for the numerator we have:
+
+        \begin{align*}
+            \sqrt{ \frac{9x^6-x}{x^6}} 
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Which is:
+        
+        \begin{align*}
+            \sqrt{ \frac{9x^6}{x^6} - \frac{x}{x^6}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Which simplifies to:
+
+        \begin{align*}
+            -\sqrt{9 - \frac{1}{x^5}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Notice we put a \textbf{\textit{Negative sign} infront of the equation, this is because we
+            used the bottom portion of the piecewise function, this is important
+        }
+
+        \bigbreak \noindent 
+        \textbf{And for the denominator, we divide by $x^3$, so we will have:}
+
+        \begin{align*}
+            \frac{x^3}{x^3} + \frac{1}{x^3}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Which simplifes to:
+        
+        \begin{align*}
+            1 + \frac{1}{x^3}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        So our full equation would be:
+
+        \begin{align*}
+            \lim\limits_{x \to - \infty}{ \frac{- \sqrt{9- \frac{1}{x^5}}}{1 + \frac{1}{x^3}}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        And now if we take the limits for each of the terms, we get:
+
+        \begin{align*}
+            \frac{- \sqrt{9 - 0}}{1 + 0}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Which simplifes to:
+
+        \begin{align*}
+            -3
+        .\end{align*}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Last Example:}
+        \end{large}
+
+        \bigbreak \noindent 
+        \textbf{5.) $\lim\limits_{x \to \infty}{ \frac{x^3-2x+3}{5-2x^2}}$}
+
+        \bigbreak \noindent \bigbreak \noindent  
+        So we divide by the highest degree in the denominator: \textbf{\textit{$x^2$}}
+
+        \bigbreak \noindent 
+        \textbf{So:}
+        \begin{align*}
+            \lim\limits_{x \to \infty}{ \frac{x - \frac{2}{x} + \frac{3}{x}}{ \frac{5}{x} - 2}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Now we take the limit of each of the terms:
+
+        \begin{align*}
+            \frac{ \infty - 0 + 0}{0 - 2}            
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Which simplifies to:
+        \begin{align*}
+            \frac{ \infty}{-2} \\ 
+            = - \infty
+        .\end{align*}
+
+        \pagebreak \bigbreak \noindent
+        \begin{large}
+            \textbf{Infinite Limits at Infinity:}
+        \end{large}
+
+        \bigbreak \noindent  \bigbreak \noindent  \bigbreak \noindent 
+        \textbf{Consider f(x) = $x^3$}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.5]{../images/15.png}
+        \end{center}
+
+        \bigbreak \noindent 
+        \textbf{1.) $\lim\limits_{x \to \infty}{x^3} = \infty $}
+
+        \bigbreak \noindent 
+        \textbf{2.) $\lim\limits_{x \to - \infty}{x^3} = - \infty$}
+
+        \bigbreak \noindent 
+        \textbf{The term we use to describe this situation is \textbf{\textit{end behavior}}}
+
+        \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Recap:}
+        \end{large}
+
+        \bigbreak \noindent 
+        \begin{large}
+            \textbf{H.A:}
+        \end{large}
+
+        \bigbreak \noindent 
+        \textbf{Take $\lim\limits_{x \to \infty}{f(x)}$ \textbf{\textit{and}} $\lim\limits_{x \to - \infty}{f(x)}$}
+
+        \bigbreak \noindent 
+        If f(x) = some constant \textbf{\textit{c}}, then H.A is y = c 
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{V.A:}
+        \end{large}
+
+        \bigbreak \noindent 
+        x = k, where \textbf{\textit{x - k} is a factor of the \textbf{\textit{denominator only!}}}
+
+        \bigbreak \noindent \bigbreak \noindent  \bigbreak \noindent 
+        \begin{large}
+            \textbf{Example: Find the Horizontal Asymptotes and Vertical Asymptotes:}
+        \end{large}
+
+        \begin{align*}
+            y = \frac{1 + x^4}{x^2 - x^4}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        So for \textbf{\textit{H.A}, we want to take the limit of both \textbf{\textit{positve and negaitive infinity.}}}
+
+        \bigbreak \noindent 
+        \textbf{So:}
+
+        \begin{align*}
+            \lim\limits_{x \to \infty}{ \frac{1 + x^4}{x^2 - x^4}}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        So divide both sides by the highest degree in the denominator, \textbf{\textit{$x^4$}}
+        
+        \begin{align*}
+            \lim\limits_{x \to \infty}{ \frac{\frac{1}{x^4} + 1}{ \frac{1}{x^2} - 1}} 
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Now take the limits of each term and get:
+
+        \begin{align*}
+           \frac{0 + 1}{0 - 1} \\
+        = \frac{1}{-1} \\ 
+        = -1
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Same result for $\lim\limits_{x \to - \infty}{}$, \textbf{So H.A is y = -1}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{Now for V.A:}
+
+        \bigbreak \noindent 
+        Start by factoring the equation:
+
+        \begin{align*}
+            y = \frac{1 + x^4}{x^2 \left(1 - x^2\right)}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Denominator factors further by using \textbf{\textit{Difference of squares:}}
+
+        \begin{align*}
+            y = \frac{1 + x^4}{x^2 \left(1 + x\right) \left(1 - x\right)}
+        .\end{align*}
+
+        \bigbreak \noindent 
+        Since we cant cancel out any common factors, this equation is fully factored and simplified,
+        and the zeros of the Denominator is going to be the equations for our vertical Asymptotes.
+
+        \bigbreak \noindent 
+        \textbf{So:}
+
+        \begin{align*}
+            x = 0, x = -1, x = 1
+        .\end{align*}
+
 \end{document}
 
