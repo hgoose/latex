@@ -1,0 +1,254 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{2.7 Hw Solutions}}
+\author{\huge{Nathan Warner}}
+\date{\huge{}}
+
+\begin{document}
+    \maketitle
+    \begin{Large}
+        \noindent \textbf{Question 1:}
+    \end{Large}
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \bigbreak \noindent 
+    \textbf{a.)}
+    \begin{center}
+        If:
+    \end{center}
+    \begin{align*}
+        m_{tan} = \lim\limits_{x \to -3}{ \frac{f(x) - f(a)}{x - a}}
+    .\end{align*}
+    \begin{center}
+        And \textbf{a = -3, f(a) = -18, then:}
+    \end{center}
+    \begin{align*}
+        m_{tan} = \lim\limits_{x \to -3}{ \frac{x^2+9x- \left(-18\right)}{x - \left(-3\right)}} \\ 
+        = \lim\limits_{x \to -3}{ \frac{x^2 +9x+18}{x + 3}}
+    .\end{align*}
+    \begin{center}
+        numerator factors into:
+    \end{center}
+    \begin{align*}
+        \lim\limits_{x \to -3}{ \frac{ \left(x+3\right) \left(x+6\right)}{x+3}}
+    .\end{align*}
+    \begin{center}
+        Cancel out common factor:
+    \end{center}
+    \begin{align*}
+        \lim\limits_{x  \to -3}{x+6} 
+    .\end{align*}
+    \begin{center}
+        Plug in -3 for x
+    \end{center}
+    \begin{align*}
+        m_{tan} = -3 + 6 \\ 
+        = 3
+    .\end{align*}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \textbf{b.)} 
+    \bigbreak \noindent 
+    \noindent If:
+    \begin{align*}
+        m_{tan} = \lim\limits_{h \to 0}{ \frac{f(a + h) - f(a)}{h}}
+    .\end{align*}
+    \bigbreak \noindent And a = -3 and f(a) = -18, and we plug in (a+h) for x:
+    \begin{align*}
+        m_{tan} = \lim\limits_{h \to 0}{ \frac{ \left(-3 + h\right)^2 + 9 \left(-3 + h\right) - \left(-18\right)}{h}} \\ 
+    .\end{align*}
+    \bigbreak \noindent 
+    And we distribute out the terms:
+    \begin{align*}
+        m_{tan} = \lim\limits_{h \to 0}{ \frac{h^2-6h+9-27+9h-18}{h}} \\
+        = \frac{ h^2 + 3h}{h} \\ 
+        = \frac{h \left(h+3\right)}{h} \\ 
+        = h + 3
+    .\end{align*}
+    \bigbreak \noindent 
+    Now if we plug in zero: 
+    \begin{align*}
+        m_{tan} = 0 + 3 \\
+        = 3
+    .\end{align*}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \textbf{c.)} 
+    The equation of the tangent line if:
+    \begin{align*}
+        y - y_1 = m \left(x - x_1\right) \\ 
+    .\end{align*}
+    \bigbreak \noindent 
+    Then:
+    \begin{align*}
+         y - \left(-18\right) = 3 \left(x - \left(-3\right)\right) \\
+         y + 18 = 3 \left(x+3\right) \\ 
+         y + 18 = 3x + 9 \\ 
+         y = 3x - 9
+    .\end{align*}
+
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Question 2:}
+    \end{Large}
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \bigbreak \noindent 
+    We know that:
+    \begin{align*}
+        m_{tan} = \lim\limits_{x \to a}{\frac{f(x) - f(a)}{x -a}}
+    .\end{align*}
+    \bigbreak \noindent 
+    And a = 6 and f(a) = 19:
+    \begin{align*}
+        \lim\limits_{x \to 6}{ \frac{2x^2-9x-1-19}{x-19}} \\
+        = \lim\limits_{x \to 6}{ \frac{2x^2 -9x -18}{x - 19}}
+    .\end{align*}
+    \bigbreak \noindent 
+    factor using the x method:
+    \begin{align*}
+        \lim\limits_{x \to 6}{ \frac{ \left(2x+3\right) \left(x-6\right)}{x-6}} \\ 
+        = \lim\limits_{x \to 6}{2x+3} \\ 
+        = 2 \left(6\right) + 3 \\ 
+        =15
+    .\end{align*}
+    \bigbreak \noindent 
+    Plug $m_{tan} = 15$ into \textbf{\textit{Point slope form equation}} to get equation of tangent line:
+
+    \begin{align*}
+        y - 19 = 15 \left(x-6\right) \\ 
+        y - 19 = 15x - 90 \\ 
+        y = 15x - 71
+    .\end{align*}
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Question 3:}
+    \end{Large}
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \bigbreak \noindent 
+    \textbf{a.)}
+    \bigbreak \noindent If:
+    \begin{align*}
+        m_{tan} = \lim\limits_{h \to 0}{ \frac{f(a+h) - f(a)}{h}}
+    .\end{align*}
+    \bigbreak \noindent Then:
+    \begin{align*}
+        m_{tan} = \lim\limits_{h \to 0}{ \frac{4 + 5\left(a+h\right)^2 - 2 \left(a+h\right)^3 - \left(4+5a^2-2a^3\right)}{h}}
+    .\end{align*}
+    \bigbreak \noindent     
+    \bigbreak \noindent 
+    Distribute -1 to each term in $4+5a^2-2a^3$
+    \begin{align*}
+        = -4 -5a^2+2a^3
+    .\end{align*}
+    \bigbreak \noindent 
+    Foil out $-2 \left(a+h\right)^3$
+    \begin{align*}
+        = -2a^3-2h^3-6a^2h-6ah^2
+    .\end{align*}
+    \bigbreak \noindent 
+    Foil out $5 \left(a+h\right)^2$
+    \begin{align*}
+        = 5a^2+5h^2+10ah
+    .\end{align*}
+    \bigbreak \noindent 
+    And we also have the 4 in the beginning, so combine like terms
+
+    \begin{align*}
+        -2h^3-6a^2h-6ah^2+5h^2+10ah
+    .\end{align*}
+    \bigbreak \noindent 
+    Add to equation:
+    \begin{align*}
+        \lim\limits_{h \to 0}{ \frac{-2h^3-6a^2h-6ah^2+5h^2+10ah}{h}}
+    .\end{align*}
+    \bigbreak \noindent 
+    factor out a \textbf{\textit{h}}, and cancel out common term \textbf{\textit{h}}
+    \begin{align*}
+        \lim\limits_{h \to 0}{ \frac{h \left(-2h^2-6a^2-6ah+5h+10a\right)}{h}} \\
+        =-2h^2-6a^2-6ah+5h+10a 
+    .\end{align*}
+    \bigbreak \noindent 
+    Plug in zero for each h
+    \begin{align*}
+        -2 \left(0\right)^2-6a^2-6a \left(0\right) + 5 \left(0\right)+10a \\
+        = -6a^2+10a
+    .\end{align*}
+    \bigbreak \noindent \bigbreak \noindent 
+    \textbf{b.)}
+    Plug in 1 for x,
+    \begin{align*}
+        m = -6 \left(1\right)^2 + 10 \left(1\right) \\ 
+        = 4
+    .\end{align*}
+    \bigbreak \noindent 
+    Plug into point slope form equation 
+    \begin{align*}
+        y - 7 = 4 \left(x - 1\right) \\ 
+        y = 4x+3
+    .\end{align*}
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+       \textbf{Question 4:}
+    \end{Large}
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Question 5:}
+    \end{Large}
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Question 6:}
+    \end{Large}
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Question 7:}
+    \end{Large}
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Question 8:}
+    \end{Large}
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Question 9:}
+    \end{Large}
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Question 10:}
+    \end{Large}
+    \bigbreak \noindent 
+    \pf{Solution}{}
+    \bigbreak \noindent 
+    
+
+\end{document}

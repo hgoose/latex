@@ -52,3 +52,19 @@ Fontconfig error: Cannot load default config file: No such file: (null)
 [50185:50190:0202/230950.355470:ERROR:ssl_client_socket_impl.cc(985)] handshake failed; returned -1, SSL error code 1, net_error -100
 [50185:50190:0202/230950.358280:ERROR:ssl_client_socket_impl.cc(985)] handshake failed; returned -1, SSL error code 1, net_error -100
 [50185:50190:0202/230950.662651:ERROR:ssl_client_socket_impl.cc(985)] handshake failed; returned -1, SSL error code 1, net_error -100
+** Message: 17:23:50.109: Connecting to org.freedesktop.Tracker3.Miner.Files
+
+(google-chrome:35125): Gtk-WARNING **: 17:23:54.286: Theme parsing error: gtk.css:7190:16: Junk at end of value for color
+
+(google-chrome:35125): Gtk-WARNING **: 17:23:54.286: Theme parsing error: gtk.css:7237:15: unknown value for property
+
+(google-chrome:35125): Gtk-WARNING **: 17:23:54.286: Theme parsing error: gtk.css:7284:5: 'boder' is not a valid property name
+
+(google-chrome:35125): Gtk-WARNING **: 17:23:54.286: Theme parsing error: gtk.css:7329:0: Expected a valid selector
+
+(google-chrome:35125): Gtk-WARNING **: 17:23:54.293: Theme parsing error: gtk.css:10832:13: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:35125): Gtk-WARNING **: 17:23:54.293: Theme parsing error: gtk.css:10874:17: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:35125): Gtk-WARNING **: 17:23:54.293: Theme parsing error: gtk.css:10940:17: Not using units is deprecated. Assuming 'px'.
+Opening in existing browser session.

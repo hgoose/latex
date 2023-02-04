@@ -1,0 +1,32 @@
+** Message: 14:09:06.819: Connecting to org.freedesktop.Tracker3.Miner.Files
+
+(google-chrome:28146): Gtk-WARNING **: 14:09:11.362: Theme parsing error: gtk.css:7190:16: Junk at end of value for color
+
+(google-chrome:28146): Gtk-WARNING **: 14:09:11.362: Theme parsing error: gtk.css:7237:15: unknown value for property
+
+(google-chrome:28146): Gtk-WARNING **: 14:09:11.362: Theme parsing error: gtk.css:7284:5: 'boder' is not a valid property name
+
+(google-chrome:28146): Gtk-WARNING **: 14:09:11.362: Theme parsing error: gtk.css:7329:0: Expected a valid selector
+
+(google-chrome:28146): Gtk-WARNING **: 14:09:11.368: Theme parsing error: gtk.css:10832:13: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:28146): Gtk-WARNING **: 14:09:11.368: Theme parsing error: gtk.css:10874:17: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:28146): Gtk-WARNING **: 14:09:11.368: Theme parsing error: gtk.css:10940:17: Not using units is deprecated. Assuming 'px'.
+Warning: disabling flag --expose_wasm due to conflicting flags
+
+(google-chrome:28463): Gtk-WARNING **: 14:09:16.622: Theme parsing error: gtk.css:7190:16: Junk at end of value for color
+
+(google-chrome:28463): Gtk-WARNING **: 14:09:16.622: Theme parsing error: gtk.css:7237:15: unknown value for property
+
+(google-chrome:28463): Gtk-WARNING **: 14:09:16.622: Theme parsing error: gtk.css:7284:5: 'boder' is not a valid property name
+
+(google-chrome:28463): Gtk-WARNING **: 14:09:16.622: Theme parsing error: gtk.css:7329:0: Expected a valid selector
+
+(google-chrome:28463): Gtk-WARNING **: 14:09:16.628: Theme parsing error: gtk.css:10832:13: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:28463): Gtk-WARNING **: 14:09:16.628: Theme parsing error: gtk.css:10874:17: Not using units is deprecated. Assuming 'px'.
+
+(google-chrome:28463): Gtk-WARNING **: 14:09:16.628: Theme parsing error: gtk.css:10940:17: Not using units is deprecated. Assuming 'px'.
+Opening in existing browser session.
+Warning: disabling flag --expose_wasm due to conflicting flags
