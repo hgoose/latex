@@ -20,3 +20,4 @@ Warning: disabling flag --expose_wasm due to conflicting flags
 [48337:48362:0202/222330.147210:ERROR:print_backend_cups.cc(217)] CUPS: Error getting default printer: No destinations added.
 Warning: disabling flag --expose_wasm due to conflicting flags
 Warning: disabling flag --expose_wasm due to conflicting flags
+** Message: 22:58:31.586: Connecting to org.freedesktop.Tracker3.Miner.Files
