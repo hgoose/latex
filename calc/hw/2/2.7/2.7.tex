@@ -7,6 +7,27 @@
 \author{\huge{Nathan Warner}}
 \date{\huge{}}
 
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
 \begin{document}
     \maketitle
     \begin{Large}
@@ -213,12 +234,14 @@
     \bigbreak \noindent 
     \textbf{Part d.)}
     \begin{align*}
-        \lim\limits_{h \to 0}{ \frac{16 (a+h)^2 - 16a^2}{h}} \\ 
-        \lim\limits_{h \to 0}{ \frac{16a^2+16h^2+36ah-16a^2}{h}} \\
-        \lim\limits_{h \to 0}{ \frac{16h^2+36ah}{h}} \\
-        \lim\limits_{h \to 0}{ \frac{h (16h+36a)}{h}} \\ 
-        \lim\limits_{h \to 0}{16h+36a} \\
-        16(0) + 36(1.5) \\
+        Formula = v_{inst} = \lim\limits_{h \to 0}{ \frac{f(a+h) - f(a)}{h}} \\ 
+        = \lim\limits_{h \to 0}{ \frac{16(1.5+h)^2 - 16(1.5)^2}{h}} \\
+        = \lim\limits_{h \to 0}{ \frac{16(h^2 + 3h + 2.25) - 36}{h}} \\ 
+        = \lim\limits_{h \to 0}{ \frac{16h^2 + 48h + 36 - 36}{h}} \\ 
+        = \lim\limits_{d \to 0}{ \frac{16h^2+48h}{h}} \\
+        = \lim\limits_{h \to 0}{ \frac{h(16h + 48)}{h}} \\ 
+        = \lim\limits_{h \to 0}{16h + 48} \\ 
+        = 16(0) + 48 \\ 
         = 48
     .\end{align*}
 
@@ -229,6 +252,79 @@
     \bigbreak \noindent 
     \pf{Solution}{}
     \bigbreak \noindent 
+    \textbf{Part a.)}
+    \begin{align*}
+        t = a
+    .\end{align*}
+    \begin{align*}
+        v_{inst} = \lim\limits_{t \to a}{ \frac{ \frac{6}{t^2} - \frac{6}{a^2}}{t-a}} \\
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{Multiply by lcd $a^2t^2$}
+    \begin{align*}
+        \lim\limits_{t \to a}{ \frac{ \frac{6a^2t^2}{t^2} - \frac{6a^2t^2}{a^2}}{a^2t^2(t-a)}} \\ 
+        = \lim\limits_{t \to a}{ \frac{6a^2 - 6t^2}{a^2t^2(t-a)}} \\ 
+        \lim\limits_{t \to a}{ \frac{6(a^2-t^2)}{a^2t^2(t - a)}} \\ 
+        = \lim\limits_{t \to a}{ \frac{6(a-t)(a+t)}{a^2t^2(t-a )}} \\ 
+        = \lim\limits_{t \to a}{ \frac{-6(t-a)(t+a)}{a^2t^2(t-a)}} \\ 
+        = \lim\limits_{t \to a}{ \frac{-6(t+a)}{a^2t^2}} \\ 
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{Plug in a for t}
+    \begin{align*}
+        \frac{-6(a+a)}{a^2a^2} \\ 
+        = \frac{-6a-6a}{a^4} \\ 
+        = \frac{-12a}{a^4} \\ 
+        = \frac{-12}{a^3}
+    .\end{align*}
+    \bigbreak \noindent 
+    We can use this equation to get parts b-d, but instead here is work if we didnt have the equation above (:
+    \bigbreak \noindent 
+    \textbf{Part b.)}
+    \begin{align*}
+        t=1  
+    .\end{align*}
+    \begin{align*}
+        v_{inst} = \lim\limits_{t \to 1}{ \frac{f(t) - f(a)}{t - a}} \\
+        = \lim\limits_{t \to 1}{ \frac{ \frac{6}{t^2} - \frac{6}{(-1)^2}}{t-1}} \\ 
+        = \lim\limits_{t \to 1}{ \frac{ \frac{6}{t^2} - 6}{t - 1}}
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{Clear out fraction in numerator by Multiplying by lcd}
+
+    \begin{align*}
+        \lim\limits_{t \to 1}{ \frac{ (\frac{6}{t^2} \cdot \frac{t^2}{1}) - (\frac{6}{1} \cdot \frac{t^2}{1})}{t^2(t-1)}} \\
+        = \lim\limits_{t \to 1}{ \frac{6-6t^2}{t^2(t-1)}} \\
+        = \lim\limits_{t \to 1}{ \frac{-6(t^2-1)}{t^2(t-1)}} \\
+        = \lim\limits_{t \to 1}{ \frac{-6(t-1)(t+1)}{t^2(t-1)}} \\ 
+        = \lim\limits_{t \to 1}{-6(t+1)} \\ 
+        = -6(1+1) \\ 
+        = -12
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \textbf{c.)} 
+    \begin{align*}
+        t= 2
+    .\end{align*}
+    \bigbreak \noindent 
+    \begin{align*}
+        \lim\limits_{t \to 2 }{ \frac{f(t)- f(a)}{t -1}} \\
+        \lim\limits_{t \to 2}{ \frac{ \frac{6}{t^2} - \frac{6}{4}}{t-2}} \\ 
+        \lim\limits_{t \to 2}{ \frac{ \frac{6}{t^2} - \frac{3}{2}}{t-2}} \\
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{Multiply by lcd of $2t^2$} 
+    \bigbreak \noindent 
+    \begin{align*}
+        \lim\limits_{t \to 2}{ \frac{12 - 3t^2}{2t^2(t-2)}} \\ 
+        = \lim\limits_{t \to 2}{ \frac{-3(t^2-4)}{2t^2(t-2)}} \\ 
+        = \lim\limits_{t \to 2}{ \frac{-3(t-2)(t+2)}{2t^2(t-2)}} \\ 
+        = \lim\limits_{t \to 2}{ \frac{-3(t+2)}{2t^2}} \\
+        \frac{-2(2+2)}{2(2)^2} \\ 
+        = -1.5
+    .\end{align*}
+    
 
     \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
     \begin{Large}
@@ -237,6 +333,34 @@
     \bigbreak \noindent 
     \pf{Solution}{}
     \bigbreak \noindent 
+    \textbf{Part a.)}
+    (10,400), (60,750)
+    \begin{align*}
+        m_{pq} = \frac{750-400}{60-10} \\
+        = \frac{350}{50} \\ 
+        = 7
+    .\end{align*}
+    \bigbreak \noindent 
+    \textbf{Part c.)}
+    \begin{align*}
+        \frac{200-600}{40-0} \\ 
+        = \frac{-400}{40} \\ 
+        = -10
+    .\end{align*}
+    \bigbreak \noindent 
+    \textbf{d.)}
+    \begin{align*}
+        f\prime (50)
+    .\end{align*}
+    \bigbreak \noindent 
+    So drawn at tangent line at point (50,f(50)), and calculate the slope, we can see we have another point on the tangent line
+    at (60, f(60))
+    \begin{align*}
+        \frac{(60,f(60)) - (50,f(50))}{60-50} \\ 
+        = \frac{600-400}{60-50} \\ 
+        = 20
+    .\end{align*}
+
 
     \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
     \begin{Large}
@@ -245,6 +369,31 @@
     \bigbreak \noindent 
     \pf{Solution}{}
     \bigbreak \noindent 
+    \textit{Formula:}
+    \begin{align*}
+        f\prime (a) = \lim\limits_{x \to a}{ \frac{f(x) - f(a)}{x-a}}
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{If a = 7}
+    \begin{align*}
+        \lim\limits_{x \to 7}{ \frac{ \sqrt{6x+7} - ( \sqrt{6(7)+7})}{x-7}} \\
+        \lim\limits_{x \to 7}{ \frac{ \sqrt{6x+7} - 7}{x-7}}
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{Multiply by the conjugate:}
+    \begin{align*}
+        \lim\limits_{x \to 7}{ \frac{ \sqrt{6x+7} -7}{x-7}} \cdot \frac{ \sqrt{6x+7+7}}{ \sqrt{6x+7+7}} \\
+        = \lim\limits_{x \to 7}{ \frac{6x-42}{(x-7) ( \sqrt{6x+7} + 7)}} \\
+        = \lim\limits_{x \to 7}{ \frac{6(x-7)}{(x-7) ( \sqrt{6x+7} + 7)}} \\
+        = \lim\limits_{x \to 7}{ \frac{6}{ \sqrt{6x+7}+7}}
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{Plug in 7 for x:}
+    \begin{align*}
+        \frac{6}{ \sqrt{6(7)+7}+7} \\
+        = \frac{3}{7}
+    .\end{align*}
+
 
     \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
     \begin{Large}
@@ -253,6 +402,20 @@
     \bigbreak \noindent 
     \pf{Solution}{}
     \bigbreak \noindent 
+    \begin{align*}
+        f\prime(a) = \lim\limits_{h \to 0}{ \frac{f(a+h) - f(a)}{h}}
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{So:}
+    \begin{align*}
+        \lim\limits_{h \to 0}{ \frac{2(a+h)^2-3(a+h)+3-[2a^2-3a+3]}{h}} \\ 
+        = \lim\limits_{h \to 0}{\frac{2a^2+2h^2+4ah+3-2a^2+3a-3-3a-3h}{h}} \\
+        = \lim\limits_{h \to 0}{\frac{2h^2-3h+4ah}{h}} \\ 
+        = \lim\limits_{h \to 0}{\frac{h(h-3+4a)}{h}} \\
+        = \lim\limits_{h \to 0}{h+4a-3} \\ 
+        = 0+4a-3 \\
+        = 4a-3
+    .\end{align*}
 
     \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
     \begin{Large}
@@ -261,6 +424,7 @@
     \bigbreak \noindent 
     \pf{Solution}{}
     \bigbreak \noindent 
+    \textit{Review from on HW}
 
     \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
     \begin{Large}
@@ -269,6 +433,21 @@
     \bigbreak \noindent 
     \pf{Solution}{}
     \bigbreak \noindent 
+    \textit{Formula:}
+    \begin{align*}
+        m_{tan} = \lim\limits_{x \to a}{ \frac{f(x) -f(a)}{x-a}}
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{Therefore:}
+    \begin{align*}
+        \lim\limits_{x \to 8}{ \frac{2x-5 - [2(8)-5]}{x-8}} \\
+        \lim\limits_{x \to 8}{ \frac{2x-5 -11}{x-8}} \\
+        \lim\limits_{x \to 8}{ \frac{2x-16}{x-8}} \\
+        \lim\limits_{x \to 8}{ \frac{2(x-8)}{x-8}} \\
+        = 2
+    .\end{align*}
+    \bigbreak \noindent 
+    Since we have no more x value to plug 8 into, our m is just \textbf{\textit{2}}
     
 
 \end{document}

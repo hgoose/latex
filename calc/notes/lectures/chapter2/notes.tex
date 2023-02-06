@@ -3,10 +3,31 @@
 \input{~/dev/latex/template/preamble.tex}
 \input{~/dev/latex/template/macros.tex}
 
-\title{\Huge{Calculus 1 Notes}}
+\title{\Huge{Calculus 1 Notes: Chapter 2}}
 \author{\huge{Nathan Warner}}
 \date{\huge{December 17, 2023}}
 \graphicspath{{../images}}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
 
 \begin{document}
     \maketitle
@@ -1920,8 +1941,20 @@
 
         \pagebreak \bigbreak \noindent
         \begin{Large}
-            \textbf{2.7: Derivatives and rates of change:}
+            \begin{mdframed}
+                \begin{center}
+                    \textbf{2.7}
+                \end{center}
+            \end{mdframed}
         \end{Large}
+        \begin{Large}
+            \begin{center}
+                \textbf{Derivatives and rates of change:}
+            \end{center}
+        \end{Large}
+        \line(1,0){490}
+
+        \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
 
         \bigbreak \noindent \bigbreak \noindent 
         \begin{large}
@@ -2301,6 +2334,340 @@
         So \textbf{Velocity: $ \frac{-26}{25}$ $u \diagdown s$} 
         \bigbreak \noindent 
         And \textbf{speed: $\abs{ \frac{-26}{25}} = \frac{26}{25}$ $u \diagdown s$ }
+
+        \pagebreak \bigbreak \noindent
+        \begin{Large}
+            \begin{center}
+                \textbf{Theorems From 2.7:}
+            \end{center}
+        \end{Large}
+        \line(1,0){490}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Slope of Secent Line:}
+        \end{large}
+
+        \bigbreak \noindent \bigbreak \noindent
+        \begin{align*}
+            m_{pq} = \frac{f(x) - f(a)}{x-a}
+        .\end{align*}
+        \bigbreak \noindent 
+        \begin{center}
+            \textbf{Or:}
+        \end{center}
+        \begin{align*}
+            m_{pq} = \frac{f(a+h) - f(a)}{h} 
+        .\end{align*}
+
+        \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Slope of tangent line:}
+        \end{large}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{align*}
+            m_{tan} = \lim\limits_{x \to a}{ \frac{f(x) - f(a)}{x-a}}
+        .\end{align*}
+        \bigbreak \noindent 
+        \begin{center}
+            \textbf{Or:}
+        \end{center}
+        \begin{align*}
+            m_{tan} = \lim\limits_{h \to 0}{ \frac{f(a+h) - f(a)}{h}}
+        .\end{align*}
+
+        \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Velocites:}
+        \end{large}
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{align*}
+            v_{ave} = \frac{Displacement}{Time} = \frac{f(x) - f(a)}{x-a}
+        .\end{align*}
+        \bigbreak \noindent
+        \begin{align*}
+            v_{inst} = \lim\limits_{t \to a}{ \frac{f(t) - f(a)}{t-a}}
+        .\end{align*}
+        \bigbreak \noindent 
+        \begin{center}
+            \textbf{Or}
+        \end{center}
+        \begin{align*}
+            v_{inst} = \lim\limits_{h \to 0}{ \frac{f(a+h) - f(a)}{h}}
+        .\end{align*}
+        \bigbreak \noindent 
+        \begin{align*}
+            Speed = \abs{Velocity}
+        .\end{align*}
+
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Derivatives:}
+        \end{large}
+        \bigbreak \noindent 
+        \begin{align*}
+            f\prime (a) = \lim\limits_{h \to 0}{ \frac{f(a+h) - f(a)}{h}}
+        .\end{align*}
+        \bigbreak \noindent 
+        \begin{center}
+            \textbf{Or:}
+        \end{center}
+        \begin{align*}
+            f\prime (a) = \lim\limits_{x \to a}{ \frac{f(x) - f(a)}{x-a}}
+        .\end{align*}
+
+        \pagebreak \bigbreak \noindent
+        \begin{Large}
+            \begin{mdframed}
+                \begin{center}
+                    \textbf{2.8}
+                \end{center}
+            \end{mdframed}
+        \end{Large}
+        \begin{Large}
+            \begin{center}
+                \textbf{The Derivatives as a Function / Finding The Derivative Using The Limit Definition:}
+            \end{center}
+        \end{Large}
+        \line(1,0){490}
+
+        \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+        \begin{mdframed}
+            \textbf{\underline{Theorem:} Earlier we constructed the derivative of \textit{f} at a \underline{fixed} number \textbf{\textit{a}} }		
+        \end{mdframed}
+        \begin{align*}
+            f\prime(a) = \lim\limits_{h \to 0}{ \frac{f(a+h) - f(a)}{h}}
+        .\end{align*}
+        \bigbreak \noindent 
+        \begin{mdframed}
+            \textbf{\underline{Theorem:} If we let \textbf{\textit{a}} vary, we obtain:}		
+        \end{mdframed}
+        \begin{align*}
+            f\prime(a) \lim\limits_{h \to 0}{ \frac{f(x+h) - f(x)}{h}}
+        .\end{align*}
+        \bigbreak \noindent 
+        Which is a function itself, and we call it the \underline{derivative} of \textbf{\textit{f}}
+        
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Notations:}
+        \end{large}
+        \begin{itemize}
+            \item $f\prime(x) = y\prime = \frac{dy}{dx} = \frac{df}{dx} = \frac{d}{dx}f(x) = Df(x) = d_xf(x)$
+            \item We say "f is differentiable at a" if $f\prime(a)$ exists.
+            \item We say "f is differentiable on $(a,b)"$ if it is differentiable at every number in (a,b)
+        \end{itemize}
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{3 Cases where a function is not differentiable:}
+        \end{large}
+        \bigbreak \noindent 
+        \begin{center}
+            \includegraphics[scale=0.4]{../images/31.png}
+        \end{center}
+
+        \pagebreak \bigbreak \noindent
+        \begin{large}
+            \textbf{Example:}
+        \end{large}
+        \bigbreak \noindent 
+        \begin{enumerate}
+            \item Find the derivative of $f(x) = x + \sqrt{x}$
+            \item State the domain of $f(x)\ and\ f\prime(x)$
+        \end{enumerate}
+        \bigbreak \noindent 
+        \begin{mdframed}
+            \textbf{\underline{Theorem:} We will use the following Theorem:}		
+        \end{mdframed}
+        \begin{align*}
+            f\prime(x) = \lim\limits_{h \to 0}{ \frac{f(x+h) - f(x)}{h}}
+        .\end{align*}
+        \bigbreak \noindent 
+        \begin{align*}
+            \lim\limits_{h \to 0}{ \frac{(x + h + \sqrt{x + h}) - (x + \sqrt{x})}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{x + h + \sqrt{x + h} - x - \sqrt{x}}{h}} \\ 
+        .\end{align*}
+        \bigbreak \noindent 
+        Cancel out the x's in the numerator:
+        \begin{align*}
+            = \lim\limits_{h \to 0}{ \frac{h + \sqrt{x + h}- \sqrt{x}}{h}} \\ 
+        .\end{align*}
+        \bigbreak \noindent 
+        We will split up the limit so it's not as confusing when trying to multiply by the conjugate
+        \begin{align*}
+            \lim\limits_{h \to 0}{ \frac{h}{h}} + \lim\limits_{h \to 0}{ \frac{ \sqrt{x+h} - \sqrt{x}}{h}} \cdot \frac{ \sqrt{x+h} + \sqrt{x}}{\sqrt{x+h} + \sqrt{x}}
+        .\end{align*}
+        \bigbreak \noindent 
+        \nt{$\lim\limits_{h \to 0}{ \frac{h}{h}} = 1$}
+
+        \bigbreak \noindent 
+        \textit{So:}
+        \begin{align*}
+            1 + \lim\limits_{h \to 0}{ \frac{x+h-x}{h( \sqrt{x+h} + \sqrt{x})}}
+        .\end{align*}
+        \bigbreak \noindent 
+        The 2 x's in the numerator cancel, aswell as the h's
+        \bigbreak \noindent 
+        \textit{So:}
+        \begin{align*}
+            1 + \lim\limits_{h \to 0}{ \frac{1}{ \sqrt{x+h} + \sqrt{x}}}
+        .\end{align*}
+        \bigbreak \noindent 
+        Now substitute in zero for \textbf{\textit{h}}:
+        \begin{align*}
+            1 + \frac{1}{ \sqrt{x + 0} + \sqrt{x}} \\ 
+            = 1 + \frac{1}{2 \sqrt{x}}
+        .\end{align*}
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{mdframed}
+            \underline{Summerize:}
+        \end{mdframed}
+        \begin{align*}
+            f(x) = x + \sqrt{x}\ and\ f\prime(x) = 1 + \frac{1}{2 \sqrt{x}}
+        .\end{align*} 
+        \bigbreak \noindent 
+        \textbf{\textit{\underline{Domain:}}}
+        \bigbreak \noindent 
+        Domain of f(x): [0 $\infty$) $\rightarrow$ Because we have the radical, we cant plug in any negative numbers 
+        \bigbreak \noindent 
+        Domain of $f\prime(x)$: (0, $\infty$) 
+
+        \bigbreak \noindent 
+        \nt{The domain of $f\prime{x}$ may (or may not) be a subset of the domain of f(x)}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \thm{}{\textbf{If f is \underline{differentiable} at a, then it is \underline{continuous} at a} 		} 
+
+        \bigbreak \noindent 
+        \nt{The converse is \textbf{\textit{\underline{Not True}}}, if f is \underline{continuous} at a, that \textit{does not mean} f is \underline{differentiable} at a}
+
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Higher Derivatives}
+        \end{large}
+        \begin{enumerate}
+            \item f(x)
+            \item $f\prime(x)$ - 1st derivative
+            \item f''(x) - 2nd derivative
+            \item f''' - 3rd derivative
+        \end{enumerate}
+
+        \bigbreak \noindent 
+        \begin{large}
+            \textbf{Application Problems}
+        \end{large}
+        \begin{enumerate}
+            \item s(t) - position function
+            \item s'(t) - v(t) = velocity 
+            \item s''(t) - a(t) = acceleration
+            \item s'''(t) - j(t) = jerk
+        \end{enumerate}
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Example: if $f(x) = 2x^3+5x$, find f'(x), f''(x), f'''(x) and $f^{(4)}$. State the domain of each.}
+        \end{large}
+
+        \bigbreak \noindent 
+        \begin{align*}
+            f\prime(x) = \lim\limits_{h \to 0}{ \frac{f(x+h) - f(x)}{h}}
+        .\end{align*}
+        \bigbreak \noindent 
+        \textbf{So: $f\prime(x)$}
+        \begin{align*}
+            \lim\limits_{h \to 0}{ \frac{2(x+h)^3 + 5(x+h) - (2x^3 +5x)}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{2(x^3+h^3+3x^2h+3xh^2) + 5x+5h -2x^3 -5x}{h}} \\
+            = \lim\limits_{h \to 0}{ \frac{2x^3+2h^3+6x^2h+6xh^2 + 5x +5h-2x^3-5x}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{2h^3+6x^2h+6xh^2+5h}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{h(2h^2+6x^2+6xh+5)}{h}} \\ 
+            = \lim\limits_{h \to 0}{2h^2+6x^2+6xh+5} \\
+            = 2(0)^2+6x^2+6x(0)+5 \\ 
+            = 6x^2 + 5
+        .\end{align*}
+        \bigbreak \noindent 
+        \textbf{Now: $f\prime\prime(x)$, for \textbf{\textit{\underline{Double Prime}}}, use the equation you found for $f\prime(x)$ as you would f(x) for \textbf{\textit{Single Prime}}}
+
+        \begin{align*}
+            f\prime\prime(x) = \lim\limits_{h \to 0}{ \frac{6(x+h)^2 +5 - (6x^2+5)}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{6(x^2+h^2+2xh)+5-6x^2-5}{h}} \\
+            = \lim\limits_{h \to 0}{ \frac{6x^2+12xh+6h^2+5-6x^2-5}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{6h^2+12xh}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{h(6h+12x)}{h}} \\ 
+            = \lim\limits_{h \to 0}{6h+12x} \\ 
+            = 6(0) +12x \\ 
+            = 12x
+        .\end{align*}
+        
+        \bigbreak \noindent 
+        \textbf{$f\prime\prime\prime(x)$}
+        \begin{align*}
+            f\prime\prime\prime(x) = \lim\limits_{h \to 0}{ \frac{12(x+h) - (12x)}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{12x+12h -12x}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{12h}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{h(12)}{h}} \\ 
+            = \lim\limits_{h \to 0}{12 = 12} 
+        .\end{align*}
+
+        \bigbreak \noindent 
+        $f^{(4)}$
+        \begin{align*}
+            f\prime\prime\prime\prime = \lim\limits_{h \to 0}{ \frac{12 - 12}{h}} \\ 
+            = \lim\limits_{h \to 0}{\frac{0}{h}} \\ 
+            = \lim\limits_{h \to 0}{0 = 0}
+        .\end{align*}
+
+        \pagebreak \bigbreak \noindent
+       \begin{mdframed}
+           Summerize:
+       \end{mdframed} 
+        \bigbreak \noindent 
+        \begin{align*}
+            f(x) = 2x^3+5x \\
+            f\prime(x) = 6x^2 + 5 \\ 
+            f\prime\prime(x) = 12x \\
+            f\prime\prime\prime(x) = 12 \\
+            f^{(4)}(x) = 0
+        .\end{align*}
+
+        \bigbreak \noindent 
+        \textbf{\textit{\underline{Domain:}}}
+        \begin{enumerate}
+            \item $f\prime$ = $\mathbb{R}$
+            \item $f\prime\prime$ = $\mathbb{R}$
+            \item $f\prime\prime\prime$ = $\mathbb{R}$
+            \item $f\prime\prime\prime\prime$ = $\mathbb{R}$
+        \end{enumerate}
+
+        \bigbreak \noindent 
+        \begin{mdframed}
+        \begin{large}
+            \begin{center}
+                \textbf{Finding the derivative using the limit definition:}
+            \end{center}
+        \end{large}
+        \end{mdframed}
+        \bigbreak \noindent \bigbreak \noindent 
+        \begin{large}
+            \textbf{Example 1: $f(x) = \frac{1}{x+3}$}
+        \end{large}
+
+        \bigbreak \noindent 
+        \textbf{$f\prime(x)$}
+        \begin{align*}
+            f\prime(x) = \lim\limits_{h \to 0}{ \frac{ \frac{1}{x+h+3} - \frac{1}{x+3}}{h}} \\ 
+        .\end{align*}
+        \bigbreak \noindent 
+        \textit{Multiply by the lcd to clear out the fractions in the numerator: LCD: $ \frac{(x+h+3)(x+3)}{(x+h+3)(x+h)}$}
+        \begin{align*}
+            \lim\limits_{h \to 0}{\frac{ \frac{1}{x+h+3} - \frac{1}{x+3}}{h}} \cdot \frac{(x+h+3)(x+3)}{(x+h+3)(x+3)} \\
+            = \lim\limits_{h \to 0}{ \frac{x+3 - (x+h+3)}{h}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{x+3-x-h-3}{h(x+h+3)(x+3)}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{-h}{h(x+h+3)(x+3)}} \\ 
+            = \lim\limits_{h \to 0}{ \frac{-1}{(x+h+3)(x+3)}} \\
+            = \frac{-1}{(x+0+3)(x+3)} \\ 
+            = \frac{-1}{(x+3)^2}
+        .\end{align*}
 
 \end{document}
 
