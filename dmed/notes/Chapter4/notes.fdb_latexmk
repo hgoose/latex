@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1675038902 "notes.tex" "notes.pdf" "notes" 1675038903
+["pdflatex"] 1675658235 "notes.tex" "notes.pdf" "notes" 1675658236
   "/home/catsoup/dev/latex/template/macros.tex" 1671326306 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "/home/catsoup/dev/latex/template/preamble.tex" 1674599710 20158 02304a23f690f2818364a061c8ec2797 ""
+  "/home/catsoup/dev/latex/template/preamble.tex" 1675613032 20221 ff2b40002705a110376c3a948b133632 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1650183167 2327 9d6df24f9c4f7368395224341a95523a ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1650183167 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -186,6 +186,9 @@
   "/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd" 1650183167 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
   "/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty" 1650183167 59398 061078e853e620354ba0437103cbd0fe ""
   "/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty" 1650183167 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
+  "/usr/share/texmf-dist/tex/latex/mdframed/md-frame-0.mdf" 1650181202 24831 326d9f019009ed0c076106fa6cb860fb ""
+  "/usr/share/texmf-dist/tex/latex/mdframed/mdframed.sty" 1650181202 53487 3e997243f47cb3ba8b4c7b8df9c82989 ""
+  "/usr/share/texmf-dist/tex/latex/needspace/needspace.sty" 1650181202 852 0e34dbb72efc69fa07602405ad95585e ""
   "/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty" 1650183167 6575 25396d208d8f2b9395d06ef315d5886c ""
   "/usr/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty" 1650183167 54508 3fd4fcb0ce463ba481db9f80ae95dad2 ""
   "/usr/share/texmf-dist/tex/latex/pdfpages/pppdftex.def" 1650183167 6591 1d9fd5a4927982c154f0f69ebbcad9c3 ""
@@ -199,6 +202,7 @@
   "/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty" 1650183167 443 8c872229db56122037e86bcda49e14f3 ""
   "/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty" 1650183167 348 ee405e64380c11319f0e249fed57e6c5 ""
   "/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty" 1650183167 274 5ae372b7df79135d240456a1c6f2cf9a ""
+  "/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty" 1650183167 36299 1cc9347091c2fb861270e66da42a0a3e ""
   "/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1650183167 325 f9f16d12354225b7dd52a3321f085955 ""
   "/usr/share/texmf-dist/tex/latex/refcount/refcount.sty" 1650183167 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texmf-dist/tex/latex/relsize/relsize.sty" 1650181202 15542 c4cc3164fe24f2f2fbb06eb71b1da4c4 ""
@@ -237,10 +241,12 @@
   "/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty" 1650181202 10894 d359a13923460b2a73d4312d613554c8 ""
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1650183167 56029 3f7889dab51d620aa43177c391b7b190 ""
   "/usr/share/texmf-dist/tex/latex/xifthen/xifthen.sty" 1650181202 5689 1bfa68243e89a54479e7d0580773c57e ""
+  "/usr/share/texmf-dist/tex/latex/zref/zref-abspage.sty" 1650181202 2245 c8a4088d07cffc2e5207730c738edd76 ""
+  "/usr/share/texmf-dist/tex/latex/zref/zref-base.sty" 1650181202 20785 71a3d72ab517959a6979c27e6176bec1 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1671568974 4408072 42ceaa83bae76aebad711d3f3dd7f55f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1671568965 2927663 5d14edd6d7c814164a93b6a806537d4f ""
-  "notes.aux" 1675038903 809 d3a351ea7d99002fed2a708023b5c403 "pdflatex"
+  "notes.aux" 1675658236 844 8e7fb0dacc0d6174d76a438807af08f8 "pdflatex"
   "notes.tex" 1675038899 28523 013b271c212797859b3ecac693ec483c ""
   (generated)
   "notes.aux"
