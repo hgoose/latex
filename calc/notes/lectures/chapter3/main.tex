@@ -88,7 +88,7 @@
         \begin{itemize}
             \item $ \frac{d}{dx}(c) = 0$
             \item $ \frac{d}{dx}(x) = 1$
-            \item $ \frac{d}{dx}(x^n) = n \cdot x^{n-1}$
+            \item $ \frac{d}{dx}(x^n) = n \cdot x^{n-1} \rightarrow$ \text{\textbf{\textit{Power Rule}}}
             \item $ \frac{d}{dx}[c \cdot f(x)] = c \cdot \frac{d}{dx}[f(x)]$
             \item $ \frac{d}{dx}[f(x) \pm g(x)] = \frac{d}{dx}f(x)\pm \frac{d}{dx}g(x)$
         \end{itemize}
@@ -96,7 +96,114 @@
     \bigbreak \noindent \bigbreak \noindent 
     \ex{}{Differentiate the following functions:} 
     \bigbreak \noindent 
-   \textbf{1.)} $f(t) = \frac{1}{2}t^6 - 3t^4 +1$ 
-   
-   
+    \begin{mdframed}
+       \textbf{1.)} $f(t) = \frac{1}{2}t^6 - 3t^4 +1$ 
+    \end{mdframed}
+  
+   \bigbreak \noindent  \bigbreak \noindent 
+   For the first term, we will use the \textbf{\textit{Third and Fourth}} Rule:
+   \begin{align*}
+      \frac{1}{2} \cdot 6t^{t-1}
+   .\end{align*}
+   \bigbreak \noindent 
+   For the second term, \textit{$-3t^4$}, We will use the \textbf{\textit{Third and Fifth}} Rule:
+   \begin{align*}
+      -3 \cdot 4t^{4-1} 
+   .\end{align*}
+   \bigbreak \noindent 
+   The last term is a constant, so according to the first rule, the Derivative of a constant is \textbf{\textit{Zero}}:
+
+  \begin{center}
+    \textit{So our full equation is:}
+  \end{center}
+  \begin{align*}
+    f\prime(x) = \frac{1}{2} \cdot 6t^{6-1} - 3 \cdot 4t^{4-1} + 0 \\ 
+    = 3t^5-12t^3 
+  .\end{align*}
+  
+  \bigbreak \noindent \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{2.)} $h(x) = (x-2)(2x+3)$ 
+  \end{mdframed}
+  First we need to distribute out the terms:
+  \begin{align*}
+    h(x) = 2x^2 + 3x -4x -6 \\ 
+    = 2x^2 -x-6
+  .\end{align*}
+  \bigbreak \noindent 
+  \begin{center}
+    Now this is the function we want to diferentiate.
+  \end{center}
+  \bigbreak \noindent 
+  \textit{So $\rightarrow$}
+  \begin{align*}
+    h\prime(x) = 2 \cdot 2x^{2-1} - 1 - 0  \\ 
+    h\prime(x) = 4x -1
+  .\end{align*}
+  
+  \begin{mdframed}
+    \textbf{3.)} $y = \frac{x^2 - 2 \sqrt{x}}{x}$
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+      y = \frac{x^2 - 2 x^{\frac{1}{2}}}{x}
+  .\end{align*}
+  \bigbreak \noindent 
+  \begin{center}
+    \textit{Since the numerator only has \textbf{one term}, we can split the equation like:}
+  \end{center}
+  \begin{align*}
+    y = \frac{x^2}{x} - \frac{2x^{ \frac{1}{2}}}{x} \\ 
+    y = x - 2x^{- \frac{1}{2}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now:}
+  \begin{align*}
+    \frac{dy}{dx} = 1 - 2 \cdot (-\frac{1}{2})x^{- \frac{1}{2} - 1} \\ 
+    \frac{dy}{dx} = 1 + x^{- \frac{3}{2}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{And we can even rewrite it as:}
+  \begin{align*}
+    \frac{dy}{dx} = 1 + \frac{1}{3^{ \frac{3}{2}}}  
+  .\end{align*}
+  
+  \bigbreak \noindent \bigbreak \noindent  
+  \begin{mdframed}
+    \textbf{4.)} $ V = ( \sqrt{x} + \frac{1}{ \sqrt[3]{x}})^2$
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    V = (x^{ \frac{1}{2}} + x^{ \frac{-1}{3}})^2 \\ 
+    = (x^{ \frac{1}{2}})^2  + 2(x^{ \frac{1}{2}})(x^{- \frac{1}{3}}) + (x^{- \frac{1}{3}})^2 \\
+    = x + 2x^{ \frac{1}{6}} + x^{ - \frac{2}{3}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now we find the Derivative:}
+  \begin{align*}
+    V\prime = 1 + 2 \cdot \frac{1}{6} x^{ \frac{1}{6} - 1} + ( \frac{-2}{3})x^{- \frac{2}{3} -1} \\ 
+    v\prime = 1 +  \frac{1}{3}x^{- \frac{5}{6}} - \frac{2}{3}x^{- \frac{5}{3}} \\ 
+    v\prime = 1 + \frac{1}{3x^{ \frac{5}{6}}} - \frac{2}{3x^{ \frac{5}{3}}}
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{large}
+    \textbf{Exponential Functions:}
+  \end{large}
+
+  \bigbreak \noindent \bigbreak \noindent 
+  \textbf{Recall:} $(1+ \frac{1}{n})^n \rightarrow e \approx 2.71828... as n \rightarrow \infty $
+
+  \bigbreak \noindent \bigbreak \noindent  
+  \dfn{Definiton of e:}{ $\lim\limits_{h \to 0}{ \frac{e^h -1}{h}} = 1$}
+  \bigbreak \noindent 
+  \nt{\textit{We'll use the above definiton to derive $ \frac{d}{dx}(e^x)$}}
+
+  \bigbreak \noindent 
+  $\rightarrow$ Let $f(x) = e^x$
+  \begin{align*}
+    f\prime(x) = \lim\limits_{h \to 0}{ \frac{f(x+h) - f(x)}{h}}
+  .\end{align*}
 \end{document}
