@@ -1,0 +1,102 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{Calculus 1: Chapter 3}}
+\author{\huge{Nathan Warner}}
+\date{\huge{Feb 12, 2023}}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+    \maketitle
+    \begin{center}
+        \begin{Huge}
+            \textbf{Chapter 3}
+        \end{Huge}
+    \end{center}
+    \line(1,0){490}
+    \bigbreak \noindent \bigbreak \noindent  
+    \begin{Huge}
+        \noindent \textbf{Contents}
+    \end{Huge}
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{3.1: Differential Rule}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.2: The Product and Quotient Rule}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.3: Derivatives of Trigonometric Functions}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.4.1: The Chain Rule}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.4.2: Differentiation Examples using the Product, Quotient, and Chain Rules}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.5: Implicit Differentiation and 3.6 (Part 1) Derivatives of Inverse Trigonometric Functions}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.6: (Part 2) Derivatives of Logarithmic Functions}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.7: Rates of Change in the Natural and Social Sciences}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.8: Exponential Growth and Decay -- Newton's Law of Cooling}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.9: Related Rates}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.10: Linear Approximations and Differentials}
+        \bigbreak \noindent \bigbreak \noindent 
+        \textbf{3.11: Hyperbolic Functions}
+    \end{Large}
+
+    \pagebreak \bigbreak \noindent
+    \begin{Large}
+        \begin{mdframed}
+            \begin{center}
+                \textbf{3.1}
+            \end{center}
+        \end{mdframed}
+    \end{Large}
+    \begin{Large}
+        \begin{center}
+            \textbf{Differential Rule:}
+        \end{center}
+    \end{Large}
+    \line(1,0){490}
+    
+    \bigbreak \noindent 
+    \begin{mdframed}
+        \textbf{\textit{Diffential Fomulas:}}
+        \begin{itemize}
+            \item $ \frac{d}{dx}(c) = 0$
+            \item $ \frac{d}{dx}(x) = 1$
+            \item $ \frac{d}{dx}(x^n) = n \cdot x^{n-1}$
+            \item $ \frac{d}{dx}[c \cdot f(x)] = c \cdot \frac{d}{dx}[f(x)]$
+            \item $ \frac{d}{dx}[f(x) \pm g(x)] = \frac{d}{dx}f(x)\pm \frac{d}{dx}g(x)$
+        \end{itemize}
+    \end{mdframed}
+    \bigbreak \noindent \bigbreak \noindent 
+    \ex{}{Differentiate the following functions:} 
+    \bigbreak \noindent 
+   \textbf{1.)} $f(t) = \frac{1}{2}t^6 - 3t^4 +1$ 
+   
+   
+\end{document}

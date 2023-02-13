@@ -1,0 +1,117 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{Chapter 5 Review and Discuss}}
+\author{\huge{Nathan Warner}}
+\date{\huge{Feb 11, 2023}}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+    \maketitle
+
+    \qs{}{Explain the difference between complementary and analogous color themes. Define the triadic color theme. 
+}
+    \bigbreak \noindent 
+Complementary color themes refer to the use of colors that are opposite each other on the color wheel, such as blue and orange, creating high contrast and vibrancy. Analogous color themes use colors that are next to each other on the color wheel, creating a harmonious and soothing effect. The triadic color theme uses three colors equidistant from each other on the color wheel, forming a triangle shape.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Summarize the three most common color models in digital media. 
+}
+    \bigbreak \noindent 
+The three most common color models in digital media are RGB (Red Green Blue), CMYK (Cyan Magenta Yellow Key/Black), and HSB (Hue Saturation Brightness).
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Explain the scale for RGB colors. 
+}
+    \bigbreak \noindent 
+    The RGB scale ranges from 0 to 255 for each color, with 0 representing the absence of that color and 255 representing the highest intensity.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Describe how the color mode is useful. 
+}
+    \bigbreak \noindent 
+    The color mode, which has possibilities including RGB, CMYK, and HSB, controls how a digital image is represented in terms of color information. It is helpful in ensuring that a digital image's colors appear as intended across various platforms and devices.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Explain “out of gamut.
+}
+    \bigbreak \noindent 
+    Colors that are outside the range of colors that can be adequately represented in a specific color space or color model are referred to as being "out of gamut."
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Define RGB and CMYK and explain the differences in the use of the two. 
+}
+    \bigbreak \noindent 
+    CMYK is used for printing with four-color process inks, whereas RGB is largely utilized for digital displays and lighting. The primary distinction between CMYK and RGB is that the former can create a broader variety of colors while the latter can only do it using cyan, magenta, yellow, and black inks.
+
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Detail how Adobe Color helps to generate a color theme. 
+}
+    \bigbreak \noindent 
+    Utilizing a color wheel, color sliders, and other features, Adobe Color enables users to create, save, and share color themes. Users can experiment with various color combinations, change hue, saturation, and brightness, and save their favorite color schemes for later use, which aids in creating a color theme.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Describe the HSB color model. 
+}
+    \bigbreak \noindent 
+    The HSB color model represents color as a combination of hue, saturation, and brightness values. Hue represents the basic color, saturation represents the intensity or purity of the color, and brightness represents the lightness or darkness of the color.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Cite the determining factors in what message is communicated by color. 
+}
+    \bigbreak \noindent 
+    The message communicated by color is determined by factors such as cultural associations, personal experiences, and the context in which the color is used. For example, red is often associated with love, passion, and excitement, while blue is associated with calmness, trust, and stability.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Summarize the relationship between different colors and how those  relationships are determined. 
+}
+    \bigbreak \noindent 
+    The relationship between different colors is determined by their position and interaction on the color wheel. Colors that are opposite each other on the color wheel are considered complementary, while colors next to each other are considered analogous. The relationship between colors can affect the mood, emotions, and overall aesthetic of a design.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{In your own words, explain Web-safe colors.
+}
+    \bigbreak \noindent 
+    Web-safe colors refer to a set of 216 colors that are guaranteed to be displayed accurately on all computer screens, regardless of the display device or monitor.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Differentiate between the ways in which a computer screen and paper send color images to our brain. 
+}
+    \bigbreak \noindent 
+    A computer screen displays color through the use of red, green, and blue light, while paper prints color through the use of four-color process inks. This means that the way the brain perceives color can be different depending on whether the image is being viewed on a screen or on paper.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Detail how color is reproduced on a printed page in the CMYK printing process. 
+}
+    \bigbreak \noindent 
+    Color is reproduced on a printed page in the CMYK printing process by applying tiny dots of cyan, magenta, yellow, and black ink to the paper. The combination and relative size of these dots determines the final color that is perceived by the eye.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Describe the Pantone Matching System. }
+    \bigbreak \noindent 
+    In the printing industry, a standardized color matching system called the Pantone Matching System is employed. To guarantee precise and uniform color reproduction in printed materials, it makes use of a set of standardized inks and colored chips.
+
+\end{document}
