@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1676407552 "main.tex" "main.pdf" "main" 1676407553
+["pdflatex"] 1676428532 "main.tex" "main.pdf" "main" 1676428534
   "/home/catsoup/dev/latex/template/macros.tex" 1671326306 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "/home/catsoup/dev/latex/template/preamble.tex" 1675816912 20204 6f3e269b5de33fb1591484de3797fd13 ""
+  "/home/catsoup/dev/latex/template/preamble.tex" 1676416603 20204 6f3e269b5de33fb1591484de3797fd13 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1650183167 2327 9d6df24f9c4f7368395224341a95523a ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1650183167 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -247,8 +247,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1671568974 4408072 42ceaa83bae76aebad711d3f3dd7f55f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1671568965 2927663 5d14edd6d7c814164a93b6a806537d4f ""
-  "main.aux" 1676407553 843 a81b6d152189f9955ef396feee06deec "pdflatex"
-  "main.tex" 1676407552 7269 4654728b86537fb77e3966111c302ef5 ""
+  "1.png" 1676426895 260293 7af5f3c72b74f6f3353ec7bf4c5e56c2 ""
+  "2.png" 1676428217 85370 11043928348954e48e8d87277f334270 ""
+  "main.aux" 1676428534 844 8e7fb0dacc0d6174d76a438807af08f8 "pdflatex"
+  "main.tex" 1676428532 24861 7b48b3029960e4e905b72d09cfbf78f3 ""
   (generated)
   "main.aux"
   "main.log"
