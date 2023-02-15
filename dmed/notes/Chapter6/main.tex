@@ -1,0 +1,126 @@
+\documentclass{report}
+
+\title{Chapter 6 Notes}
+\author{Nathan Warner}
+\date{February 2023}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+
+\maketitle
+
+    \begin{Large}
+        \noindent \textbf{Learning Objectives:}
+    \end{Large}
+    \bigbreak \noindent
+    \begin{enumerate}
+        \item Be familiar with a basic raster editing workspace and common tools. 
+        \item Select portions of an image for editing by using selection tools.
+        \item Recognize common settings for certain selection tools.
+        \item Make and refine selections by using Quick Mask mode.
+        \item Adjust levels, brightness, and contrast in photos using curves.
+        \item Use a cropping tool to adjust photo composition.
+        \item Edit a photo by using retouch tools.
+        \item Understand the usefulness of layers and layer masks in nondestructive editing.
+        \item Use layers and layer masks to edit digital images.
+        \item Manage file size in files with multiple layers  
+    \end{enumerate}
+
+    \bigbreak \bigbreak \noindent
+    \begin{Large}
+        \textbf{Key Terms:}
+    \end{Large}
+    \bigbreak \noindent
+    \begin{itemize}
+        \item \textbf{anti-aliasing:} A raster- editing feature that softens the hard edges of a selection by adjusting the color of the pixels along the outside edge
+        \item \textbf{background color:} The color “behind” a raster im-age that appears when one erases or cuts a selection from the background layer of an image
+        \item \textbf{background layer:} A special kind of layer in raster programs such as  Photoshop that is always at the bottom of the layer  stack and cannot be re-named, moved, or deleted or contain any transparency
+        \item \textbf{contiguous:} Linked or touching each other (in  reference to parts of an image)
+        \item \textbf{feathering:} A raster- editing feature that softens the hard edges of a selection by adding a border along the outer edge that gradu-ally fades into the back-ground, creating a soft blur
+        \item \textbf{flatten:} To merge multiple layers into a single layer. Flattening can reduce file size, but should only be done after all editing is com-plete and is best done on a copy of the original file
+        \item \textbf{foreground color:} The color that appears when one paints, draws, or fills an image in a raster editing program
+        \item \textbf{hand tool:} Navigation tool that moves an image around in a viewing area
+        \item \textbf{highlights:} The lightest part of an image, which is usually white
+        \item \textbf{layer mask:} A raster- editing feature used to  control what is visible on  a layer
+        \item \textbf{layers:} A raster-editing  feature used to layer  editable images individually, make changes, add effects, and make nondestructive edits
+        \item \textbf{midtones:} The middle range of colors in an image
+        \item \textbf{nondestructive edit:} A change made to an image that does not actually alter the original image’s pixels
+        \item \textbf{quick mask:} A temporary mask used to make or refine a selection
+        \item \textbf{retouch tool:} A tool used to alter the content of an image
+        \item \textbf{selection tool:} A type of tool used to select a portion of a raster image before modifying it
+        \item \textbf{shadows:} The darkest part of an image, which is usually black
+        \item \textbf{tolerance:} A setting that determines the range of pixels affected by a raster editing tool’s action. In Photoshop, this is a setting for the Magic Wand tool
+        \item \textbf{zoom too:} Navigation tool that magnifies or reduces the view of an image
+    \end{itemize}
+
+    \bigbreak \bigbreak \noindent
+    \begin{Large}
+        \textbf{Key Concepts:}
+    \end{Large}
+    \bigbreak \noindent
+    \begin{itemize}
+        \item Many raster editing programs have similar workspaces and basic tools. 
+       
+        \item For certain tasks in raster editing, you must first select a specific area to edit by using a selection tool or a feature like Photoshop’s Quick Mask mode. 
+
+        \item Some selection tools include settings such as anti-aliasing, feathering, tol-erance, and contiguous options that enable you to enhance the effect or precision of a selection.
+
+        \item Quick Mask mode helps you refine a selection.
+
+        \item You can adjust levels, brightness, and contrast in photos using curves. 
+
+        \item A cropping tool in a raster editing program can help improve photo composition. 
+
+        \item Retouch tools make it possible to alter large and small imperfections in an image. 
+
+        \item One of the most important uses of layers and layer masks is nondestructive editing. 
+
+        \item Since layers add to file size, you can choose to merge several layers into one by saving in a nonnative format or by using a flatten image feature in a raster editing program. 
+    \end{itemize}
+
+   \pagebreak \bigbreak \noindent 
+   \begin{Large}
+       \textbf{About The Chapter:}
+   \end{Large}
+   \bigbreak \noindent
+   Raster editing is an essential skill for many digital media professionals. This chapter introduces some common photo editing concepts and features that are useful whether you end up designing websites, books, smartphone applications, or any other media that incorporates photos. If you’ve used photo editing software before, even just the software that came with your camera, some of what is covered in this chapter will be familiar since so many raster editing programs include similar tools. On the other hand, if photo editing is entirely new to you, the material in this chapter may help as you start exploring raster editing software, whether free cloud software or a full-blown digital editing package such as Adobe Photoshop
+    \bigbreak \noindent \bigbreak \bigbreak
+    \begin{Large}
+        \noindent \textbf{Becoming Familiar with the Raster Editing Workspace:}
+    \end{Large}
+    \bigbreak \noindent
+    The workspace is the window where you edit images in a raster editing program. Most raster editing programs include some combination of a main viewing area and a selection of tools, menus, panels, and dialog boxes.
+    \nt{The user interface differs from program to program and sometimes can be customized to suit your needs. But many photo editing programs use sim-ilar tools and techniques}
+    \bigbreak \noindent
+    The Tools panel groups the most common tools used in Photoshop. Each time you select a different tool, the Control panel below the Application bar changes to reflect the settings for that specific tool.
+
+    \bigbreak \noindent \bigbreak \noindent
+    \begin{Large}
+        \textbf{Navigation Tools:}
+    \end{Large}
+    \bigbreak \noindent
+    
+\end{document}

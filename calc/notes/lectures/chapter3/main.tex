@@ -18,12 +18,12 @@
   }
   \pgfpageslogicalpageoptions{1}
   {
-    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
-    border shrink=\pgfpageoptionborder,%
-    resized width=.95\pgfphysicalwidth,%
-    resized height=.95\pgfphysicalheight,%
-    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
-  }%
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,
+    border shrink=\pgfpageoptionborder,
+    resized width=.95\pgfphysicalwidth,
+    resized height=.95\pgfphysicalheight,
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}
+  }
 }
 
 \pgfpagesuselayout{boxed}
@@ -151,7 +151,7 @@
   .\end{align*}
   \bigbreak \noindent 
   \begin{center}
-    \textit{Since the numerator only has \textbf{one term}, we can split the equation like:}
+    \textit{Since the denominator only has \textbf{one term}, we can split the equation like:}
   \end{center}
   \begin{align*}
     y = \frac{x^2}{x} - \frac{2x^{ \frac{1}{2}}}{x} \\ 
@@ -166,7 +166,7 @@
   \bigbreak \noindent 
   \textit{And we can even rewrite it as:}
   \begin{align*}
-    \frac{dy}{dx} = 1 + \frac{1}{3^{ \frac{3}{2}}}  
+    \frac{dy}{dx} = 1 + \frac{1}{x^{ \frac{3}{2}}}  
   .\end{align*}
   
   \bigbreak \noindent \bigbreak \noindent  
@@ -206,4 +206,388 @@
   \begin{align*}
     f\prime(x) = \lim\limits_{h \to 0}{ \frac{f(x+h) - f(x)}{h}}
   .\end{align*}
+  \textit{So:}
+  \begin{align*}
+    \lim\limits_{h \to 0}{ \frac{e^{x+h} - e^x}{h}} \\ 
+    = \lim\limits_{h \to 0}{ \frac{e^x \cdot x^h - e^x} {h}} \\ 
+    = \lim\limits_{h \to 0}{ \frac{e^x \cdot (e^h-1)}{h}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{This function is dependent on \textbf{h}, but $e^x$ is not dependent on h, so we can pull it outside and rewrite as:}
+  \begin{align*}
+    e^x \cdot \lim\limits_{h \to 0}{ \frac{e^h-1}{h}}
+  .\end{align*}
+  \textit{According to our definiton above, we can see that the right portion of this equation \textbf{\textit{Equals 1}}, Therefor we are just left with:}
+  \begin{align*}
+    e^x
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Therefore:}
+  \begin{align*}
+    \frac{d}{dx}(e^x) = e^x
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:} Find $f\prime(x)$ and $f\prime\prime(x)$ of $f(x) = e^x - x^3$ 
+  \end{mdframed}
+  \bigbreak \noindent 
+  \begin{align*}
+    f\prime(x) = e^x - 3x^2
+  .\end{align*}
+  \bigbreak \noindent 
+  \begin{align*}
+    f\prime\prime(x) = e^x - 6x
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{large}
+    \textbf{Normal Line:}
+  \end{large} 
+  \bigbreak \noindent 
+  The normal line is perpendicular to the tangent line at the point of tangency.
+  \begin{align*}
+    m_{tangent} \cdot m_{normal} = -1
+  .\end{align*}
+  \bigbreak \noindent 
+  \nt{This definition means that the slopes are \textbf{\textit{Opposite Recipricals}}}
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:} find equations of the tangent line and the normal line to the curve $y=x^4 + 8e^x$ at the 
+    point (0,8).
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{So we find the derivative:}
+  \begin{align*}
+    y\prime = 4x^3 + 8e^x
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Then we find $m_{tan}$:}
+  \begin{align*}
+    m_{tan} = 4 \cdot 0^3 + 8e^0 \\ 
+    = 0 + 8 \cdot 1 \\ 
+    = 8
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Then we find the slope of the normal line, so we take the Reciprical of $m_{tan}$, so we \textbf{\textit{flip it and change the sign}}:}
+  \begin{align*}
+    m_{normal} = - \frac{1}{8} 
+  .\end{align*}
+  \bigbreak \noindent 
+  We can check our answer using the definiton:
+  \begin{align*}
+    8(- \frac{1}{8}) = -1
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now we find the equations of the lines:}
+  \begin{center}
+    \textbf{Tangent Line:}
+  \end{center}
+  \begin{align*}
+    y - 8 = 8(x - 0) \\ 
+    y - 8 = 8x \\ 
+    y = 8x + 8
+  .\end{align*}
+  \bigbreak \noindent 
+  \begin{center}
+    \textbf{Normal Line:}
+  \end{center}
+  \begin{align*}
+    y - 8 = - \frac{1}{8}(x-0) \\ 
+    y - 8 = - \frac{1}{8}x \\ 
+    y = - \frac{1}{8}x + 8 
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+    \textbf{Example:} The equation of motion of a particle is $s = t^3 -12t$
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textbf{a.)} Find $v(t) = s\prime(t)$ - \textit{Velocity}
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    s\prime(t) = 3t^2 -12
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{B.)} Find $a(t) = s\prime\prime(t)$ - \textit{Acceleration}
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    s\prime\prime(t) = 6t 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{c.)} Find the acceleration after 9 seconds
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+   a(9) = 6 \cdot 9 \\
+  = 54 m \diagdown s^2
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{d.)} Find the acceleration when the velocity is 0.
+  \bigbreak \noindent 
+ \textit{So:} 
+ \begin{center}
+   Set v(t) = 0 
+ \end{center}
+ \begin{align*}
+   3t^2 -12 = 0 \\ 
+   3t^2 = 12 \\ 
+   t^2 = 4 \\ 
+   t = \pm 2 \rightarrow 2\ \text{Typically we like t to be positive}
+ .\end{align*}
+ \bigbreak \noindent 
+  \textit{Now:}
+  \begin{align*}
+    a(2) = 6 \cdot 2 \\ 
+    = 12 m \diagdown s^2
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{Large}
+      \begin{mdframed}
+          \begin{center}
+              \textbf{3.2}
+          \end{center}
+      \end{mdframed}
+  \end{Large}
+  \begin{Large}
+      \begin{center}
+          \textbf{The Product and Quotient Rules}
+      \end{center}
+  \end{Large}
+  \line(1,0){490}
+  
+  \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+  \begin{large}
+    \textbf{Product Rule:}
+  \end{large}
+  \begin{mdframed}
+    \begin{align*}
+      \frac{d}{dx}[f(x) \cdot g(x)] = f(x) \frac{d}{dx}[g(x)] + g(x) \frac{d}{dx}[f(x)]
+    .\end{align*}
+    \begin{center}
+      \textbf{\textit{Or:}}
+    \end{center}
+    \begin{align*}
+      (f\cdot g)\prime = f \cdot g\prime + g \cdot f\prime
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \begin{large}
+    \textbf{Quotient Rule:}
+  \end{large}
+  \begin{mdframed}
+    \begin{align*}
+      \frac{d}{dx}\bigg[ \frac{f(x)}{g(x)}\bigg] = \frac{g(x) \frac{d}{dx}[f(x)] - f(x) \frac{d}{dx}[g(x)]}{[g(x)]^2}
+    .\end{align*}
+    \begin{center}
+      \textbf{Or:}
+    \end{center}
+    \begin{align*}
+      \bigg(\frac{f}{g}\bigg)^{\prime} = \frac{g \cdot f ^{\prime} - f \cdot g ^{\prime}}{g^2}
+    .\end{align*}
+  \end{mdframed}
+
+  \bigbreak \noindent \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:} Differentiate the following Function: \textbf{(Quotient Rule)}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textbf{1.)} $y = \frac{e^x}{1+x}$
+
+  \bigbreak \noindent 
+  \textit{So, If:}
+  \begin{align*}
+    \frac{d}{dx}\bigg[ \frac{f(x)}{g(x)}\bigg] = \frac{g(x) \frac{d}{dx}[f(x)] - f(x) \frac{d}{dx}[g(x)]}{[g(x)]^2} 
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \textit{And:}
+  \begin{align*}
+    f(x) = e^x \rightarrow f ^{\prime}(x) = e^x \\ 
+    g(x) = 1 + x \rightarrow g ^{\prime}(x) = 1
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Then:}
+  \begin{align*}
+    y ^{\prime} = \frac{(1+x)e^x - e^x(1)}{(1+x)^2}\\
+    = \frac{e^x + xe^x - e^x}{(1+x)^2} \\ 
+    = \frac{xe^x}{(1+x)^2}
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+    \textbf{Example:} Differentiate The Following Function: \textbf{(Product Rule)}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textbf{2.)} $R(t) = (t+e^t)(3- \sqrt{t})$
+  \bigbreak \noindent 
+  \textit{So If:}
+  \begin{align*}
+    \frac{d}{dx}[f(x) \cdot g(x)] = f(x) \frac{d}{dx}[g(x)] + g(x) \frac{d}{dx}[f(x)]
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{And:}
+  \begin{align*}
+    f(x) = (t+e^t) \longrightarrow f ^{\prime}(x) = (1+e^t) \\ 
+    g(x) = (3-t^{ \frac{1}{2}}) \longrightarrow g ^{\prime}(x) = (0 - \frac{1}{2}t^{- \frac{1}{2}})
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Then:}
+  \begin{align*}
+    R ^{\prime}(t) = (t+e^t)(0- \frac{1}{2}t^{-\frac{1}{2}}) + (1+e^t)(3-t^{-\frac{1}{2}})
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \textit{Cleanup:}
+  \begin{align*}
+    R ^{\prime}(t) =- \frac{1}{2}t^{ \frac{1}{2}} - \frac{1}{2} e^t t^{- \frac{1}{2}} + 3 - t^{- \frac{1}{2}} + 3e^t \cdot t^{ \frac{1}{2}} \\ 
+    = -\frac{3}{2}t^{ \frac{1}{2}} - \frac{1}{2} e^t t^{- \frac{1}{2}} + 3 + 3e^t \cdot t^{ \frac{1}{2}} \\  
+    = -\frac{3}{2}t^{ \frac{1}{2}} - \frac{e^t}{2t^{ \frac{1}{2}}}+ 3 + 3e^t \cdot t^{ \frac{1}{2}}  
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \textit{Explanation for cleanup:}
+  \bigbreak \noindent 
+  for the second equation, we just combined like terms, then for the \textbf{\textit{third equation}}, we rewrote the term with the negative power.
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:} Differentiate the following function \textbf{(Product Rule:)}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textbf{3.)} $g(x) = 5e^x \sqrt{x}$
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    g ^{\prime}(x) = (5e^x)( \frac{1}{2}x^{- \frac{1}{2}}) + (5e^x)(x^{ \frac{1}{2}})
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{From here we can simplify by pulling out common factor, $5e^x x^{- \frac{1}{2}}$}
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    5e^xx^{- \frac{1}{2}}( \frac{1}{2} + x^1) \\ 
+    = \frac{5e^x}{x^{ \frac{1}{2}}} \cdot \frac{1+2x}{2} \\
+    = \frac{5e^x(1+2x)}{2x^{ \frac{1}{2}}}
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+    \textbf{Example:} find $f^{\prime}(x)$ and $f ^{\prime\prime}(x)$
+  \end{mdframed}
+
+  \bigbreak \noindent 
+  \textbf{1.)} $ f(x ) = x^8e^x$
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    f ^{\prime}(x) = x^8 \cdot e^x + 8x^7 \cdot e^x 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{We can factor out an $e^x$}
+  \bigbreak \noindent 
+  \textit{So, $f ^{\prime}(x)$ is:}
+  \begin{align*}
+    f ^{\prime}(x) = e^x(x^8+8x^7)
+  .\end{align*}
+  
+  \bigbreak \noindent 
+  \textit{Now:}
+  \begin{align*}
+    f ^{\prime\prime}(x) = e^x(8x^7+56x^6) + (x^8+8x^7)(e^x) \\ 
+    = e^x(x^8 + 8x^7 + 8x^7 + 56x^6) \\ 
+    = e^x(x^8 + 16x^7 + 56x^6)
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:} Differentiate (\textbf{\textit{Quotient Rule}}):
+    \begin{align*}
+      y = \frac{x+1}{x^3+x-2}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{If:}
+  \begin{align*}
+    \frac{d}{dx}\bigg[ \frac{f(x)}{g(x)}\bigg] = \frac{g(x) \frac{d}{dx}[f(x)] - f(x) \frac{d}{dx}[g(x)]}{[g(x)]^2} 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{And:}
+  \begin{align*}
+    f(x) = x+1 \longrightarrow f ^{\prime}(x) = 1 \\ 
+    and \\
+    g(x) = x^3 + x -2 \longrightarrow g ^{\prime}(x) = 3x^2+1
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Then:}
+  \begin{align*}
+    y ^{\prime} = \frac{(x^3+x-2)(1) - (x+1)(3x^2+1)}{(x^3+x-2)^2} \\ 
+    =  \frac{x^3+x-2 -(3x^3+x+3x^2+1)}{(x^3+x-2)^2} \\
+    = \frac{x^3+x-2 -3x^3-x-3x^2-1)}{(x^3+x-2)^2} \\ 
+    = \frac{-2x^3-3x^2-3}{(x^3+x-2)^2}
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+    \textbf{Example:} Find the equation of the tangent line and the normal line to the curve $y = \frac{ \sqrt{x}}{x+1}$ at (4,0.4)
+  \end{mdframed}
+
+  \bigbreak \noindent 
+  \textit{If:}
+  \begin{align*}
+    \frac{d}{dx}\bigg[ \frac{f(x)}{g(x)}\bigg] = \frac{g(x) \frac{d}{dx}[f(x)] - f(x) \frac{d}{dx}[g(x)]}{[g(x)]^2} 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{And:}
+  \begin{align*}
+    f(x) = x ^{\frac{1}{2}} \longrightarrow f ^{\prime}(x) = \frac{1}{2}x ^{-\frac{1}{2}} \\
+    and \\
+    g(x) = x+1 \longrightarrow g ^{\prime}(x) = 1
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Then:}
+  \begin{align*}
+    y ^{\prime} = \frac{(x+1)( \frac{1}{2}x ^{-\frac{1}{2}}) - (x ^{\frac{1}{2}})(1)}{(x+1)^2}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now $m_{tan}$}
+  \begin{align*}
+    m_{tan} = \frac{(4+1)( \frac{1}{2} \cdot 4 ^{-\frac{1}{2}}) - (4 ^{\frac{1}{2}})}{(x+1)^2} \\ 
+    = \frac{5 \cdot \frac{1}{4} - 2}{25} 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{We want to multiply by the lcd \textbf{\textit{4}} to clear out the complex fraction}
+  \begin{align*}
+    \frac{(\frac{5}{4} - 2) \cdot 4}{25 \cdot 4} \\ 
+    = \frac{5-8}{100} \\ 
+    = - \frac{3}{100}
+  .\end{align*}
+  \bigbreak \noindent 
+  Now to find $m_{normal}$, we take the Reciprical of $m_{tan}$ and change the sign:
+  \begin{align*}
+    m_{norm} = \frac{100}{3}
+  .\end{align*}
+  \bigbreak \noindent 
+  Now we want to find the equations:
+  \begin{center}
+    \textbf{Tangent Line:}
+  \end{center}
+  \begin{align*}
+    y - 0.4 = - 0.03(x-4) \\ 
+    y-0.4 = -0.03x+0.12 \\ 
+    y = -0.03x+0.52
+  .\end{align*}
+  \begin{center}
+    \textbf{Normal Line:}
+  \end{center}
+  \begin{align*}
+    y- \frac{2}{5} = \frac{100}{3}(x-4) \\ 
+    y - \frac{2}{5} = \frac{100}{3}x - \frac{400}{3} \\ 
+    y = \frac{100}{3}x - \frac{1994}{15}
+  .\end{align*}
+  Since $\frac{100}{3}$ is a repeating decimal, we stayed in fraction form.
+
 \end{document}

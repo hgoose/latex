@@ -33,3 +33,4 @@
 [ 02/13/2023 14:37:44.171 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
 [ 02/13/2023 14:37:53.980 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
 [ 02/13/2023 14:37:53.980 c2_parse_grp ERROR ] Pattern "class_g = 'Zathura'90:class_g = 'Zathura'" pos 19: Unexpected expression.
+[ 02/14/2023 15:19:34.429 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
