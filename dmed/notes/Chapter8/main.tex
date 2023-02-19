@@ -1,0 +1,95 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{Chapter 8 Notes: Print Type}}
+\author{\huge{Nathan Warner}}
+\date{\huge{Feb 18, 2023}}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+    \maketitle
+    \begin{Large}
+        \noindent \textbf{Learing Outcomes:}
+    \end{Large}
+    \bigbreak \noindent 
+    \begin{enumerate}
+        \item Distinguish between typefaces and fonts.
+        \item Describe the parts that make up a typeface.
+        \item Understand how typeface, size, and style affect readability.
+        \item Adjust leading and tracking for readability.
+        \item Recognize how measure and alignment impact readability.
+        \item Use common, simple techniques to grab attention with typography.
+        \item Make documents clean and professional by using a few typesetting conventions.
+    \end{enumerate} 
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Key Terms:}
+    \end{Large}
+    \bigbreak \noindent 
+    \begin{itemize}
+      \item \textbf{alignment:} How a line of text or a paragraph is posi-tioned in a column: flush left, flush right, centered, or justified
+      \item \textbf{ascender:} The part of a letter that extends above the x-height, as in the letter “
+      \item \textbf{baseline:} The imaginary line on which the typeface sits
+      \item \textbf{curly quotes:} Rounded marks used for quotations and apostrophes
+      \item \textbf{descender:} The part of a lowercase letter that extends below the baseline, as in the letter “y”
+      \item \textbf{display typeface:} A typeface used to attract attention to the design of the font as well as to the words
+      \item \textbf{em dash:} A  punctuation symbol that resembles a hyphen but is noticeably longer (normally the width of the capital letter M in the font and point size in which it is formatted); indicates a break in thought, similar to parentheses
+      \item \textbf{en dash:} A punctuation symbol that resembles a hyphen but is longer (nor-mally the width of a capital N in the font and point size in which it is formatted); used in ranges of numbers, letters, or dates
+      \item \textbf{font:} Within a typeface,  a set of characters with a specific style
+      \item \textbf{kerning:} Adjusting the space between two  characters to improve appearance and readability
+      \item \textbf{leading:} The amount of space between lines of text
+      \item \textbf{measure:} The length of a line of text
+      \item \textbf{orphan:} When the first line of a paragraph falls by itself at the bottom of a page or column or when a single word or part of a word falls by itself on the last line of a paragraph
+      \item \textbf{point:} The unit of measure used to indicate the size of type. One point is approximately 1/72 of an inch
+      \item \textbf{sans serif:} Typefaces with no serifs
+      \item \textbf{serif:} Typefaces with small decorative strokes or “feet” at the ends of the main strokes that define each letter
+      \item \textbf{tracking:} The amount of space between characters
+      \item \textbf{typeface:} A collection of letters, numbers, and other characters created by a designer.
+      \item \textbf{widow:} When the last line of a paragraph falls by itself as the first line of the next page or column
+      \item \textbf{x-height:} in simple terms, the height of the lowercase letter “x” in a given font.
+    \end{itemize}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+      \textbf{Key Concepts:}
+    \end{Large}
+    \bigbreak \noindent 
+    \begin{itemize}
+      \item A typeface is a collection of designed characters while a font refers to a subset of characters with the same style within a typeface. 
+      \item One of the most important goals of working with text is making it read-able. 
+      \item Selecting a suitable typeface, size, and style impacts readability.
+      \item Adjusting the leading, tracking, measure, and alignment can make text more or less readable. 
+      \item Typography plays an important role in capturing readers’ interest and directing their attention. 
+      \item Removing widows and orphans and using appropriate punctuation marks can make your documents appear more professional. 
+    \end{itemize}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+      \textbf{About This Chapter:}
+    \end{Large}
+    \bigbreak \noindent 
+    When you look at a magazine, a book, a newspaper, a poster, an invitation, or any other printed document with text, you may or may not notice the text on the page. However, whether it’s subtle or commands your attention, the text is just as important to a good design as the choice and arrangement of art or photographs. The text selection, position, spacing, size, and more are all an important element of design collectively called typography
+\end{document}

@@ -1,0 +1,218 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{Chapter 7 Notes}}
+\author{\huge{Nathan Warner}}
+\date{\huge{Feb 18, 2023}}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+    \maketitle
+    \begin{Large}
+        \noindent \textbf{Learning Outcomes:}
+    \end{Large}
+    \bigbreak \noindent 
+    \begin{enumerate}
+        \item Recognize the essential elements of a vector object and use vector terminology.
+        \item Draw simple shapes and lines using vector drawing tools.
+        \item Draw straight or curved paths segment by segment.
+        \item Transform objects using a selection tool and a bounding box. 
+        \item Adjust curves.
+        \item Stack and reorder objects.
+        \item Create a clipping mask.
+        \item Convert a raster image into a vector object using a tracing feature 
+    \end{enumerate}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+        \textbf{Key Terms:}
+    \end{Large}
+    \bigbreak \noindent 
+    \begin{itemize}
+      \item \textbf{anchor point:} A point defin-ing the beginning or end of a segment along a path
+      \item \textbf{bounding box:} An outline around a selected vector object that can be used to transform the object
+      \item \textbf{clipping mask:} A vector object used to hide portions of lower objects in a stack
+      \item \textbf{closed path:} A path with no distinct beginning or end, for example a circle, square, or other shape.
+      \item \textbf{corner point:} An anchor point along a vector path where the direction changes
+      \item \textbf{endpoint:} A beginning or end anchor point on a path
+      \item \textbf{fill:} A color or pattern applied to the inside area of a path
+      \item \textbf{line tool:} Draws open path line segments
+      \item \textbf{open path:} A path with a distinct beginning and end; for example, a straight line
+      \item \textbf{path:} A line that makes up a vector object.
+      \item \textbf{scale:} To resize an object to a percentage of its original size
+      \item \textbf{segment:} A  distinct portion of a path that  connects two anchor points
+      \item \textbf{shape tool:} Vector  drawing tools that enable a user to draw common, closed-path shapes with ease and efficiency
+      \item \textbf{smooth point:} An  anchor point along a vector curve
+      \item \textbf{stroke:} The visible outline of a path
+    \end{itemize}
+
+    \pagebreak \bigbreak \noindent
+    \begin{Large}
+      \textbf{Key Concepts:}
+    \end{Large}
+    \bigbreak \noindent 
+    \begin{itemize}
+      \item Vectors are defined by open and closed paths, anchor points, and seg-ments. 
+      \item Strokes and fills are what make a path visible. 
+      \item Shape and line tools make it easy to draw objects with a single stroke or click. 
+      \item Certain tools in vector applications enable you to draw a path by plotting anchor points one at a time. 
+      \item Selection tools can be used to select and transform a whole object or one segment/anchor point at a time. 
+      \item Bounding boxes appear around selected vector objects and can be used with a selection tool to quickly transform objects
+      \item Directional handles at smooth points on a curved segment control the size and shape of the curve.
+      \item You can stack and rearrange vector objects. 
+      \item A clipping mask is a vector object used to hide portions of lower objects in a stack. 
+      \item A tracing feature converts raster images into editable vector objects. 
+    \end{itemize}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+      \textbf{About The Chapter:}
+    \end{Large}
+    \bigbreak \noindent 
+    Before you began the previous chapter on raster images, you may have been somewhat familiar with the image editing possibilities of raster images. As you begin this chapter, you may not be as familiar with vector images. But if you intend to pursue a career in digital media, you should get to know vector editing software, especially if you will work with logos or generate three-dimensional graphic renderings, which are both almost always created in a vector format. The lines and curves used in vector rendering make it easy to create drawings that look quite professional, even if you are not particularly artistic. And if you are an artist, vector programs offer a way to move your hand-drawn artwork to a digital drawing format.
+    \bigbreak \noindent 
+    This chapter will introduce general vector editing terminology, tools, and concepts using Illustra-tor as the main model. The names of some tools and features will vary from program to program, but this introduction to vector editing will show you some basic capabilities of vector programs in general.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+      \textbf{Understanding  Essential  Vector Terminology:}
+    \end{Large}
+    \bigbreak \noindent 
+    As you learned in Chapter 3, “Image Files,” the essential difference between raster and vector graphics is that raster images are composed of pixels whereas vector graphics are made of mathematically defined lines. (Revisit Chapter 3 for more information about the differences between raster and vector graphics.) However, when you first launch a vector editing program, the workspace may seem familiar if you have worked in a raster program.
+    \bigbreak \noindent 
+    using vector editing software means learning a new set of concepts, tools, and tech-niques.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+      \textbf{Anatomy of a Path:}
+    \end{large}
+    \bigbreak \noindent 
+    In vector software, lines connect points to form an object. You can think of a vector object almost like a connect-the-dots puzzle where lines connect dots to form an outline. The lines in a vector image are usu-ally called \textbf{\textit{paths}} by most vector applications. “Path” doesn’t refer to the physical line you see in an object; it refers to virtual lines.
+    \bigbreak \noindent 
+    A \textbf{\textit{closed path}} refers to objects without a clear beginning and end such as a circle, square, or other shape.
+    \bigbreak \noindent 
+    An \textbf{\textit{open path}} refers to a path with a distinct beginning and end such as a single straight, curved, or wavy line.
+    \bigbreak \noindent 
+    The beginning and end of each segment on a path is marked by \textbf{\textit{anchor points}} (sometimes referred to as nodes in cer-tain vector programs). Distinct anchor points at the beginning and end of a path are referred to as \textbf{\textit{endpoints}}. There are two types of anchor points. Anchor points along the path where the angle changes are called \textbf{\textit{corner points}}. Anchors along a curve are called \textbf{\textit{smooth points}}.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+      \textbf{Strokes and Fills:}
+    \end{large}
+    \bigbreak \noindent 
+    As mentioned in the previous section, a vector path is not a visible line in a vector object; it is a virtual line. In Illustrator, the path is repre-sented on screen by blue guides. The visible outline of a path is called a stroke (also called an outline in some vector software).
+    \bigbreak \noindent 
+    A fill is a color or pattern applied to the inside area of a path
+    \bigbreak \noindent 
+    Any vector object can have a fill or no fill, a stroke or no stroke, or any combination. However, strokes and fills are what make paths visible, so if there is no fill and no stroke on an object, the path will be invisible when printed or placed in another program.
+    \bigbreak \noindent 
+    In Illustrator, you can set the stroke and fill options many different ways, but one of the easiest methods is to use the options on the Con-trol panel (refer to Figure 7.1 to see where the Control panel is located in the Illustrator workspace). By default, the Control panel shows (among other settings) the fill color, the stroke color, and the stroke weight. When an object is selected, the Control panel changes to reflect the settings for that object
+    \bigbreak \noindent 
+    Using these types of controls, you can change the color and weight of fills and strokes of a selected object or you can set the options for new paths by clicking a tool and choosing settings before you begin to draw, which is covered in the next section.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+      \textbf{Working with Objects:}
+    \end{Large}
+    \bigbreak \noindent 
+    As indicated at the beginning of the chapter, vector editing programs are extremely complex and capable of a huge range of tasks. In addi-tion, most vector programs provide multiple methods for doing the same thing.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+      \textbf{Drawing Simple Shapes and Lines:}
+    \end{large}
+    \bigbreak \noindent 
+    Most if not all vector drawing applications feature tools that enable you to easily draw common, closed path shapes with a single stroke or click. In Illustrator, these tools are referred to generally as shape tools. In most vector applications, you’ll see a range of shape tools such as rectangle tools, ellipse tools, polygon tools, and even star tools. You can normally access these on a main toolbar, although some tools may be hidden behind others.
+    \bigbreak \noindent 
+    Most vector programs include other easy-to-use tools for drawing straight and curved open path line segments by clicking and dragging in the workspace. In Illustrator, this is called a line tool.
+    \bigbreak \noindent 
+    Other programs might use different names for the same type of tools, but they likely function in a similar way. Using a line tool is similar to using a shape tool: Select the tool, set the stroke and fill options, then click and drag or click once in the workspace and set options in the dialog box that appears.
+    \bigbreak \noindent 
+    \nt{As with shape tools, anchor points and segments are automatically added to objects you draw with a line tool}
+
+    \pagebreak \bigbreak \noindent
+    \begin{large}
+      \textbf{Drawing Straight and Curved Segments with a Pen Tool:}
+    \end{large}
+    \bigbreak \noindent 
+    Another common type of vector drawing tool enables you to draw objects by placing anchor points one at a time. This is called a Pen tool in Illustrator. Your vector application may call this something else; for instance, it is called a Bezier tool in CorelDRAW. Whatever it is called, it is one of the most use-ful tools in a vector drawing program, although it may take a bit longer to master than a shape or line tool. With a shape tool, a line tool, or a brush tool (in both raster and vector programs), you click and drag once to create the shape or line. Drawing an object with a pen tool, however, requires a series of clicks. To draw straight line segments with a pen tool, click once on the workspace where you would like the line to begin. This places an anchor point at that spot. Move the insertion point to the spot where you would like the segment to end and click again. Another anchor point appears at that spot and a line segment connects the two anchor points. Continue clicking to add anchor points and connecting segments.
+  
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{large}
+      \textbf{Editing Objects:}
+    \end{large}
+    \bigbreak \noindent 
+    At some point while drawing, you’ll likely want to move, resize, reshape, or otherwise transform an object. There are so many ways to edit a vector object that it is impractical to cover them all in this book. However, you may be surprised how much you can accomplish with a little bit of knowledge about just a few types of tools
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+      \textbf{Using Selection Tools and Bounding Boxes:}
+    \end{Large}
+    \bigbreak \noindent 
+    In vector programs, you can select and transform either a whole object or just one segment or anchor point at a time. To select the whole object, you use a selection tool. In many programs, the Selection tool is represented by an arrow icon on the toolbar. In Illustrator, the Selection tool is the black arrow at the top of the Tools panel. By default, when you click an object with the Selection tool, all of the object’s paths and anchor points appear on the screen.
+    \bigbreak \noindent 
+    In addition, in some vector programs, including Illustrator, a bounding boxwith eight small boxes, called handles, surrounds a selected object
+    \bigbreak \noindent 
+    \nt{Transforming objects with a selection tool and bounding box is such a useful feature, it is worth exploring similar operations in other vector programs you may use.}
+    \bigbreak \noindent 
+    Sometimes you might want to modify an object where no anchor point exists. Helpfully, you can add anchor points to a path in most vector editing programs. In Illustrator you can use the Pen tool to add or remove anchor points along a segment with a single click. Simply hover over the segment where you would like to add a point and click when a small plus (+) sign appears next to the pen icon.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+      \textbf{Transforming Curved Segments:}
+    \end{Large}
+    \bigbreak \noindent 
+    in most vector programs, when you select a curved segment, lines like the blue line in Figure 7.7 appear at the smooth points on that seg-ment. In Illustrator and some other programs, these are called directional handles and they are used to shape curves on a path. The lines on directional handles are called directional lines and are capped at the end with directional points.
+    \bigbreak \noindent 
+    \nt{In Illustrator, you can use the Direct Selection tool to click and drag the directional lines or directional points to reshape and/or resize a curve.}
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+      \textbf{Rearranging Stacked Objects:}
+    \end{Large}
+    \bigbreak \noindent 
+    You can overlap or stack objects in a vector editing program by click-ing an object with the selection tool and dragging it over another object. You can also change the order of stacked objects. In Illustra-tor, you can do this by selecting the object you would like to reorder, choosing Arrange from the Object menu on the Application bar at the top of the workspace, and then choosing an option from the submenu that appears. You can also select an object to reorder. Right-click and choose Arrange from the pop-up menu that appears, and then choose an option from the list. Most vector programs have similar procedures for stacking and reordering stacked objects.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+      \textbf{Creating a Clipping Mask:}
+    \end{Large}
+    \bigbreak \noindent 
+    One reason you may want to stack objects is to create a clipping mask (sometimes referred to as just “clip” or “mask” in certain programs).
+    \bigbreak \noindent 
+    A clipping mask is an object that hides the object(s) below it so that they show through only inside the clipping mask (see Figure 7.12). This is similar to a layer mask in a raster editing program.
+    \bigbreak \noindent 
+    Clipping masks can be used to create all kinds of great effects and also to crop raster images that you place in a vector editing program. Clipping masks are often used with raster images to create interesting fill effects for text or to crop a photo
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \begin{Large}
+      \textbf{Converting Raster Images to Vector Objects by Tracing}
+    \end{Large}
+    \bigbreak \noindent 
+    Many of you may be fantastic artists who can draw anything by hand but find it difficult to replicate your images using only vector draw-ing tools. Luckily, most vector editing programs include a feature that automatically traces bitmap images and converts them to vector objects. This means you can scan a sketch into a bitmap file, place it in a vector document, trace and convert it to vectors, and then use editing tools to adjust and finalize the image. You can do the same thing with a photo placed in a vector document. 
+    \bigbreak \noindent 
+    Tracing can help you grow accustomed to the editing and drawing tools in any vector drawing application. It also helps you take advan-tage of your natural artistic talent by providing a way to use your  hand-drawn sketches as the basis of digital drawing.
+
+\end{document}

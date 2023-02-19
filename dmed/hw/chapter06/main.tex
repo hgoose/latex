@@ -1,0 +1,190 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{Chapter 6 Review and Discuss}}
+\author{\huge{Nathan Warner}}
+\date{\huge{Feb 18, 2023}}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+    \maketitle
+    
+    \bigbreak \noindent 
+    \qs{}{Define the Zoom tool and briefly explain how it works. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{You can enlarge or reduce the image using the Zoom tool in image editing software. It operates by changing the image's size on the screen, either making it larger or smaller.}
+    \bigbreak \noindent 
+
+  \bigbreak \noindent 
+    \qs{}{Explain the purpose of the Hand tool.  
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The Hand tool is used for panning or moving around the image.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Describe the Selection tool, “marching ants,” and the purpose of using the Selection tool.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The Selection tool, also known as the "marching ants," is a tool used to choose an area of the image. It is used for copying, cutting, or pasting parts of an image or for making specific edits to a particular area.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Describe the selection tool that is best used when you want to select an irregularly shaped area. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The Lasso tool is best used for selecting an irregularly shaped area. It allows you to draw around the edges of the area you want to select.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Describe the selection tools that would be used when more precise  selections need to be made, and how these tools make more precise  selections.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The Magnetic Lasso and Pen tool are used for making more precise selections. The Magnetic Lasso uses computer algorithms to detect and snap to the edges of the object you want to select. The Pen tool allows you to create a precise selection path by manually creating anchor points and curves.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Identify the option that is used on images when the edges are ragged. Describe how it works. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The Anti-Alias option is used on images when the edges are ragged. It works by smoothing out the edges of the selection to create a more natural look.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Explain how the Magic Wand tool settings affect the selection of an  image. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The Magic Wand tool settings affect the selection of an image by adjusting the sensitivity of the tool. The tolerance setting determines how similar in color a pixel must be to the selected pixel to be included in the selection.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Explain the purpose of Quick Mask mode, and how to use it. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{Quick Mask mode is used to create temporary selections using a red overlay. It allows you to paint on the image to create a selection, which can then be saved as a selection.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Explain the differences between the three levels of brightness and  contrast: highlights, shadows, and midtones. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The three levels of brightness and contrast are used to adjust the tones of the image. Highlights refer to the brightest areas of the image, while shadows refer to the darkest areas. Midtones refer to the areas in between.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Identify and describe one of the most common methods of adjusting brightness and contrast levels.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{One of the most common methods of adjusting brightness and contrast levels is to use the Levels tool. This tool allows you to adjust the tonal range of the image by moving the sliders for the highlights, shadows, and midtones.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Explain the purpose of using the Cropping tool. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The Cropping tool is used to remove unwanted areas of an image. It allows you to select the area you want to keep and discard the rest.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Discuss some of the retouch tools that may be found in a raster editing program and their purpose.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{Some retouch tools that may be found in a raster editing program include the Clone Stamp tool, Healing Brush tool, and Spot Healing Brush tool. These tools are used for removing imperfections or unwanted elements from an image.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Describe uses of layers. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{Layers are used in image editing software to separate different elements of an image. They allow you to work on individual parts of the image without affecting the rest of the image.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{List the restrictions of the background layer. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The background layer is restricted in that it cannot be moved or edited like other layers. It is always at the bottom of the layer stack and cannot be deleted.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Discuss the differences between the background layer and a new layer.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The background layer is a single layer that is always at the bottom of the layer stack and cannot be edited like other layers. A new layer can be created to make edits to a specific area or element of the image without affecting the rest of the image.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Explain blending modes.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{Blending modes are used to blend the pixels of one layer with those of another layer. They can be used to create a variety of effects, such as adding transparency or adjusting the contrast.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Discuss the advantages of using layers. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The advantages of using layers include the ability to work on different parts of the image separately, the ability to make changes without affecting the original image, and the ability to easily turn on or off different layers to see the effect of each layer.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Explain the use of Layer Styles. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{Layer Styles are a set of effects that can be applied in Photoshop. These effects can change the appearance of the layer, for example by adding a drop shadow, bevel, or gradient overlay. Layer Styles are a quick and easy way to add some extra flair to your image without having to create complex effects from scratch.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+     \bigbreak \noindent 
+    \qs{}{Define Adjustment Layers and the purpose of using them on your image.}
+    \bigbreak \noindent 
+    \pf{Answer}{Adjustment Layers are a type of layer in an editing program that allow you to make non-destructive adjustments to your image.}
+    \bigbreak \noindent 
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Explain the difference between the foreground and background color and how each is used.}
+    \bigbreak \noindent 
+    \pf{Answer}{ The foreground color refers to the color you are currently using, while the background color is the color you have set to use as the background of your image.}
+    \bigbreak \noindent 
+
+    
+\end{document}
