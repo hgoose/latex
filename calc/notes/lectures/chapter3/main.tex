@@ -590,4 +590,600 @@
   .\end{align*}
   Since $\frac{100}{3}$ is a repeating decimal, we stayed in fraction form.
 
+  \pagebreak \bigbreak \noindent
+  \begin{Large}
+      \begin{mdframed}
+          \begin{center}
+              \textbf{3.3}
+          \end{center}
+      \end{mdframed}
+  \end{Large}
+  \begin{Large}
+      \begin{center}
+          \textbf{Derivatives of Trigonometric Functions}
+      \end{center}
+  \end{Large}
+  \line(1,0){490}
+  
+  \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Pythagorn Identites:}
+    \begin{itemize}
+      \item $\sin^{2}{\theta} = 1-\cos^{2}{\theta}$
+      \item $\cos^{2}{\theta} = 1 - \sin^{2}{\theta }$
+      \item $\sin^{2}{\theta}+\cos^{2}{\theta}= 1$
+    \end{itemize}
+  \end{mdframed}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{2 Limit Formulas:}
+    \begin{align*}
+      \lim_{\theta \to 0}{ \frac{\sin{\theta}}{\theta}} = 1
+    .\end{align*}
+    \bigbreak \noindent 
+    \begin{center}
+      And:
+    \end{center}
+    \begin{align*}
+      \lim_{\theta \to 0}{ \frac{\cos{\theta} -1} {\theta}} = 0
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+ \begin{mdframed}
+   \textbf{Lets Derive $ \frac{d}{dx}(\sin{x})$}:
+   \begin{align*}
+     \frac{d}{dx}(\sin{x}) = \lim_{h \to 0}{ \frac{\sin(x+h) - \sin{x}}{h}}
+   .\end{align*}
+ \end{mdframed} 
+ \bigbreak \noindent 
+ We will refer back to the formula for $\sin{(a+b)}$ $\rightarrow$ $ \sin{A} \cos{B} + \cos{A} \sin{B} $ to expand $ \sin{(x+h)}$
+ \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    \lim_{h \to 0}{ \frac{ \sin{x} \cos{h} + \cos{x} \sin{h} - \sin{x}}{h}} 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{We are going to split this equation:}
+  \begin{align*}
+    \lim_{h \to 0}{ \frac{ \sin{x} \cos{h} - \sin{x}}{h}} + \lim_{h \to 0}{ \frac{ \cos{x} \cdot \sin{h}}{h}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Since $ \sin{x}$ and $ \cos{x}$ is not changing, it is therefore a constant and we can do the following:}
+  \begin{align*}
+  (\sin{x}) \bigg(\lim_{h \to 0}{ \frac{ \cos{h}-1}{h}}\bigg) + (\cos{x}) \bigg( \lim_{h \to 0}{ \frac{\sin{h}}{h}}\bigg)
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now we can use the formulas above and we are left with:}
+  \begin{align*}
+   0 + \cos{x} \cdot 1 \\
+   = \cos{x}
+  .\end{align*}
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Summary:}
+    \begin{align*}
+      \frac{d}{dx} \sin{x} = \cos{x}
+    .\end{align*}
+  \end{mdframed}
+
+  \bigbreak \noindent 
+   \begin{mdframed}
+     \textbf{Lets Derive $ \frac{d}{dx}(\cos{x})$}:
+     \begin{align*}
+       \frac{d}{dx}(\cos{x}) = \lim_{h \to 0}{ \frac{\cos(x+h) - \cos{x}}{h}}
+     .\end{align*}
+   \end{mdframed} 
+   \bigbreak \noindent  
+ We will refer back to the formula for $\cos{(A+B)} \rightarrow \cos{A} \cos{B} - \sin{A} \sin{B}$ to expand $ \cos{(x+h)}$
+ \bigbreak \noindent 
+ \textit{So:} 
+ \begin{align*}
+   \lim_{h \to 0}{ \frac{ \cos{x} \cos{h} - \sin{x} \sin{h} - \cos{x}}{h}}
+ .\end{align*}
+ \bigbreak \noindent 
+  \textit{Just like the one above, we are going to group the terms that have x:}
+  \begin{align*}
+    \lim_{h \to 0}{ \frac{ \cos{x} \cos{h} - \cos{x}}{h}} - \lim_{h \to 0}{ \frac{ \sin{x} \sin{h}}{h}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now we pull out the constants:}
+  \begin{align*}
+    ( \cos{x}) \bigg( \lim_{h \to 0}{ \frac{ \cos{h} - 1}{h}}\bigg) - ( \sin{x}) \bigg( \lim_{h \to 0}{ \frac{ \sin{h}}{h}}\bigg)
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now if we use the fomulas listed at the start of this section we are left with:}
+  \begin{align*}
+    ( \cos{x})(0) - ( \sin{x})(1) \\ 
+    = - \sin{x}
+  .\end{align*}
+
+  \bigbreak \noindent \bigbreak \noindent 
+  \begin{mdframed}
+  \begin{large}
+    \textbf{Deriviatives of Trigonometric Functions:}
+  \end{large}
+  \bigbreak \noindent 
+  \begin{itemize}
+    \item $ \frac{d}{dx}( \sin{x}) = \cos{x}$
+    \item $ \frac{d}{dx}( \cos{x}) = - \sin{x}$
+    \item $ \frac{d}{dx}( \tan{x}) = \sec^2{x}$
+    \item $ \frac{d}{dx}( \csc{x}) =-\csc{x}\cot{x}$
+    \item $ \frac{d}{dx}( \sec{x}) =\sec{x}\tan{x}$
+    \item $ \frac{d}{dx}( \cot{x}) =-\csc^2{x}$
+  \end{itemize}
+  \end{mdframed}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Examples: Differentiate:}
+    \begin{align*}
+      f(x) = \sqrt{x} \sin{x}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{If:}
+  \begin{align*}
+    \frac{d}{dx}[f(x) \cdot g(x)] = f(x) \frac{d}{dx}[g(x)] + g(x) \frac{d}{dx}[f(x)]
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{And:}
+  \begin{align*}
+    f(x) = x^{ \frac{1}{2}} \\ 
+    g(x) = \sin{x}
+  .\end{align*}
+  \begin{align*}
+    f ^{\prime}(x) = \frac{1}{2}x^{-\frac{1}{2}} \\
+    g ^{\prime}(x) = \cos{x}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Then:}
+  \begin{align*}
+    f ^{\prime}(x) = x^{ \frac{1}{2}} \cdot \cos{x} + \sin{x} \cdot \frac{1}{2}x^{ - \frac{1}{2}} \\ 
+    \frac{1}{2}x^{- \frac{1}{2}}(2x \cdot \cos{x} + \sin{x}) \\
+    = \frac{2x \cdot \cos{x} + \sin{x}}{2x^{ \frac{1}{2}}}
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Differentiate:}
+    \begin{align*}
+      g(t) = 4 \sec{t} + \tan{t} 
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    g ^{\prime}(t) = 4 \cdot \sec{t} \tan{t} + \sec^2{t} \\
+    = 4 \cdot \frac{1}{ \cos{t}} \cdot \frac{ \sin{t}}{ \cos{t}} + \frac{1}{ \cos^2{t}} \\
+    = 4 \cdot \frac{ \sin{t}}{\cos^2{t}} + \frac{1}{ \cos^2{t}} \\
+    = \frac{4 \sin{t}+1}{ \cos^2{t}}
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:}
+    \begin{align*}
+      y=  \frac{1- \sec{x}}{ \tan{x}}
+    .\end{align*}
+  \end{mdframed}
+  \textit{If:}
+  \begin{align*}
+    \frac{d}{dx}\bigg[ \frac{f(x)}{g(x)}\bigg] = \frac{g(x) \frac{d}{dx}[f(x)] - f(x) \frac{d}{dx}[g(x)]}{[g(x)]^2}
+  .\end{align*}
+  \textit{And:}
+  \begin{align*}
+    f(x) = 1- \sec{x} \\
+    g(x) = \tan{x}
+  .\end{align*}
+  \begin{align*}
+    f ^{\prime}(x) = \sec{x} \tan{x} \\ 
+    g ^{\prime}(x) = \sec^2{x}
+  .\end{align*}
+  \textit{Then:}
+  \begin{align*}
+    y ^{\prime} = \frac{( \tan{x})(- \sec{x} \tan{x}) - (1 - \sec{x})( \sec^2{x})}{ \tan^2{x} } \\ 
+    =  \frac{ - \sec{x} \tan^2{x}- (\sec^2{x} - \sec^3{x})}{\tan^2{x}} \\ 
+    =  \frac{ - \sec{x} \tan^2{x}-\sec^2{x} + \sec^3{x}}{\tan^2{x}} \\ 
+    = \frac{- \frac{1}{ \cos{x}} \cdot \frac{ \sin^2{x}}{ \cos^2{x}} - \frac{1}{ \cos^2{x}} + \frac{1}{ \cos^3{x}}}{ \frac{ \sin^2{x}}{ \cos^2{x}}}
+  .\end{align*}
+  \textit{We need to multiply by the lcd $ \cos^3{x}$:}
+  \begin{align*}
+    \frac{- \sin^2{x} - \cos{x} + 1}{ \sin^2{x} \cos{x}} 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{In the numerator we notice we have $ 1- \sin^2{x}$, which is equal to $ \cos^2{x}$, so:}
+  \begin{align*}
+    \frac{ \cos^2{x} - \cos{x}}{ \sin^2{x} \cos{x}} \\ 
+    = \frac{ \cos{x}( \cos{x} - 1)}{ \sin^2{x} \cos{x}} \\ 
+    = \frac{ \cos{x} -1}{ \sin^2{x}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{And we can replace the denominator with $ 1- \cos^2{x}$:}
+  \begin{align*}
+    \frac{ \cos{x} -1}{1 - \cos^2{x}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{And we notice that the denominator is a difference of squares, so we can factor it into:}
+  \begin{align*}
+    \frac{ \cos{x} -1}{(1 - \cos{x})(1 + \cos{x})} \\ 
+    = \frac{- (1 - \cos{x})}{(1 - \cos{x})(1 + \cos{x})} \\ 
+    = \frac{- 1}{1 + \cos{x}}
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{large}
+    \textbf{Limits:}
+  \end{large}
+  \begin{mdframed}
+    \textbf{Recall:}
+    \begin{align*}
+      \lim_{\theta \to 0}{ \frac{ \sin{\theta}}{\theta}} = 1\ and\ \lim_{\theta \to 0}{ \frac{\theta}{ \sin{\theta}} = 1}
+    .\end{align*}
+    \begin{center}
+      Also:
+    \end{center}
+    \begin{align*}
+      \lim_{\theta \to 0}{ \frac{ \cos{\theta} - 1}{\theta}} = 0
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Find the Limit:}
+    \begin{align*}
+      \lim_{x \to 0}{ \frac{ \sin{4x}}{ \sin{6x}}}  
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{We want to be able to use the fomulas above, so we do:}
+  \bigbreak \noindent 
+  \begin{align*}
+    \lim_{x \to 0}{ \frac{ \sin{4x}}{4x}} \cdot \frac{4x}{1} \cdot \frac{6x}{ \sin{6x}} \cdot \frac{1}{6x} \\
+    = 1 \cdot 4 \cdot 1 \cdot \frac{1}{6} \\ 
+    = \frac{2}{3}
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Find the Limit:}
+    \begin{align*}
+      \lim_{\theta \to 0}{ \frac{ \cos{\theta} -1}{ \sin{\theta}}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{To exercise the formulas above, we will rewrite as:}
+  \begin{align*}
+    \lim_{\theta \to 0}{ \frac{ \cos{\theta} - 1}{ \sin{\theta}}} \cdot \frac{\theta}{\theta} \\ 
+    = \frac{ \cos{\theta} - 1}{\theta} \cdot \frac{\theta}{ \sin{\theta}} \\
+    = 0 \cdot 1 \\
+    = 0
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Find the Limit:}
+    \begin{align*}
+      \lim_{t \to 0}{ \frac{ \sin^2{3t}}{t^2}}
+    .\end{align*}
+  \end{mdframed}
+  \textit{We rewrite as:}
+  \begin{align*}
+    \lim_{t \to 0}{ \bigg( \frac{ \sin{3t}}{t}\bigg)^2} \\
+    = \bigg( \frac{ \sin{3t}}{3t} \cdot \frac{3}{1}\bigg)^2 \\
+    = 1 \cdot 3^2 \\ 
+    = 9
+  .\end{align*}
+  
+  \pagebreak \bigbreak \noindent
+  \begin{Large}
+      \begin{mdframed}
+          \begin{center}
+              \textbf{3.4}
+          \end{center}
+      \end{mdframed}
+  \end{Large}
+  \begin{Large}
+      \begin{center}
+        \textbf{The Chain Rule / Differentiation Examples using the Product, Quotient, and Chain Rules}
+      \end{center}
+  \end{Large}
+  \line(1,0){490}
+
+  \bigbreak \noindent \bigbreak \noindent 
+  \begin{Large}
+    \textbf{The Chain Rule:}
+  \end{Large}
+  \bigbreak \noindent 
+  We will use the chain rule to find Deriviatives of composite functions.
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Find the derivative of }
+    \begin{align*}
+      F(x) = \sqrt{4+3x}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  F(x) is a composite function made up of:
+  \begin{align*}
+    g(x) = 4 +3x \\
+    and \\
+    f(x) = \sqrt{x}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Therefore:}}}
+  \begin{align*}
+    F(x) = f(g(x))
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Process:}}} 
+  \bigbreak \noindent 
+  \textit{Let:}
+  \begin{align*}
+    u = g(x) = 4+3x
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Then:}
+  \begin{align*}
+    F(x) = f(u)\ and\ F^{\prime}(x) = f^{\prime}(u) \cdot g^{\prime}(x)
+  .\end{align*}
+
+  \bigbreak \noindent \bigbreak \noindent 
+  \begin{Large}
+    \textbf{The Chain Rule (2):}
+  \end{Large}
+  \bigbreak \noindent 
+  If F(x) = f(g(x)), then:
+  \begin{align*}
+    F^{\prime}(x) = f^{\prime}(g(x)) \cdot g^{\prime}(x)
+  .\end{align*}
+  \begin{center}
+    Or:
+  \end{center}
+  \bigbreak \noindent 
+  If y = f(u) = f(g(x)), then:
+  \begin{align*}
+    \frac{dy}{dx} = \frac{dy}{dx} \cdot \frac{du}{dx}
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:} Find the Derivative:
+    \begin{align*}
+      f(x) = (1+x^{4})^{\frac{2}{3}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    f^{\prime}(x)=\frac{2}{3}(1+x^{4})^{-\frac{1}{3}} \cdot (4x^{3}) \\ 
+    = \frac{8x^{3}}{3(1+x^{4})^{\frac{1}{3}}}
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Differentiate the following function:}
+    \begin{align*}
+      f(t) = \sqrt[3]{1+\tan{t}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    f(t) = (1+\tan{t})^{\frac{1}{3}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now:}
+  \begin{align*}
+    f^{\prime}(t) = \frac{1}{3}(1+\tan{t})^{-\frac{2}{3}} \cdot (\sec^2{t}) \\ 
+    = \frac{\sec^{2}{t}}{3(1+\tan{t})^{\frac{2}{3}}}
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Differentiate The following function:}
+    \begin{align*}
+      y = (x^{2}+1)(\sqrt[3]{x^{2}+2})
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+   y = (x^{2} +1)(x^{2}+2)^{\frac{1}{3}} 
+  \end{align*}
+  \bigbreak \noindent
+  \textit{Now:}
+  \begin{align*}
+    \frac{dy}{dx} = (x^2+1)[\frac{1}{3}(x^2+2)^{-\frac{2}{3}}(2x)
+  \end{align*}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+    \textbf{Recall:}
+    \bigbreak \noindent 
+    \begin{center}
+      Product Rule:
+    \end{center}
+    \begin{align*}
+      \frac{d}{dx}[f(x) \cdot g(x)] = f(x) \frac{d}{dx}[g(x)] + g(x) \frac{d}{dx}[f(x)]
+    .\end{align*}
+    \bigbreak \noindent 
+    \begin{center}
+      Quotient Rule:
+    \end{center}
+    \begin{align*}
+      \frac{d}{dx}\bigg[ \frac{f(x)}{g(x)}\bigg] = \frac{g(x) \frac{d}{dx}[f(x)] - f(x) \frac{d}{dx}[g(x)]}{[g(x)]^2}
+    .\end{align*}
+  \end{mdframed}
+  
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{The Chain Rule:}
+    \bigbreak \noindent 
+    If F(x) = f(g(x)), then:
+    \begin{align*}
+      F ^{\prime}(x) = f ^{\prime}(g(x)) \cdot g ^{\prime}(x)
+    .\end{align*}
+    \begin{center}
+      Or:
+    \end{center}
+    \bigbreak \noindent 
+    If f(u) = f(g(x)), then:
+    \begin{align*}
+      \frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:} Differentiate the following function:
+    \begin{align*}
+      r = \frac{ \sqrt{\theta} -3}{ \sqrt{\theta} +3}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{If:}
+  \begin{align*}
+    \frac{d}{dx}\bigg[ \frac{f(x)}{g(x)}\bigg] = \frac{g(x) \frac{d}{dx}[f(x)] - f(x) \frac{d}{dx}[g(x)]}{[g(x)]^2}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{And:}
+  \begin{align*}
+    f(x) = \sqrt{ \theta } -3 \\
+    f ^{\prime}(x) = \frac{1}{2} \theta^{- \frac{1}{2}}
+  .\end{align*}
+  \begin{align*}
+    g(x) = \sqrt{ \theta } + 3 \\ 
+    g ^{\prime}(x) = \frac{1}{2} \theta^{- \frac{1}{2}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Then:}
+  \begin{align*}
+    \frac{dr}{d\theta} = \frac{( \sqrt{ \theta } +3)( \frac{1}{2} \theta^{- \frac{1}{2}}) - ( \sqrt{ \theta } -3)( \frac{1}{2} \theta ^{-\frac{1}{2}})}{ ( \sqrt{ \theta } + 3)^2} \\ 
+    = \frac{ \frac{1}{2} \theta^{-\frac{1}{2}}( \sqrt{ \theta }+3 - \sqrt{ \theta } +3)}{(\sqrt{ \theta } +3)^2} \\ 
+    = \frac{\frac{1}{2} \theta^{-\frac{1}{2}}(6)}{(\sqrt{ \theta } +3)^2} \\
+    = \frac{3 \cdot  \theta ^{-\frac{1}{2}}}{(\sqrt{ \theta } +3)^2} \\ 
+    = \frac{3}{ \sqrt{ \theta }(\sqrt{ \theta } +3)^2}
+  .\end{align*}
+  \bigbreak \noindent 
+  \nt{It's fine that we have a radical in the denominator because there was one in the original equation.}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Differentiate the following function:}
+    \begin{align*}
+      p = \frac{4 + \sec{q}}{4 - \sec{q}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{We will rewrite in terms of \textbf{\textit{sin and cos}}} 
+  \begin{align*}
+    p = \frac{4 + \frac{1}{ \cos{q}}}{4 - \frac{1}{ \cos{q}}} 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now find common denominator to clear out fractions ($ \cos{q}$)}:
+  \begin{align*}
+    p= \frac{4 \cos{q} + 1}{4 \cos{q} - 1} 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now we differentiate:}
+  \begin{align*}
+    f(x) = 4 \cos{q} + 1 \\
+    f ^{\prime}(x) = -4 \sin{q}
+  .\end{align*}
+  \begin{align*}
+    g(x) = 4 \cos{q} = 1 \\ 
+    g ^{\prime}(x) = -4 \sin{q}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now plug into Quotient Rule:}
+  \begin{align*}
+    \frac{dp}{dq} = \frac{(4 \cos{q} - 1)(-4 \sin{q}) - (4 \cos{q} + 1)(-4 \sin{q})}{(4 \cos{q}-1)^2 }
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{we see we can factor out an $-4 \sin{q}$}:
+  \begin{align*}
+    \frac{dp}{dq} = \frac{-4 \sin{q}(4 \cos{q} -1)-(4 \cos{q} +1)}{(4 \cos{q}-1)^2 } \\ 
+    = \frac{-4 \sin{q}(4 \cos{q} -1-4 \cos{q} -1)}{(4 \cos{q}-1)^2 } \\ 
+    = \frac{-4 \sin{q}(-2)}{(4 \cos{q}-1)^2 } \\
+    = \frac{-8 \sin{q}}{(4 \cos{q}-1)^2 }
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Differentiate the following function:}
+    \begin{align*}
+      h(x) = \bigg( \frac{ \cos{x}}{1+ \sin{x}}\bigg)^4
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{First lets figure out our Deriviatives from whats withing the parenthesis:}
+  \begin{align*}
+    f(x) = \cos{x} \\
+    f ^{\prime}(x) = - \sin{x}
+  .\end{align*}
+  \begin{align*}
+    g(x) = 1+ \sin{x} \\ 
+    g ^{\prime}(x) =  \cos{x}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{We will start by using the power rule and the chain rule with the quotient rule:}
+  \begin{align*}
+    h ^{\prime}(x) = 4 \bigg[\frac{\cos{x}}{1+\sin{x}}\bigg]^3  \cdot \bigg[ \frac{(1+ \sin{x})(- \sin{x}) - ( \cos{x})( \cos{x})}{(1+ \sin{x})^2}\bigg]
+  .\end{align*}
+  \bigbreak \noindent \bigbreak \noindent 
+  \textit{Now we want to distribute the exponent \textbf{\textit{3}}, into the terms in the numerator and denominator}
+
+  \begin{align*}
+   \frac{4\cos^{3}{x}}{(1+\sin{x})^{3}} \cdot \frac{-\sin{x}-\sin^{2}{x}-\cos^{2}{x}}{(1+\sin{x})^2}  \\ 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{We are going to factor out a -1 and bring it infront of the 4:}
+  \begin{align*}
+   \frac{-4\cos^{3}{x}}{(1+\sin{x})^{3}} \cdot \frac{\sin{x}+\sin^{2}{x}+\cos^{2}{x}}{(1+\sin{x})^2}  \\ 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{We know that $\sin^{2}{x} + \cos^{2}{x} =1$, so:}
+  \begin{align*}
+   \frac{-4\cos^{3}{x}}{(1+\sin{x})^{3}} \cdot \frac{\sin{x}+1}{(1+\sin{x})^2}  \\ 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now we can divide by common factor in the numerator:}
+  \begin{align*}
+    \frac{-4\cos^{3}{x}}{(1+\sin{x})^{3}} \cdot \frac{1}{1+\sin{x}} \\ 
+    = \frac{-4\cos^{3}{x}}{(1+\sin{x})^{4}} 
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+    \textbf{Example: Differentiate the following function:}
+    \begin{align*}
+      y=  (e^{\cos{(\frac{t}{9})}})^4
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{So by using both the product rule and the chain rule, we get:}
+  \begin{align*}
+    y^{\prime} = 4(e^{\cos{\frac{t}{9}}})^3 \cdot e^{\cos{\frac{t}{9}}}
+  .\end{align*}
+
 \end{document}
