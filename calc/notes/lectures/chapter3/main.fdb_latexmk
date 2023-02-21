@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1676950859 "main.tex" "main.pdf" "main" 1676950860
+["pdflatex"] 1677019788 "main.tex" "main.pdf" "main" 1677019789
   "/home/catsoup/dev/latex/template/macros.tex" 1671326306 3389 93000260d2aea292d29c76d4ace77a29 ""
   "/home/catsoup/dev/latex/template/preamble.tex" 1676416603 20204 6f3e269b5de33fb1591484de3797fd13 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1650183167 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -263,8 +263,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1671568974 4408072 42ceaa83bae76aebad711d3f3dd7f55f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1671568965 2927663 5d14edd6d7c814164a93b6a806537d4f ""
-  "main.aux" 1676950860 844 c98a1368e2a5675f34b1190332004b5e "pdflatex"
-  "main.tex" 1676950858 36561 9825f61a904b4cf681154ec9eb6ce7fc ""
+  "main.aux" 1677019789 844 3feda189191784d4d032a8456fc0b612 "pdflatex"
+  "main.tex" 1677019787 46306 fa91411d8b5da18bb8504c34fdd04a80 ""
   (generated)
   "main.aux"
   "main.log"

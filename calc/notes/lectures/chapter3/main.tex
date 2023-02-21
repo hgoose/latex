@@ -991,33 +991,238 @@
   \begin{align*}
    y = (x^{2} +1)(x^{2}+2)^{\frac{1}{3}} 
   \end{align*}
+  \bigbreak \noindent 
+  \textit{First:}
+  \begin{align*}
+    f(x) = (x^{2}+1) \\
+    f^{\prime}(x) = (2x)
+  .\end{align*}
+  \begin{align*}
+    g(x) = (x^2+2)^{\frac{1}{3}}
+  .\end{align*}
   \bigbreak \noindent
+  \textit{To find $g^{\prime}(x)$, we will use the chain rule:}
+  \begin{align*}
+    g^{\prime}(x) = [\frac{1}{3}(x^{2}+2)^{-\frac{2}{3}} \cdot (2x)] 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now we use the \textbf{\textit{\underline{product rule:}}}}
+  \begin{align*}
+    \frac{dy}{dx} = (x^2+1)[\frac{1}{3}(x^2+2)^{-\frac{2}{3}} \cdot (2x)] + (x^2+2)^{\frac{1}{3}} \cdot (2x)
+  \end{align*}
+  \bigbreak \noindent 
+  \textit{From here we will factor out a GCF:}
+  \begin{align*}
+    if\ gcf=\frac{1}{3}(2x)(x^{2}+2)^{-\frac{2}{3}} \\
+    then\ \frac{dy}{dx} = \frac{1}{3}(2x)(x^{2}+2)^{-\frac{2}{3}}\bigg[(x^{2}+1)+3(x^{2}+2)\bigg] \\
+    = \frac{2x(x^{2}+1+3x^{2}+6)}{3(x^{2}+2)^{\frac{2}{3}}} \\
+    = \frac{2x(4x^{2}+7)}{3(x^{2}+2)^{\frac{2}{3}}} \\
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Differentiate}
+    \begin{align*}
+      G(y) = \frac{(y-1)^{4}}{(y^{2}+2y)^5}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{First:}
+  \begin{align*}
+    f(x) = (y-1)^{4} \\ 
+    f^{\prime}(x) = 4(y-1)^{3}
+  .\end{align*}
+  \begin{align*}
+    g(x) = (y^{2}+2y)^{5} \\
+    g^{\prime}(x) = 5(y^{2}+2y)^{4} \cdot (2y+2)
+  .\end{align*}
+  
+  \bigbreak \noindent 
   \textit{Now:}
   \begin{align*}
-    \frac{dy}{dx} = (x^2+1)[\frac{1}{3}(x^2+2)^{-\frac{2}{3}}(2x)
-  \end{align*}
+    G^{\prime}(y) =  \frac{(y^{2}+2y)^{5}4(y-1)^{3} \cdot 1 - (y-1)^{4}5(y^{2}+2y)^{4}(2y+2)}{(y^{2}+2y)^{10}} \\
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{From here we can factor out a GCF: $(y^{2}+2y)^{4}$ :}
+  \begin{align*}
+    \frac{dG}{dy} = \frac{(y^{2}+2y)^{4}(y-1)^{3} \cdot [4(y^{2}+2y)-(y-1)5\cdot 2(y+1)]}{(y^{2}+2y)^{10}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{We see that we can cancel out common term $(y^{2}+2y)^4$ :}
+  \begin{align*}
+    \frac{dG}{dy} = \frac{(y-1)^{3} \cdot [4y^{2}+8y-10(y^{2}-1)]}{(y^{2}+2y)^{6}} \\
+    = \frac{dG}{dy} = \frac{(y-1)^{3} \cdot (4y^{2}+8y-10y^{2}+10)}{(y^{2}+2y)^{6}} \\
+    = \frac{dG}{dy} = \frac{(y-1)^{3} \cdot (-6y^{2}+8y+10)}{(y^{2}+2y)^{6}} \\
+    = \frac{dG}{dy} = \frac{2(y-1)^{3} \cdot (-3y^{2}+4y+5)}{(y^{2}+2y)^{6}} \\
+  .\end{align*}
 
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:} Differentiate
+    \begin{align*}
+      y = \tan^{2}{3\theta}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{Start by rewriting:}
+  \begin{align*}
+    y = [\tan{3\theta}]^{2}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now we differentiate:}
+  \begin{align*}
+    \frac{dy}{d\theta} = 2[\tan{3\theta}] \cdot \sec^{2}{3\theta} \cdot 3 \\ 
+    = 6\tan{3\theta }\sec^{2}{3\theta }
+  .\end{align*}
 
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:} Differentiate
+    \begin{align*}
+      y = x\sin{(\frac{1}{x})}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{Start by rewriting as:}
+  \begin{align*}
+    y = x \cdot \sin{x^{-1}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{And we can derive:}
+  \begin{align*}
+    f(x) = x \\
+    f^{\prime}(x) = 1
+  .\end{align*}
+  \begin{align*}
+    g(x) = \sin{x^{-1}} \\
+    g^{\prime}(x) = \cos{x^{-1}} \cdot (-1x^{-2})
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now we can use the product rule:}
+  \begin{align*}
+    y^{\prime} = x \cdot \cos{x^{-1}} \cdot (-1x^{-2}) + \sin{x^{-1}} \cdot 1
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Cleanup:}}}
+  \begin{align*}
+    y^{\prime} = -\cos{\frac{1}{x}} \cdot x^{-1} + \sin{\frac{1}{x}} \\
+    = \frac{-\cos{\frac{1}{x}}}{x} + \sin{\frac{1}{x}} \\ 
+    = \frac{-1}{x}\cos{\frac{1}{x}} + \sin{\frac{1}{x}}
+  .\end{align*}
 
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+    \textbf{Let's see what $\frac{d}{dx}(a^{x})$ is using the chain rule: (a$>$0)}
+    \bigbreak \noindent 
+    We know $\frac{d}{dx}e^{x} =e^{x}$
+     \bigbreak \noindent 
+     Also Recall $a = e^{ln\ a}$ 
+     \bigbreak \noindent 
+     \textbf{\textit{\underline{Therefore:}}}
+     \begin{align*}
+       a^{x} = (e^{ln\ a})^{x}
+     .\end{align*}
+     \bigbreak \noindent 
+     \textit{Which means:}
+     \begin{align*}
+       \frac{d}{dx}(a^{x}) = \frac{d}{dx}[(e^{ln\ a})^{x}] \\
+       = \frac{d}{dx}(e^{x \cdot ln\ a}) \\
+       = e^{x\cdot ln\ a} \cdot \frac{d}{dx}(x\cdot \ln{a}) \\
+       = e^{x\cdot \ln{a}} \cdot \ln{a}  \\
+       = a^{x} \cdot \ln{a}
+    .\end{align*}
+    \bigbreak \noindent 
+    \textbf{\textit{\underline{Summary:}}}
+    \begin{align*}
+      a^{x} = a^{x} \cdot \ln{a} 
+    .\end{align*}
+  \end{mdframed}
 
+  \begin{mdframed}
+    \textbf{Example: Differentiate}
+    \begin{align*}
+      y = 10^{1-x^{2}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    \frac{dy}{dx} = 10^{1-x^{2}} \cdot \ln{10} \cdot (-2x) \\
+    = -2x \ln{10} \cdot 10^{-1-x^{2}}
+  .\end{align*}
 
+  \begin{mdframed}
+    \textbf{Example: Differentiate}
+    \begin{align*}
+      y = 2^{3^{x^{2}}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{So this is:}
+  \begin{align*}
+    f \circ g \circ h
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Where:}
+  \begin{align*}
+    f(x) = 2^{x}\\
+    g(x) = 3^{x} \\
+    h(x) = x^{2}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Therefore:}
+  \begin{align*}
+    \frac{dy}{dx} = 2^{3^{x^{2}}} \cdot \ln{2} \frac{dy}{dx}(3^{x^{2}}) \\
+    =\frac{dy}{dx} = 2^{3^{x^{2}}} \cdot \ln{2} \cdot 3^{x^{2}} \cdot \ln{3}  \cdot \frac{dy}{dx}(x^{2}) \\
+    =\frac{dy}{dx} = 2^{3^{x^{2}}} \cdot \ln{2} \cdot 3^{x^{2}} \cdot \ln{3} \cdot 2x \\ 
+    = 2x\cdot \ln{2}\cdot \ln{3}\cdot 2^{3^{x^{2}}} \cdot 3^{x^{2}} 
+  .\end{align*}
 
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{\textit{\underline{Shortcut:}}}
+    \begin{align*}
+      f(g(x)) = \sqrt{g(x)} \\
+      f^{\prime}(x)= \frac{1}{2}(g(x))^{-\frac{1}{2}} \cdot g^{\prime}(x) \\
+      f^{\prime}(x) = \frac{1}{2\sqrt{g(x)}} \cdot g^{\prime}(x) \\
+      = \frac{g^{\prime}(x)}{2\sqrt{g(x)}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example for shortcut:}
+    \begin{align*}
+      f(x) = \sqrt{\sin{x}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \begin{align*}
+    f^{\prime}(x) = \frac{\cos{x}}{2\sqrt{\sin{x}}}
+  .\end{align*}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example for shortcut:}
+    \begin{align*}
+      f(x) = \sqrt{4x^{3}+7x^{2}} \\ 
+    .\end{align*}
+  \end{mdframed}
+  \begin{align*}
+    f^{\prime}(x) = \frac{12x^{2}+14x}{2\sqrt{4x^{3}+7x^{2}}} \\
+    = \frac{2(6x+7)}{2\sqrt{4x^{3}+7x^{2}}}
+  .\end{align*}
   
   \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+  \begin{large}
+      \begin{center}
+          \textbf{Differentiation Examples using the Product,Quotient, and Chain Rules}
+      \end{center}
+  \end{large}
+  \end{mdframed}
+  \line(1,0){490}
+
+  \bigbreak \noindent \bigbreak
   \begin{mdframed}
     \textbf{Recall:}
     \bigbreak \noindent 
@@ -1125,7 +1330,7 @@
     \frac{dp}{dq} = \frac{-4 \sin{q}(4 \cos{q} -1)-(4 \cos{q} +1)}{(4 \cos{q}-1)^2 } \\ 
     = \frac{-4 \sin{q}(4 \cos{q} -1-4 \cos{q} -1)}{(4 \cos{q}-1)^2 } \\ 
     = \frac{-4 \sin{q}(-2)}{(4 \cos{q}-1)^2 } \\
-    = \frac{-8 \sin{q}}{(4 \cos{q}-1)^2 }
+    = \frac{8 \sin{q}}{(4 \cos{q}-1)^2 }
   .\end{align*}
 
   \bigbreak \noindent 
@@ -1183,7 +1388,85 @@
   \bigbreak \noindent 
   \textit{So by using both the product rule and the chain rule, we get:}
   \begin{align*}
-    y^{\prime} = 4(e^{\cos{\frac{t}{9}}})^3 \cdot e^{\cos{\frac{t}{9}}}
+    y^{\prime} = 4(e^{\cos{\frac{t}{9}}})^3 \cdot e^{\cos{\frac{t}{9}}} \cdot -\sin{\frac{t}{9}} \cdot \frac{1}{9}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Cleanup:}}}
+  \bigbreak \noindent 
+  \textit{To start, we will group all the constants, then combine the like terms.:}
+  \begin{align*}
+    y ^{\prime} = - \frac{4}{9}\sin{\frac{t}{9}}(e^{\cos{^{\frac{t}{9}}}})^4
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now we will move that power of 4 to the front of cos}:
+  \begin{align*}
+    y ^{\prime} = - \frac{4}{9}\sin{\frac{t}{9}}(e^{4\cos{^{\frac{t}{9}}}})
+  .\end{align*}
+  
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:} Differentiate:
+    \begin{align*}
+      y = \sin{(4x^{2}e^{x})}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+   y^{\prime} = \cos{(4x^{2}e^{x})}
+  \end{align*}
+  \bigbreak \noindent 
+  \textit{Now we want to use the product rule to derive whats inside the cosine function:}
+  \begin{align*}
+    y^{\prime} =  \cos{(4x^{2}e^{x})} \cdot [8x\cdot e^{x} + e^{x}\cdot 4x^{2}] \\
+    = e^{x}(4x^{2}+8x)\cos{4x^{2}e^{x}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Double Prime:}}} \textit{To make this easier to grasp we will split it into 3 parts.}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{First Part:}}}
+  \begin{align*}
+    e^{x}(4x^{2}e^{x})(\cos{4x^{2}e^{x}})
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Second Part:}}}
+  \begin{align*}
+    8x+8)e^{x}\cos{4x^{2}e^{x}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Third Part:}}}
+  \begin{align*}
+    -\sin{(4x^{2}e^{x})}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{And then apply the chain + product rule for the stuff inside -sin, which we did in single prime above}
+  \begin{align*}
+    (8xe^{x}+4x^{2}e^{x})
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{and then multiply by the other 2 functions:}
+  \begin{align*}
+    e^{x}(4x^{2}+8x)
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{So all together part 3 is:}
+  \begin{align*}
+    -\sin{(4x^{2}e^{x})}(8xe^{x}+4x^{2}e^{x})\cdot e^{x}(4x^{2}+8x)
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{So if we add it all together:}
+  \begin{align*}
+    y^{\prime\prime} = e^{x}(4x^{2}e^{x})(\cos{4x^{2}e^{x}}) + 8x+8)e^{x}\cos{4x^{2}e^{x}} +-\sin{(4x^{2}e^{x})}(8xe^{x}+4x^{2}e^{x}) \cdot e^{x}(4x^{2}+8x)
+  .\end{align*}
+  \bigbreak \noindent \bigbreak \noindent 
+  \textbf{\textit{\underline{Cleanup: by factoring out terms:}}}
+  \begin{align*}
+    e^{x}\cdot 4x(x+2)\cos{4x^{2}e^{x}}+e^{x}\cdot 8(x+1)\cos{4x^{2}e^{x}}-[e^{x}(4x^{2}+8x)]^2\sin{(4x^{2}e^{x})} \\
+    4e^{x}\cos{(4x^{2}e^{x})}[x(x+2) + 2(x+1)] - [e^{x}\cdot 4x(x+2)]^2\sin{(4x^{2}e^{x})} \\
+    4e^{x}\cos{(4x^{2}e^{x})}[x(x+2) + 2(x+1)] - 16e^{2x}\cdot x^2(x+2)^2\sin{(4x^{2}e^{x})} \\
+    4e^{x}\cos{(4x^{2}e^{x})}[x^{2}+4x+2] - 16e^{2x}\cdot x^2(x+2)^2\sin{(4x^{2}e^{x})} \\
+    4e^{x}(x^{2}+4x+2)\cos{4x^{2}e^{x}}- 16e^{2x}\cdot x^2(x+2)^2\sin{(4x^{2}e^{x})} \\
   .\end{align*}
 
 \end{document}
