@@ -838,6 +838,17 @@ INPUT /usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.
 INPUT /usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 INPUT /usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 INPUT /usr/share/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 INPUT /usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 INPUT /usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty

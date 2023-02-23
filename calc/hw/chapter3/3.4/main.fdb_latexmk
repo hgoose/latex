@@ -1,7 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1677102292 "main.tex" "main.pdf" "main" 1677102293
+["pdflatex"] 1677183242 "main.tex" "main.pdf" "main" 1677183243
   "/home/catsoup/dev/latex/template/macros.tex" 1671326306 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "/home/catsoup/dev/latex/template/preamble.tex" 1676416603 20204 6f3e269b5de33fb1591484de3797fd13 ""
+  "/home/catsoup/dev/latex/template/preamble.tex" 1677129542 20226 6aa22f9be8898acde4bb88f4d6ab4f82 ""
+  "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1650183167 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1650183167 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1650183167 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1650183167 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -31,7 +32,9 @@
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmri10.tfm" 1650183167 16968 1b588d0f410bd67a83eaecf8c64b2a43 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb" 1650183167 116908 1fca96723793882c2e0160350c192fc8 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb" 1650183167 112766 bdd4fa8b13a0d7dd137624085bd31d40 ""
+  "/usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb" 1650183167 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb" 1650183167 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
+  "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb" 1650183167 31443 ba2241b179aa231f73e052863720cb42 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb" 1650183167 30789 be3ebdf20b6442cc4aaf81a81e17daf4 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb" 1650183167 119235 f35b44530a1d90eb90fe15d9cba67ea0 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb" 1650183167 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
@@ -154,6 +157,7 @@
   "/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1650183167 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty" 1650183167 11772 8d0db0794e6aeb45348f60bbe3a3e093 ""
   "/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1650183167 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1650183167 17086 7ed8cbc4d361ec87392817e0dd4f65ec ""
   "/usr/share/texmf-dist/tex/latex/geometry/geometry.sty" 1650183167 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1650183167 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1650183167 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -253,8 +257,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1671568974 4408072 42ceaa83bae76aebad711d3f3dd7f55f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1671568965 2927663 5d14edd6d7c814164a93b6a806537d4f ""
-  "main.aux" 1677102293 843 24a053f7d0111a69c259f553601fc707 "pdflatex"
-  "main.tex" 1677102291 6607 b78386124de5870554329990048c8d80 ""
+  "main.aux" 1677183243 843 4bba5326838aef0cbb543dfb3e271470 "pdflatex"
+  "main.tex" 1677183240 10310 31e4b33ef8b418acfcedd92476e182ba ""
   (generated)
   "main.aux"
   "main.log"

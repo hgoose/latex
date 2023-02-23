@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  22 FEB 2023 15:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  23 FEB 2023 14:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -582,10 +582,21 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfphysicalheight=\dimen272
 \pgfphysicalwidth=\dimen273
 \pgfpages@shipoutbox=\box68
+) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip129
+\f@nch@O@elh=\skip130
+\f@nch@O@erh=\skip131
+\f@nch@O@olh=\skip132
+\f@nch@O@orh=\skip133
+\f@nch@O@elf=\skip134
+\f@nch@O@erf=\skip135
+\f@nch@O@olf=\skip136
+\f@nch@O@orf=\skip137
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 22.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 22.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 22.
+Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 23.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 23.
  (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
  (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -773,8 +784,8 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \page@free=\dimen298
 \premulticols=\dimen299
 \postmulticols=\dimen300
-\multicolsep=\skip129
-\multicolbaselineskip=\skip130
+\multicolsep=\skip138
+\multicolbaselineskip=\skip139
 \partial@page=\box90
 \last@line=\box91
 \maxbalancingoverflow=\dimen301
@@ -833,8 +844,8 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \ar@mcellbox=\box134
 \extrarowheight=\dimen306
 \NC@list=\toks45
-\extratabsurround=\skip131
-\backup@length=\skip132
+\extratabsurround=\skip140
+\backup@length=\skip141
 \ar@cellbox=\box135
 ) (/usr/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
 Package: tikz-cd 2021/05/04 v1.0 Commutative diagrams with TikZ
@@ -854,7 +865,7 @@ Package: algorithm2e 2017/07/18 v5.2 algorithms environments
  (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\algocf@hangindent=\skip133
+\algocf@hangindent=\skip142
  (/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count360
@@ -863,36 +874,36 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\skiptotal=\skip134
-\skiplinenumber=\skip135
-\skiprule=\skip136
-\skiphlne=\skip137
-\skiptext=\skip138
-\skiplength=\skip139
-\algomargin=\skip140
-\skipalgocfslide=\skip141
+\skiptotal=\skip143
+\skiplinenumber=\skip144
+\skiprule=\skip145
+\skiphlne=\skip146
+\skiptext=\skip147
+\skiplength=\skip148
+\algomargin=\skip149
+\skipalgocfslide=\skip150
 \algowidth=\dimen311
 \inoutsize=\dimen312
 \inoutindent=\dimen313
 \interspacetitleruled=\dimen314
 \interspacealgoruled=\dimen315
 \interspacetitleboxruled=\dimen316
-\algocf@ruledwidth=\skip142
+\algocf@ruledwidth=\skip151
 \algocf@inoutbox=\box136
 \algocf@inputbox=\box137
-\AlCapSkip=\skip143
-\AlCapHSkip=\skip144
-\algoskipindent=\skip145
+\AlCapSkip=\skip152
+\AlCapHSkip=\skip153
+\algoskipindent=\skip154
 \algocf@nlbox=\box138
 \algocf@hangingbox=\box139
 \algocf@untilbox=\box140
-\algocf@skipuntil=\skip146
+\algocf@skipuntil=\skip155
 \algocf@capbox=\box141
-\algocf@lcaptionbox=\skip147
-\algoheightruledefault=\skip148
-\algoheightrule=\skip149
-\algotitleheightruledefault=\skip150
-\algotitleheightrule=\skip151
+\algocf@lcaptionbox=\skip156
+\algoheightruledefault=\skip157
+\algoheightrule=\skip158
+\algotitleheightruledefault=\skip159
+\algotitleheightrule=\skip160
 \c@algocfline=\count361
 \c@algocfproc=\count362
 \c@algocf=\count363
@@ -930,10 +941,10 @@ File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
 ) (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip152
-\LTright=\skip153
-\LTpre=\skip154
-\LTpost=\skip155
+\LTleft=\skip161
+\LTright=\skip162
+\LTpre=\skip163
+\LTpost=\skip164
 \LTchunksize=\count367
 \LTcapwidth=\dimen322
 \LT@head=\box146
@@ -1250,20 +1261,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
 l.160     \pf{Solution}{}
-                         ] [3] [4] [5] (./main.aux) ) 
+                         ] [3] [4] [5] [6] [7] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 35624 strings out of 478238
- 731615 string characters out of 5850455
- 1142953 words of memory out of 5000000
- 53202 multiletter control sequences out of 15000+600000
+ 35797 strings out of 478238
+ 734076 string characters out of 5850455
+ 1149928 words of memory out of 5000000
+ 53369 multiletter control sequences out of 15000+600000
  515736 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,11n,102p,509b,674s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (5 pages, 164080 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
+Output written on main.pdf (7 pages, 180849 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

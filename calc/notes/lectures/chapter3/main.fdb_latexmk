@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1677019788 "main.tex" "main.pdf" "main" 1677019789
+["pdflatex"] 1677129619 "main.tex" "main.pdf" "main" 1677129620
   "/home/catsoup/dev/latex/template/macros.tex" 1671326306 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "/home/catsoup/dev/latex/template/preamble.tex" 1676416603 20204 6f3e269b5de33fb1591484de3797fd13 ""
+  "/home/catsoup/dev/latex/template/preamble.tex" 1677129542 20226 6aa22f9be8898acde4bb88f4d6ab4f82 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1650183167 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1650183167 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1650183167 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -163,6 +163,7 @@
   "/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1650183167 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty" 1650183167 11772 8d0db0794e6aeb45348f60bbe3a3e093 ""
   "/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1650183167 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1650183167 17086 7ed8cbc4d361ec87392817e0dd4f65ec ""
   "/usr/share/texmf-dist/tex/latex/geometry/geometry.sty" 1650183167 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1650183167 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1650183167 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -263,8 +264,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1671568974 4408072 42ceaa83bae76aebad711d3f3dd7f55f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1671568965 2927663 5d14edd6d7c814164a93b6a806537d4f ""
-  "main.aux" 1677019789 844 3feda189191784d4d032a8456fc0b612 "pdflatex"
-  "main.tex" 1677019787 46306 fa91411d8b5da18bb8504c34fdd04a80 ""
+  "main.aux" 1677129620 844 3feda189191784d4d032a8456fc0b612 "pdflatex"
+  "main.tex" 1677129619 46360 1c59b0279f4cc4fb7b6b6fcb1f9d7dd6 ""
   (generated)
   "main.aux"
   "main.log"
