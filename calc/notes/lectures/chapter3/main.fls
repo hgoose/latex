@@ -1,4 +1,4 @@
-PWD /home/catsoup/springsemester/calc/notes/lectures/chapter3
+PWD /home/datura/springsemester/calc/notes/lectures/chapter3
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT main.tex
@@ -18,10 +18,10 @@ INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
-INPUT /home/catsoup/dev/latex/template/preamble.tex
-INPUT /home/catsoup/dev/latex/template/preamble.tex
-INPUT /home/catsoup/dev/latex/template/preamble.tex
-INPUT /home/catsoup/dev/latex/template/preamble.tex
+INPUT /home/datura/dev/latex/template/preamble.tex
+INPUT /home/datura/dev/latex/template/preamble.tex
+INPUT /home/datura/dev/latex/template/preamble.tex
+INPUT /home/datura/dev/latex/template/preamble.tex
 INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
@@ -1403,10 +1403,10 @@ INPUT /usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
 INPUT /usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
 INPUT /usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
 INPUT /usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
-INPUT /home/catsoup/dev/latex/template/macros.tex
-INPUT /home/catsoup/dev/latex/template/macros.tex
-INPUT /home/catsoup/dev/latex/template/macros.tex
-INPUT /home/catsoup/dev/latex/template/macros.tex
+INPUT /home/datura/dev/latex/template/macros.tex
+INPUT /home/datura/dev/latex/template/macros.tex
+INPUT /home/datura/dev/latex/template/macros.tex
+INPUT /home/datura/dev/latex/template/macros.tex
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.20)  22 FEB 2023 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.25)  26 FEB 2023 20:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,7 +23,7 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (/home/catsoup/dev/latex/template/preamble.tex (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+) (/home/datura/dev/latex/template/preamble.tex (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -1126,7 +1126,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 ) (/usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen332
-)) (/home/catsoup/dev/latex/template/macros.tex)
+)) (/home/datura/dev/latex/template/macros.tex)
 \pgfpages@box@1=\box153
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 33.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -1454,20 +1454,27 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 1410.
- [25] [26] [27] (./main.aux) ) 
+ [25] [26]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1477.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1494.
+ [27] [28] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 36092 strings out of 478238
- 740445 string characters out of 5850455
+ 36093 strings out of 478238
+ 740447 string characters out of 5850456
  1157929 words of memory out of 5000000
  53638 multiletter control sequences out of 15000+600000
  521993 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,14n,102p,509b,1691s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (27 pages, 322164 bytes).
+Output written on main.pdf (28 pages, 323670 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 

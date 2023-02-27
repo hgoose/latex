@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1677129619 "main.tex" "main.pdf" "main" 1677129620
-  "/home/catsoup/dev/latex/template/macros.tex" 1671326306 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "/home/catsoup/dev/latex/template/preamble.tex" 1677129542 20226 6aa22f9be8898acde4bb88f4d6ab4f82 ""
+["pdflatex"] 1677463463 "main.tex" "main.pdf" "main" 1677463464
+  "/home/datura/dev/latex/template/macros.tex" 1677288391 3389 93000260d2aea292d29c76d4ace77a29 ""
+  "/home/datura/dev/latex/template/preamble.tex" 1677462539 20226 6aa22f9be8898acde4bb88f4d6ab4f82 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1650183167 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1650183167 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1650183167 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -262,10 +262,10 @@
   "/usr/share/texmf-dist/tex/latex/zref/zref-abspage.sty" 1650181202 2245 c8a4088d07cffc2e5207730c738edd76 ""
   "/usr/share/texmf-dist/tex/latex/zref/zref-base.sty" 1650181202 20785 71a3d72ab517959a6979c27e6176bec1 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1671568974 4408072 42ceaa83bae76aebad711d3f3dd7f55f ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1671568965 2927663 5d14edd6d7c814164a93b6a806537d4f ""
-  "main.aux" 1677129620 844 3feda189191784d4d032a8456fc0b612 "pdflatex"
-  "main.tex" 1677129619 46360 1c59b0279f4cc4fb7b6b6fcb1f9d7dd6 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1677363733 4278762 af3ac1370db81a450c1118eabf1fe718 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1677363720 2927662 b00ceeecccb6707dc3a5780cf0e49376 ""
+  "main.aux" 1677463464 844 25e1b695f9afcce7744d03dc19dc7b32 "pdflatex"
+  "main.tex" 1677463462 47199 5e71066aba3022f2e814d983c1c8b9b9 ""
   (generated)
   "main.aux"
   "main.log"

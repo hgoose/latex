@@ -1,0 +1,144 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{Chapter 7 Review and Discuss}}
+\author{\huge{Nathan Warner}}
+\date{\huge{Feb 26, 2023}}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{REVIEW AND DISCUSS}
+\lhead{\leftmark}
+\cfoot{\thepage}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+    \maketitle
+
+    \bigbreak \noindent 
+    \qs{}{Compare and contrast raster and vector graphics. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{Raster graphics and vector graphics differ in how they represent images. While raster graphics store images as pixels, vector graphics use mathematical equations to represent images. This means that vector graphics are infinitely scalable without losing quality, whereas raster graphics can become pixelated when enlarged.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Indicate the primary advantages of a vector image. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The primary advantage of a vector image is its scalability. Vector graphics can be enlarged without losing quality, making them ideal for logos and other designs that need to be reproduced at different sizes. Additionally, vector graphics typically have smaller file sizes than raster graphics, making them easier to store and transfer.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Define paths in vector images.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{In vector images, a path is a line or curve that connects two or more points. Paths are used to create the shapes and lines that make up vector images.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Define anchors in vector images. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{Anchors are the points at which paths begin or end. They are also used to create curves and angles in vector graphics.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Explain handles and their purpose in vector graphics. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{Handles are the control points that allow you to manipulate the shape and direction of a curve in a vector image. By adjusting handles, you can create more complex shapes and lines in your vector graphics.
+}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Define points and explain how they relate to vector images. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{In vector graphics, points are the individual locations where lines and curves begin or end. Points can be connected by paths to create shapes and lines.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Describe objects in vector drawings. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{Objects in vector drawings are the individual elements that make up the image. Objects can be shapes, lines, or text, and they can be manipulated independently of one another.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Define a bounding box in vector graphics.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{A bounding box is a rectangular outline that encloses an object in a vector graphic. It can be used to select and manipulate the object as a whole.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Differentiate between a selection tool and a direct selection tool. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{A selection tool is used to select entire objects in a vector image, while a direct selection tool allows you to select individual points and paths within an object.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Identify the tool used to add or remove points along the line or curve in a vector drawing. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The tool used to add or remove points along the line or curve in a vector drawing is called the Pen Tool.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Define a clipping mask and detail how it is used as a cropping tool. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{A clipping mask is used in vector graphics to hide parts of an object that fall outside of a defined shape or path. It is often used as a cropping tool to create unique shapes or remove unwanted parts of an image.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{What can you do with Arrange options
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The Arrange options in vector software refer to the various ways in which objects can be arranged and stacked on top of each other. These options include Bring to Front, Send to Back, Group, and Ungroup.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Name a tool that can be used to convert raster images to vector images.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{The Image Trace tool in Adobe Illustrator can be used to convert raster images to vector images.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{Analyze when it would be an advantage to convert a raster image into a vector image. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{It is advantageous to convert a raster image into a vector image when you need to enlarge or scale the image without losing quality. Additionally, vector images can be easily edited and manipulated, making them more versatile than raster images.}
+    \bigbreak \noindent \bigbreak \noindent 
+
+    \bigbreak \noindent 
+    \qs{}{List some of the special effects possibly available in vector software. }
+    \bigbreak \noindent 
+    \pf{Answer}{Some special effects possibly available in vector software include drop shadows, gradients, blends, and opacity settings. These effects can be used to add depth, texture, and dimension to vector images.}
+    \bigbreak \noindent \bigbreak \noindent 
+    
+\end{document}
