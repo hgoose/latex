@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.25)  26 FEB 2023 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.25)  27 FEB 2023 18:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1461,20 +1461,81 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 1494.
- [27] [28] (./main.aux) ) 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1531.
+ [27]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1553.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1574.
+ [28] [29]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1627.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1647.
+ [30]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1675.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1688.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1705.
+ [31] [32]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1743.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1757.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1771.
+ [33]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1801.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1813.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1828.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1844.
+ [34]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1874.
+ [35]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1910.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1917.
+ [36] [37] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 36093 strings out of 478238
- 740447 string characters out of 5850456
+ 36123 strings out of 478238
+ 740917 string characters out of 5850456
  1157929 words of memory out of 5000000
- 53638 multiletter control sequences out of 15000+600000
- 521993 words of font info for 65 fonts, out of 8000000 for 9000
+ 53657 multiletter control sequences out of 15000+600000
+ 536320 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,14n,102p,509b,1691s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (28 pages, 323670 bytes).
+ 96i,15n,102p,509b,1691s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (37 pages, 365083 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
 

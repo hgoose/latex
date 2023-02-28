@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1677463463 "main.tex" "main.pdf" "main" 1677463464
+["pdflatex"] 1677545619 "main.tex" "main.pdf" "main" 1677545621
   "/home/datura/dev/latex/template/macros.tex" 1677288391 3389 93000260d2aea292d29c76d4ace77a29 ""
   "/home/datura/dev/latex/template/preamble.tex" 1677462539 20226 6aa22f9be8898acde4bb88f4d6ab4f82 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1650183167 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -24,6 +24,8 @@
   "/usr/share/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm" 1650183167 1304 32f22a15acc296b2a4e15698403dcb88 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm" 1650183167 11880 35fcf136a2198418dfc53c83e9e2a07f ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm" 1650183167 11880 ea60d06924270684e6f852f3141c992b ""
+  "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx5.tfm" 1650183167 11828 9b1880528bdbe7e6035fd1b46bff1bbb ""
+  "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx7.tfm" 1650183167 11864 44cdb751af976143ebc0bed7eb1df9f4 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbxi10.tfm" 1650183167 17000 ee24f610e440d069ed0693c37a39a025 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm" 1650183167 11868 4f81e9b6033c032bdaf9884f4d7ef412 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm" 1650183167 11888 6841b91e46b65cf41a49b160e6e74130 ""
@@ -32,6 +34,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm" 1650183167 11852 5a9022f105fd1ee2797df861e79ae9a0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmri10.tfm" 1650183167 16968 1b588d0f410bd67a83eaecf8c64b2a43 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm" 1650183167 1556 b86d923e6b2f9aab2e313098a95cb0b8 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1650183167 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1650183167 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb" 1650183167 121021 1bf809ce4a594679006bd72263eba59b ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb" 1650183167 116908 1fca96723793882c2e0160350c192fc8 ""
@@ -264,8 +267,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1677363733 4278762 af3ac1370db81a450c1118eabf1fe718 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1677363720 2927662 b00ceeecccb6707dc3a5780cf0e49376 ""
-  "main.aux" 1677463464 844 25e1b695f9afcce7744d03dc19dc7b32 "pdflatex"
-  "main.tex" 1677463462 47199 5e71066aba3022f2e814d983c1c8b9b9 ""
+  "main.aux" 1677545620 844 85d8f2e99f80f2334e46bfa70855d1c7 "pdflatex"
+  "main.tex" 1677545617 63363 a81ceec384d58e46b0129e0475de282e ""
   (generated)
   "main.aux"
   "main.log"

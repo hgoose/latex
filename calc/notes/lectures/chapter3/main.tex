@@ -1500,8 +1500,452 @@
   \bigbreak \noindent
   \textit{So:}
   \begin{align*}
-    6x^{2}
+    6x^{2} + (x^{2} \cdot 1\cdot \frac{dy}{dx} + 2x \cdot y) - (x \cdot 3y^{2} \cdot \frac{dy}{dx} +y^{3}\cdot 1) =  0
   \end{align*}
- 
+  \bigbreak \noindent 
+  \textit{These are the Deriviatives of each term, we put $\frac{dy}{dx}$ there because in the problem, we are deriving with respect to x,
+    so when we derive the y terms, y is not x, so we put $\frac{dy}{dx}$.
+  }
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Cleanup:}}}
+  \begin{align*}
+    6x^{2} + x^{2}\frac{dy}{dx}+2xy - 3xy^{2}\frac{dy}{dx}- y^{3} = 0
+  .\end{align*}
+  \textit{Now we are solving for $\frac{dy}{dx}$}, so we locate all the terms with $\frac{dy}{dx}$ and keep them on the same side of the equation:
+  \begin{align*}
+   x^{2}\frac{dy}{dx}-3xy^{2}\frac{dy}{dx} = y^{3}-6x^{2}-2xy
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now that the terms on the left all have $\frac{dy}{dx}$}, we can factor it out:
+  \begin{align*}
+    \frac{dy}{dx}(x^{2}-3xy^{2}) = y^{3} - 6x^{2} - 2xy
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now divide by $x^{2}-3xy^{2}$}:
+  \begin{align*}
+   \frac{dy}{dx} = \frac{y^{3}-6x^{2}-2xy}{x^{2}-3xy^{2}} 
+  .\end{align*}
 
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Differentiate:}
+    \begin{align*}
+      \sin{x} + \cos{y} = \sin{x}\cos{y}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textit{So:}
+  \begin{align*}
+    \cos{x} + (-\sin{y}\cdot \frac{dy}{dx}) = \sin{x}(-\sin{y})\cdot \frac{dy}{dx} + \cos{x} \cdot \cos{y}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Cleanup:}}}
+  \begin{align*}
+    \cos{x}-\sin{y}\frac{dy}{dx} = -\sin{x}\sin{y}\frac{dy}{dx} + \cos{x}\cos{y} \\ 
+    = \sin{x}\sin{y}\frac{dy}{dx}-\sin{y}\frac{dy}{dx} =  \cos{x}\cos{y}-\cos{x} \\
+    = \frac{dy}{dx}(\sin{x}\sin{y}-\sin{y}) = \cos{x}\cos{y}-\cos{x} \\ 
+    = \frac{dy}{dx} = \frac{\cos{x}\cos{y} - \cos{x}}{\sin{x}\sin{y} - \sin{y}} \\
+    = \frac{dy}{dx} = \frac{\cos{x}(\cos{y}-1)}{\sin{y}(\sin{x} -1)}
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:}
+    \begin{align*}
+      \sqrt{x+y} = 1 + x^{2}y^{2}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+   \frac{1}{2\sqrt{x+y}} (1+\frac{dy}{dx}) = 0 + (x^{2}\cdot 2y \cdot \frac{dy}{dx} \cdot y^{2}\cdot 2x) \\
+  \end{align*}
+  \bigbreak \noindent 
+  \textit{Now we multiply through by $2\sqrt{x+y}$} to clear out the fraction, so:
+  \begin{align*}
+     + \frac{dy}{dx} = 4x^{2}y\sqrt{x+y} + 4xy^{2}\sqrt{x+y} \\
+    = \frac{dy}{dx}-4x^{2}y\sqrt{x+y}\frac{dy}{dx} = 4xy^{2}\sqrt{x+y} -1 \\
+    \frac{dy}{dx} [1-4x^{2}y\sqrt{x+y}] = 4xy^{2}\sqrt{x+y} -1 \\
+    = \frac{dy}{dx} = \frac{4xy^{2}\sqrt{x+y} -1}{1-4x^{2}y\sqrt{x+y}}
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Differentiate:}
+    \begin{align*}
+      \sqrt{x} + \sqrt{y} = 1
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent
+  \textbf{\textit{\underline{$y^{\prime}$}}}:
+  \begin{align*}
+    \frac{1}{2\sqrt{x}}(1) + \frac{1}{2\sqrt{y}}(1)\cdot \frac{dy}{dx} = 0 \\
+    \frac{1}{2\sqrt{x}} + \frac{1}{2\sqrt{y}}\cdot \frac{dy}{dx} = 0 \\
+    \frac{1}{2\sqrt{y}}\cdot \frac{dy}{dx} = -\frac{1}{2\sqrt{x}} \\
+    \bigg(\frac{2\sqrt{y}}{1} \bigg)\frac{1}{2\sqrt{y}}\cdot \frac{dy}{dx} = -\frac{1}{2\sqrt{x}} \cdot \bigg(\frac{2\sqrt{y}}{1}\bigg) \\
+    \frac{dy}{dx} = -\frac{2\cdot \sqrt{y}}{2\cdot \sqrt{x}} \\
+    \frac{dy}{dx} = -\frac{\sqrt{y}}{\sqrt{x}} \\
+  \end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \textbf{\textit{\underline{$y^{\prime\prime}$ (need to use quotient rule)}}}:
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+    \frac{d^{2}y}{dx^{2}} = \frac{-(\sqrt{x}\cdot \frac{1}{2\sqrt{y}}\cdot \frac{dy}{dx} - \sqrt{y}\cdot \frac{1}{2\sqrt{x}})}{(\sqrt{x})^{2}} \\
+    =  \frac{-(\frac{\sqrt{x}}{2\sqrt{y}}\cdot \frac{-\sqrt{y}}{\sqrt{x}} - \frac{\sqrt{y}}{2\sqrt{x}})}{x}
+  \end{align*}
+  \bigbreak \noindent 
+  \nt{Notice: in place of $\frac{dy}{dx}$, we put the derivitate we found to be $y^{\prime}$}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Cleanup:}}}
+  \begin{align*}
+    \frac{-(\frac{1}{2}-\frac{\sqrt{y}}{2\sqrt{x}})}{x} \\
+     = \frac{(-\frac{1}{2}+\frac{\sqrt{y}}{2\sqrt{x}})}{x} \\
+     = \frac{(-\frac{1}{2}+\frac{\sqrt{y}}{2\sqrt{x}})\cdot 2\sqrt{x}}{x\cdot 2\sqrt{x}} \\
+     = \frac{\sqrt{x}+\sqrt{y}}{2x^{\frac{3}{2}}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{How $2x^{\frac{3}{2}}$}}}:
+  \begin{align*}
+    x^{1} \cdot 2x^{\frac{1}{2}} \\
+    = 2x^{\frac{1}{2}+ 1} \\
+    = 2x^{\frac{3}{2}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Look back at original equation}}}:
+  \begin{align*}
+    \sqrt{x} + \sqrt{y} = \textbf{\textit{\underline{1}}}
+  .\end{align*}
+  \textbf{\textit{\underline{Therefore:}}}
+  \begin{align*}
+   y^{\prime\prime} =  \frac{1}{2x^{\frac{3}{2}}}
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+  \begin{large}
+      \begin{center}
+          \textbf{Deriviatives of Inverse Trig Functions}
+      \end{center}
+  \end{large}
+  \end{mdframed}
+  \line(1,0){490}
+  \bigbreak \noindent \bigbreak \noindent
+  \textbf{\textit{\underline{Recall:}}}
+  \begin{align*}
+    y = \sin^{-1}{x} \longrightarrow \sin{y} = x
+  .\end{align*}
+  \begin{center}
+    And Restriction is:
+  \end{center}
+  \begin{align*}
+    (-\frac{\pi}{2} \leq x \leq \frac{\pi}{2})
+  .\end{align*}
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Proof: Using implicit Differentiation, derive the above $\sin{y} =x$:}
+    \begin{align*}
+      \cos{y} \cdot \frac{dy}{dx} = 1 \\
+      \frac{dy}{dx} = \frac{1}{\cos{y}}
+    .\end{align*}
+    From here, because: $\sin^{2}{y} + \cos^{2}{y} = 1$, we can solve for $\cos{y}$ and get:
+    \begin{align*}
+      \cos{y} = \pm\sqrt{1-\sin^{2}{y}}
+    .\end{align*}
+    And we go with the positive sign because if we notice the \textbf{\textit{Restriction}}, we are in quad 1 \& 4, where sin is \textbf{\textit{positive}}
+    \bigbreak \noindent 
+    So with this we can turn:
+    \begin{align*}
+      \frac{dy}{dx} = \frac{1}{\cos{y}}
+    .\end{align*}
+    Into:
+    \begin{align*}
+      \frac{dy}{dx} = \frac{1}{\sqrt{1-\sin^{2}{y}}}
+    .\end{align*}
+    From here if we look back at the orginal equation, we see that $\sin{y} = x$, se we replace $\sin^{2}{y}$ with $x^{2}$.
+    \textbf{\textit{\underline{Therefore:}}}
+    \begin{align*}
+      \frac{dy}{dx} = \frac{1}{\sqrt{1-x^{2}}}
+    .\end{align*}
+  \end{mdframed}
+  
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+    \textbf{Using the concepts above, we know:}
+    \begin{itemize}
+      \item $\frac{d}{dx}(\sin^{-1}{x}) = \frac{1}{\sqrt{1-x^{2}}}$ 
+      \item $\frac{d}{dx}(\cos^{-1}{x}) = -\frac{1}{\sqrt{1-x^{2}}}$ 
+      \item $\frac{d}{dx}(\tan^{-1}{x}) = \frac{1}{1+x^{2}}$ 
+      \item $\frac{d}{dx}(\csc^{-1}{x}) = -\frac{1}{x\sqrt{x^{2}-1}}$ 
+      \item $\frac{d}{dx}(\sec^{-1}{x}) = \frac{1}{x\sqrt{x^{2}-1}}$ 
+      \item $\frac{d}{dx}(\cot^{-1}{x}) = -\frac{1}{1+x^{2}}$ 
+    \end{itemize}
+  \end{mdframed}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Find $\frac{dy}{dx}$}
+    \begin{align*}
+      y = \sqrt{\tan^{-1}{x}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+    \frac{dy}{dx} = \frac{1}{2\sqrt{\tan^{-1}{x}}} \cdot \frac{1}{1+x^{2}}
+  \end{align*}
+  \textbf{\textit{\underline{Cleanup:}}}
+  \begin{align*}
+    \frac{dy}{dx} = \frac{1}{2(x^{2}+1)\sqrt{\tan^{-1}{x}}}
+  .\end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: find $\frac{dy}{dx}$}
+    \begin{align*}
+      y = arctan\sqrt{\frac{1-x}{1+x}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+    \frac{dy}{dx} = \frac{1}{1+\bigg(\sqrt{\frac{1-x}{1+x}}\bigg)^2}
+  \end{align*}
+  \bigbreak \noindent 
+  \textit{Then by the chain rule and the quotient rule:}
+  \begin{align*}
+    \frac{dy}{dx} = \frac{1}{1+\bigg(\sqrt{\frac{1-x}{1+x}}\bigg)^2} \cdot \frac{1}{2}\bigg(\frac{1-x}{1+x}\bigg)^{-\frac{1}{2}} \cdot \frac{(1+x)(-1)-(1-x)(1)}{(1+x)^{2}}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Cleanup:}}}
+  \begin{align*}
+    \frac{dy}{dx} = \frac{1}{1+\frac{1-x}{1+x}} \cdot \frac{1}{2}\bigg(\frac{1+x}{1-x}\bigg)^{\frac{1}{2}}\bigg[\frac{-1-x-1+x}{(1+x)^{2}}\bigg]
+  .\end{align*}
+  \bigbreak \noindent 
+  We are going to steal an (1+x) from the denominator of that last area and send it to the denominator in the first area to clear out the fraction, so:
+  \begin{align*}
+    \frac{1}{1+x+1-x} \cdot \frac{1}{2} \cdot \frac{(1+x)^{\frac{1}{2}}}{(1-x)^{\frac{1}{2}}} \cdot \frac{-2}{(1+x)}
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{now we can cancel out the x's in the denominator of the first fraction, and cancel out the 2 from the $\frac{1}{2}$ and the 2 from the numerator of the last fraction}
+  \begin{align*}
+    -\frac{1}{2}\cdot \frac{(1+x)^{\frac{1}{2}}}{(1-x)^{\frac{1}{2}}} \cdot \frac{1}{(1+x)^{1}} \\
+    = -\frac{1}{2} \cdot \frac{(1+x)^{\frac{1}{2}}}{(1-x)^{\frac{1}{2}}(1+x)^{1}} \\
+    = \frac{-1}{2(1-x)^{\frac{1}{2}}(1+x)^{\frac{1}{2}}} \\
+     = \frac{-1}{2\sqrt{(1-x)(1+x)}} \\
+    = \frac{-1}{2\sqrt{1-x^{2}}}
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{Large}
+      \begin{mdframed}
+          \begin{center}
+              \textbf{3.6}
+          \end{center}
+      \end{mdframed}
+  \end{Large}
+  \begin{Large}
+      \begin{center}
+          \textbf{Deriviatives of Logarithmic Functions:}
+      \end{center}
+  \end{Large}
+  \line(1,0){490}
+  
+  \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Recall:}
+    \begin{align*}
+      \frac{d}{dx} \ln{x} = \frac{1}{x}
+    .\end{align*}
+    And:
+    \begin{align*}
+      \frac{d}{dx}e^{x}=e^{x}
+    .\end{align*}
+    Also:
+    \begin{align*}
+      \frac{d}{dx}a^{x} = a^{x}\cdot \ln{a}
+    .\end{align*}
+  \end{mdframed}
+  \begin{mdframed}
+    \textbf{Proof: Derive:}
+    \begin{align*}
+      \frac{d}{dx}\log{_ax}
+    .\end{align*}
+    \textbf{\textit{\underline{Process: Let y = $\log{_ax}$}}}, then rewrite in exponential form
+    \begin{align*}
+      a^{y} = x
+    .\end{align*}
+    Now we derive,
+    \begin{align*}
+      a^{y} \cdot \ln{a} \cdot \frac{dy}{dx} = 1 \\
+      = \frac{dy}{dx} = \frac{1}{a^{y}\cdot \ln{a}}  \\
+      = \frac{1}{x\ln{a}}
+    .\end{align*}
+    \textbf{\textit{\underline{Summerize:}}}
+    \begin{align*}
+      \frac{dy}{dx}\log{_ax} = \frac{1}{x\cdot \ln{a}}
+    .\end{align*}
+    \textbf{\textit{\underline{And we know:}}}
+    \begin{align*}
+      \frac{d}{dx} \ln{x} = \frac{1}{x}
+    .\end{align*}
+    Because it's:
+    \begin{align*}
+      \frac{1}{x\cdot \ln{e}} = \frac{1}{x\cdot 1} 
+    .\end{align*}
+  \end{mdframed}
+  
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+    \textbf{Example: Find the derivative of $f(x)$ $=$ $\ln{(\sin^{2}{x})}$ }
+  \end{mdframed}
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+   f^{\prime}(x) = \frac{1}{\sin^{2}{x}} \cdot 2(\sin{x}^{1}) \cdot \cos{x} \\
+   = \frac{2\cos{x}}{\sin{x}} \\
+   = 2\cot{x}
+  \end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: find the deriviative of: }
+    \begin{align*}
+      f(x) = \log_5{xe^{x}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+    f^{\prime}(x) = \frac{1}{xe^{x}\cdot \ln{5}} (x+e^{x}+1\cdot e^{x}) \\ 
+    = \frac{e^{x}(x+1)}{xe^{x}\ln{5}} \\ 
+    = \frac{x+1}{x\ln{5}}
+  \end{align*}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Find the derivitate of:}
+    \begin{align*}
+      F(y) = y\ln{(1+e^{y})}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+   F^{\prime}(y) = y \cdot \frac{1}{1+e^{y}} (0+e^{y})  + \ln{(1+e^{y})} \cdot 1 \\ 
+   = \frac{ye^{y}}{1+e^{y}} + \ln{(1+e^{y})}
+  \end{align*}
+  \bigbreak \noindent 
+  \nt{$\ln{(a+b)}$ cannot be simplifed, because $\neq \ln{a} + \ln{b}$}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Find the derivitate of}
+    \begin{align*}
+      y = \log_2{(e^{-x}\cos{\pi x})}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+    \frac{dy}{dx} = \frac{1}{e^{-x}\cos{\pi x} \cdot \ln{2}} \cdot (e^{-x} \cdot (-\sin{\pi x}) \cdot \pi + (-e^{-x}) \cos{\pi x}) 
+  \end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Cleanup:}}}
+  \begin{align*}
+    \frac{e^{-x}(-\pi \sin{\pi x} - \cos{\pi x})}{e^{-x}\cos{\pi x} \cdot \ln{2}} \\
+    = \frac{-\pi \sin{\pi x} - \cos{\pi x}}{\cos{\pi x} \ln{2}}
+  .\end{align*}
+  
+  \pagebreak \bigbreak \noindent
+  \begin{large}
+    \textbf{Logarithmic Differentation:}
+  \end{large}
+  \bigbreak \noindent 
+  Step 1: Take ln of both sides 
+  \bigbreak \noindent 
+  Step 2: Differentiate implicitly with respect to x
+  \bigbreak \noindent 
+  Step 3: Solve for $y^{\prime}$
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example: Differentiate}
+    \begin{align*}
+      y = \sqrt[4]{\frac{x^{2}+1}{x^{2}-1}}
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+    \ln{y} = \ln{\sqrt[4]{\frac{x^{2}+1}{x^{2}-1}}} \\ 
+    \ln{y} = \ln{\bigg(\frac{x^{2}+1}{x^{2}-1}}\bigg)^{\frac{1}{4}} \\ 
+    \ln{y} = \frac{1}{4}\ln{\bigg(\frac{x^{2}+1}{x^{2}-1}}\bigg) \\ 
+    \ln{y} = \frac{1}{4} \ln{(x^{2}+1) - \frac{1}{4} \ln{x^{2}-1}} \\ 
+    \frac{1}{y} \cdot  \frac{dy}{dx} =  \frac{1}{4} \cdot \frac{1}{x^{2}+1} \cdot 2x -\frac{1}{4}\cdot \frac{1}{x^{2}-1}\cdot 2x \\
+    \frac{1}{y}\cdot \frac{dy}{dx} = \frac{x}{2(x^{2}+1)} - \frac{x}{2(x^{2} -1)}
+  \end{align*}
+  \textit{multiply by common denominator:}
+  \begin{align*}
+    \frac{1}{y}\cdot \frac{dy}{dx} = \frac{x}{2(x^{2}+1)} \cdot \frac{x^{2}-1}{x^{2} -1} - \frac{x}{2(x^{2} -1)} \cdot \frac{x^{2}+1}{x^{2}+1}\\
+    \frac{1}{y}\cdot \frac{dy}{dx} = \frac{x(x^{2}-1)}{2(x^{2}+1)(x^{2}-1)}  - \frac{x(x^{2}+1)}{2(x^{2} -1)(x^{2}+1)} \\
+    \frac{1}{y}\cdot \frac{dy}{dx} = \frac{x^{3}-x}{2(x^{2}+1)(x^{2}-1)}  - \frac{x^{3}+x}{2(x^{2} -1)(x^{2}+1)} \\
+    \frac{1}{y}\cdot \frac{dy}{dx} = \frac{x^{3}-x-(x^{3}+x)}{2(x^{2}+1)(x^{2}-1)}   \\
+    \frac{1}{y}\cdot \frac{dy}{dx} = \frac{x^{3}-x-x^{3}-x}{2(x^{4}-1)}   \\
+    \frac{1}{y}\cdot \frac{dy}{dx} = \frac{-2x}{2(x^{4}-1)}   \\
+    \frac{1}{y}\cdot \frac{dy}{dx} = \frac{-x}{x^{4}-1}   \\
+  .\end{align*}
+  \textit{Now solve for $\frac{dy}{dx}$,}:
+  \begin{align*}
+    \frac{dy}{dx} = \frac{-x}{x^{4}-1} \cdot y
+  .\end{align*}
+  \textit{go to the original equation and see what y is equal to:}
+  \begin{align*}
+    \frac{dy}{dx} = \frac{-x}{x^{4}-1} \cdot \sqrt[4]{\frac{x^{2}+1}{x^{2}-1}}
+  .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{mdframed}
+    \textbf{\textit{\underline{Main Idea:}}}
+    \bigbreak \noindent 
+    If you have a problem that uses chain rule, product rule, quotient rule, all together. It's best to use this Logarithmic definition
+  \end{mdframed}
+
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Example:}
+    \begin{align*}
+      y = (\cos{5x})^{x}
+    .\end{align*}
+  \end{mdframed}
+
+  \bigbreak \noindent 
+  \nt{In this example, it's absolutetly necessary to use the definiton and steps from above because you have a variable in the base, and in the exponent}
+
+  \bigbreak \noindent
+  \textit{So:}
+  \begin{align*}
+    \ln{y} = \ln{(\cos{5x})^{x}} 
+  \end{align*}
+  \bigbreak \noindent 
+  \textit{use the Logarithmic property and move the exponent to the front, derive by using the product rule, and the chain rule}
+  \begin{align*}
+    \frac{1}{y} \frac{dy}{dx} = x \cdot \frac{1}{\cos{5x}} \cdot (-\sin{5x}) \cdot 5 + 1 \cdot \ln{(\cos{5x})}  
+  .\end{align*}
+  \bigbreak \noindent 
+  \textbf{\textit{\underline{Cleanup:}}}
+  \begin{align*}
+    \frac{1}{y}\frac{dy}{dx} = \frac{-5\sin{5x}}{\cos{5x}} + \ln{\cos{5x}} 
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Solve for $\frac{dy}{dx}$ by multiplying both sides by y}:
+  \begin{align*}
+    \frac{dy}{dx} = (-5x\tan{5x} + \ln{(\cos{5x})}) \cdot y
+  .\end{align*}
+  \bigbreak \noindent 
+  \textit{Now replace y with what y equals in the original equation:}
+  \begin{align*}
+    \frac{dy}{dx} = (-5x\tan{5x} + \ln{(\cos{5x})}) \cdot (\cos{5x})^{x}
+  .\end{align*}
 \end{document}
