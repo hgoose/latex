@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1677731630 "main.tex" "main.pdf" "main" 1677731631
+["pdflatex"] 1677732693 "main.tex" "main.pdf" "main" 1677732694
   "/home/datura/dev/latex/template/macros.tex" 1677288391 3389 93000260d2aea292d29c76d4ace77a29 ""
   "/home/datura/dev/latex/template/preamble.tex" 1677462539 20226 6aa22f9be8898acde4bb88f4d6ab4f82 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1650183167 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -256,8 +256,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1677363733 4278762 af3ac1370db81a450c1118eabf1fe718 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1677363720 2927662 b00ceeecccb6707dc3a5780cf0e49376 ""
-  "main.aux" 1677731630 843 4bba5326838aef0cbb543dfb3e271470 "pdflatex"
-  "main.tex" 1677731629 9402 de5fc2bd9af5008284e408ccd027c4d8 ""
+  "main.aux" 1677732693 843 4bba5326838aef0cbb543dfb3e271470 "pdflatex"
+  "main.tex" 1677732691 9461 307c1261a21eb9e247cacaa644d78b8c ""
   (generated)
   "main.aux"
   "main.log"
