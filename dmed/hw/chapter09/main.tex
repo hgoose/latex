@@ -1,0 +1,167 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{Chapter 9 Review and Discuss}}
+\author{\huge{Nathan Warner}}
+\date{\huge{March 5, 2023}}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{MATHEMATICS NOTES}
+\lhead{\leftmark}
+\cfoot{\thepage}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+    \maketitle
+    \noindent
+    \qs{}{List advantages of using photos from your own camera.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    You have complete control over the content and quality of the image.
+You can capture exactly what you need for a specific project or purpose.
+You have ownership and rights to the image, and do not need to worry about licensing or copyright issues.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Evaluate two specific situations in which photos are needed, citing the advantages and disadvantages of using stock photos in these jobs. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Situation 1: Creating a brochure for a new product launch. Advantages of using stock photos: easy to find and access, can be less expensive than hiring a professional photographer. Disadvantages: may not perfectly align with the product, may be overused in other marketing materials.
+Situation 2: Designing a website for a small business. Advantages of using photos from own camera: can capture the essence of the business and its unique offerings, can personalize the website and make it stand out. Disadvantages: may require more time and effort to capture the right images, may require higher quality equipment.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Analyze what should be considered when choosing an image size and resolution in the following scenarios: a) Image will be used on the Web.  b) Image will be used in print publishing. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    a) Image will be used on the Web: Consider the size of the image and the file size (smaller is better for faster loading times), as well as the screen resolution of the devices on which the image will be viewed.
+b) Image will be used in print publishing: Consider the desired print size and the printer's resolution (usually at least 300dpi for high-quality printing).
+
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Identify and describe in detail what most owners of stock photos do to ensure that the stock photo is not used without purchasing. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Owners of stock photos typically use watermarks or low-resolution versions of the image, which can deter unauthorized use or copying.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Define screen captures and evaluate their use in tutorial documentation. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Screen captures are images of what is displayed on a computer screen. They can be useful in tutorial documentation to provide visual aids and step-by-step instructions. However, the quality and clarity of the image can be affected by the screen resolution and size.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Identify when it is appropriate to use a scanned image and when it is not a good idea. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    It is appropriate to use a scanned image when the original source is not available in a digital format. However, scanned images can have lower resolution and quality compared to digital images, so it may not be ideal for high-quality printing or large-scale reproduction.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Explain royalty-free licensing and give examples of what may be included in the licensing agreement. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Royalty-free licensing allows the purchaser to use an image multiple times without paying additional fees. The licensing agreement may include restrictions on the usage, such as a limit on the number of copies or a restriction on using the image in certain industries.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Differentiate between rights-managed licenses and royalty-free licenses.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Rights-managed licenses require payment for each usage of an image and may have additional restrictions on usage, while royalty-free licenses allow for multiple uses without additional payment.
+
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{List some reasons it may be best to resize images in a raster editing pro-gram before placing them in a layout program. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Resizing in a raster editing program can preserve the quality of the image, reduce file size, and make it easier to manipulate in the layout program.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Describe resampling, downsampling, and upsampling in a raster image.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Resampling is the process of changing the pixel dimensions of an image. Downsampling reduces the number of pixels and can result in loss of detail, while upsampling increases the number of pixels and can result in distortion or blurriness.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Compare and contrast the two most common raster file types used for print documents. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    TIFF and JPEG are the two most common raster file types used for print documents. TIFF is a lossless format and provides high-quality images, while JPEG is a lossy format that compresses the image to reduce its file size. TIFF is preferred when the image needs to retain its original quality, while JPEG is used when the image can afford to lose some quality.
+
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Compare and contrast linked and embedded graphics in a desktop pub-lishing program. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Linked graphics are stored outside the document file and are referenced by the document. Changes to the linked graphic will be reflected in the document when it is opened. Embedded graphics are stored within the document file itself. Changes to the embedded graphic will only affect the document in which it is stored. Linked graphics reduce the file size of the document and make it easier to manage, while embedded graphics are self-contained and do not require the linked graphic to be present.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Differentiate between an inline graphic and a floating graphic, giving examples of the type of material that would use each.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    An inline graphic is integrated into the text flow of the document and moves with the text. Examples of inline graphics include photos, charts, and graphs that are inserted within the text. A floating graphic is not integrated into the text flow and can be positioned anywhere on the page. Examples of floating graphics include sidebars, pull quotes, and captions that are positioned outside the text flow.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Describe text wrapping and conclude when and why it should be avoided.
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Text wrapping is the process of adjusting the placement of text around an image. Text can wrap around the image or be placed over the image. Text wrapping is useful when the image is large and the text needs to flow around it. However, it should be avoided when the image is small and the text is forced to wrap around it, as it can make the text difficult to read.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Describe the effect a wide or narrow standoff can have on the image. }
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Standoff refers to the space between the image and the surrounding text or graphics. A wide standoff makes the image stand out more and draws attention to it, while a narrow standoff integrates the image more into the document. The choice of standoff depends on the purpose of the image and its importance within the document.
+
+
+
+    
+\end{document}

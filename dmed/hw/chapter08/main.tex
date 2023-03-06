@@ -1,0 +1,121 @@
+\documentclass{report}
+
+\input{~/dev/latex/template/preamble.tex}
+\input{~/dev/latex/template/macros.tex}
+
+\title{\Huge{Chapter 08 Review and Discuss}}
+\author{\huge{Nathan Warner}}
+\date{\huge{March 5, 2023}}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Review and Discuss}
+\lhead{\leftmark}
+\cfoot{\thepage}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+    \maketitle
+    \noindent
+    \qs{}{Differentiate between the terms typeface and font. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Typeface and font are two related but distinct terms that are often used interchangeably. While a font is a specific instance of a typeface, representing a single weight, width, and style of a typeface, a typeface refers to a family of related fonts. In other words, a typeface is the overall design of a set of characters, while a font is a specific implementation of that design.
+
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Describe the difference between a serif and a sans serif font with exam-ples of suggested best uses for each. 
+}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    A serif font is characterized by small lines or flourishes that extend from the ends of letters. This type of font is often used in printed materials such as books, newspapers, and magazines, as the serifs help guide the reader's eye along the line of text. On the other hand, a sans-serif font has no serifs, and is often used in digital media such as websites or mobile apps, as it is generally easier to read on screens. For example, Times New Roman is a serif font that is commonly used in printed materials, while Arial is a sans-serif font that is often used on websites.
+
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Compare and contrast ascenders, descenders, and baseline.}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Ascenders, descenders, and baseline are all important components of typography. Ascenders are the parts of lowercase letters that extend above the x-height, while descenders are the parts that extend below the baseline. The baseline, on the other hand, is the imaginary line on which most letters sit. Understanding these components is important when selecting a font, as they can affect the overall readability of the text.
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Differentiate between an en and an em dash and provide examples of when each would be used.}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    An en dash is typically used to represent a range of numbers or dates, while an em dash is used to indicate a break in thought or to set off a parenthetical statement. For example, "The years 2000–2005 were a time of great change" uses an en dash, while "The event was cancelled—due to weather concerns—just hours before it was scheduled to start" uses an em dash.
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Describe how choosing a typeface can set a tone for a project. Give two examples.}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Choosing a typeface can have a significant impact on the tone of a project. For example, a serif font such as Georgia can convey a sense of tradition and formality, while a sans-serif font such as Helvetica can suggest modernity and simplicity. Another example is the use of a script font to suggest elegance and sophistication, such as in a wedding invitation, versus a bold sans-serif font to suggest strength and urgency, such as in a call-to-action button on a website.
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Discuss how two typefaces with the same point size can be visually differ-ent sizes. }
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Two typefaces with the same point size can appear visually different in size due to variations in the x-height and overall letter spacing. For example, a font with a larger x-height will appear larger than a font with a smaller x-height, even if they are both set at the same point size. Similarly, a font with tighter letter spacing will appear smaller than a font with looser letter spacing, even if they are both the same point size.
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Evaluate the best type styles to use for emphasis and type styles that should be avoided.}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    The best type styles to use for emphasis include bold or italic fonts, as well as underlining or all-caps. However, it is important to use these styles sparingly, as overuse can make the text appear cluttered and difficult to read. Type styles that should be avoided include decorative or novelty fonts, which can be difficult to read and can detract from the overall message of the text.
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Compare and contrast tracking, leading, and kerning. Include how each of them affect readability. }
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Tracking, leading, and kerning are all important aspects of typography that can affect readability. Tracking refers to the overall letter spacing in a block of text, leading refers to the vertical spacing between lines of text, and kerning refers to the spacing between individual letters. Increasing the tracking or leading can improve readability by making the text easier to scan, while adjusting the kerning can improve the legibility of individual letter pairs.
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Apply what you have learned about paragraph alignment by deciding on what type of alignment should be used for a block of text in which you do not want many words to automatically hyphenate at the end of the line. What would be the drawbacks to using this alignment? }
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Justified alignment would prevent many words from automatically hyphenating at the end of the line, but it may result in uneven spacing between words, which can be distracting to readers. In this case, it may be better to use left alignment, which will not cause uneven spacing.
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Analyze the use of enhancements in a publication such as display typog-raphy, drop caps, pull quotes, and color.}
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    Enhancements in a publication, such as display typography, drop caps, pull quotes, and color, can add visual interest and hierarchy to a layout. Display typography can be used to draw attention to important headlines, while pull quotes can be used to highlight key points within the text. However, it is important to use enhancements judiciously, as overuse can be distracting and make the layout appear cluttered.
+    
+    \bigbreak \noindent \bigbreak \noindent 
+    \qs{}{Describe what can be done to remove widows and orphans within your document. Include information about what you need to be cautious about when making these changes. }
+    \bigbreak \noindent 
+    \pf{Answer}{}
+    \bigbreak \noindent 
+    To remove widows and orphans within a document, adjust the tracking or kerning of the affected lines or adjust the line breaks manually. However, it is important to be cautious when making these changes, as they can affect the overall flow and readability of the text. Additionally, be careful not to create rivers, or large white spaces that run vertically through a block of text, when making changes to spacing.
+
+
+    
+    
+\end{document}
