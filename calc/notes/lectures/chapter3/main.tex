@@ -9,6 +9,8 @@
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{MATHEMATICS NOTES}
+\graphicspath{{./}}
+
 \pgfpagesdeclarelayout{boxed}
 {
   \edef\pgfpageoptionborder{0pt}
@@ -1948,4 +1950,376 @@
   \begin{align*}
     \frac{dy}{dx} = (-5x\tan{5x} + \ln{(\cos{5x})}) \cdot (\cos{5x})^{x}
   .\end{align*}
+
+  \pagebreak \bigbreak \noindent
+  \begin{Large}
+      \begin{mdframed}
+          \begin{center}
+              \textbf{3.7}
+          \end{center}
+      \end{mdframed}
+  \end{Large}
+  \begin{Large}
+      \begin{center}
+        \textbf{Rates of Change in the Natural and Social Sciences}
+      \end{center}
+  \end{Large}
+  \line(1,0){490}
+  
+  \bigbreak \noindent 
+  \begin{mdframed}
+    \textbf{Now that we have the tools to calculate most derivatives, let's see how to
+      apply them in the natural and social sciences
+    }
+    \medbreak \noindent
+    \textbf{\textit{\underline{Example:}}} A partical moves according to a law 
+    of motion $s = f(t), t>0$, where t is measured in seconds and s in measured in feet
+     \begin{align*}
+      f(t) = t^{3} -9t^{2}+24t
+    .\end{align*}
+  \end{mdframed}
+  \bigbreak \noindent 
+  \textbf{a.) What is the velocity at time $t$?}
+
+   \bigbreak \noindent 
+   \textit{We know that the velocity is the derivitate of the function, therefore we will find $f^{\prime}(t)$}
+   \bigbreak \noindent
+   \textit{So:}
+   \begin{align*}
+     \boxed{f^{\prime}(t) = 3t^{2}-18t+24}
+   \end{align*}
+   
+   \bigbreak \noindent 
+   \textbf{b.) When is the particle at rest?}
+   \bigbreak \noindent 
+   \textit{to answer this question we must set $v(t) = 0$}
+   \bigbreak \noindent
+   \textit{So:}
+   \begin{align*}
+     3t^{2} -18t+24 = 0 \\
+     = t^{2} -6t +8 = 0 \\
+     (t-2)(t-4) = 0
+   \end{align*}
+   \bigbreak \noindent 
+   \textit{Therefore the particle is a rest at:}
+   \begin{align*}
+     t = 2,4\ seconds
+   .\end{align*}
+
+   \bigbreak \noindent 
+   \textbf{c.) When is the particle moving in positive direction?}
+
+   \bigbreak \noindent 
+   \textit{If the particle is moving in the positive direction then $v(t)>0$}
+   \bigbreak \noindent
+   \textit{So:}
+   \begin{align*}
+     3(t-2)(t-4)>0
+   \end{align*}
+
+   \bigbreak \noindent 
+   \textit{To solve quadratic inequalites we need to make a number line and test each interval}
+   \bigbreak \noindent 
+   \begin{center}
+     \includegraphics[scale=1]{1.png  }
+   \end{center}
+   \bigbreak \noindent 
+   To start we will test the interval 0-2, so if we plug in 1 into (t-2)(t-4), we get
+   a negative times a negative, which will be a \textbf{\textit{\underline{positive}}},
+   therefore the velocity in this interval is positive
+
+   \bigbreak \noindent 
+   Now if we test the interval 2-4, with 3, we will get a negative times a positive, which is \textbf{\textit{\underline{negative}}}, therefore the 
+   velocity in the this interval is negative
+
+   \bigbreak \noindent 
+   Last if we test the interval for 4 onward, with 5, we will get a positive times a positive, so the velocity in this 
+   interval is positive.
+
+   \bigbreak \noindent 
+   \textbf{\textit{\underline{Therefore:}}}
+   \bigbreak \noindent 
+   \textbf{The particle is moving in the positive direction in the intervals:}
+     \begin{align*}
+       [0,2)\cup(4,\infty]
+     .\end{align*}
+
+   \bigbreak \noindent 
+   \nt{Since $v(0) = 24>0$, we will include zero on the interval, also notice the 2 and 4 is not inclusive}
+
+   \bigbreak \noindent 
+   \textbf{d.) What is the total distance traveled during the first 6 seconds?}
+
+   \bigbreak \noindent 
+   \textit{In order to compute the total distance traveled:}
+   \begin{align*}
+     total\ distance\ = \abs{f(2)-f(0)} + \abs{f(4)- f(2)} + \abs{f(6)-f(4)}
+   .\end{align*}
+   \bigbreak \noindent
+   \textit{So:}
+   \begin{align*}
+     \abs{20-0}+ \abs{16-20}+ \abs{36-16} \\
+     = 20 + 4 + 20 \\
+     = 44\ ft
+   \end{align*}
+
+   \bigbreak \noindent 
+   \textbf{\textit{\underline{Extra:}}}
+   \begin{align*}
+     displacement\ = f(6) - f(0) \\
+     = 36-0 \\
+     = 36ft
+   .\end{align*}
+
+   \bigbreak \noindent 
+   \textbf{e.) what is the acceleration of the particle at time t?}
+
+   \bigbreak \noindent 
+   \textit{to find this, we must find the second derivative of the velocity function}
+   \bigbreak \noindent
+   \textit{So:}
+   \begin{align*}
+     a(t) = 6t-18
+   \end{align*}
+
+   \bigbreak \noindent 
+   \textbf{f.) When is the particle speeding up, and when is it slowing down?}
+
+   \bigbreak \noindent 
+   \textit{It is speeding up when v(t) and a(t) have the same sign, and it is slowing 
+     down when v(t) and a(t) have opposite signs
+   }
+   
+   \bigbreak \noindent 
+   \textit{we will use the number line again, and then make a new one for a(t):}
+
+   \bigbreak \noindent 
+   \begin{center}
+     \includegraphics[scale=1]{1.png}
+   \end{center}
+
+   \bigbreak \noindent 
+   \textit{to construct the number line of a(t), we need to set a(t) = 0 }
+   \begin{align*}
+    6t-18 = 0 \\
+    t = 3
+   .\end{align*}
+   \bigbreak \noindent 
+   \begin{center}
+     \includegraphics[scale=0.8]{2.png}
+   \end{center}
+
+   \bigbreak \noindent 
+   so if we plug in something smaller than 3, say \textbf{2}, then:
+   \begin{align*}
+     6(2) - 18 \\ 
+     = -6
+   .\end{align*}
+   \bigbreak \noindent 
+   And if we plug in something bigger than 3, say 4, then:
+   \begin{align*}
+     6(4) - 18 \\
+     =6
+   .\end{align*}
+   \bigbreak \noindent 
+   So smaller than 3 is negative and bigger than 3 is positive.
+
+   \bigbreak \noindent 
+   Now if we stack our 2 number lines, and draw lines through each of the zeros,
+   we can find when the signs are the same, and when they are opposite to determine
+   when the particle is speeding up and slowing down. 
+
+   \bigbreak \noindent
+   \textit{So:}
+   \begin{center}
+     \includegraphics[scale=0.8]{3.png}
+   \end{center}
+
+   \pagebreak 
+   \begin{mdframed}
+     \textbf{\textit{\underline{Example:}}} \textbf{The height (in meters) of a projectile shot vertically upward
+       from a point 3 feet above ground level with an initial velocity of $40ft\diagdown s$ is $h=3+40t-16t^{2}$
+     }
+     \bigbreak \noindent 
+     \textbf{a.) Find the velocity after 2 seconds and after 4 seconds}
+     \smallbreak \noindent
+     \textbf{b.) When does the projectile reach its maximum height?}
+     \smallbreak \noindent
+     \textbf{c.) What is the maximum height?}
+     \smallbreak \noindent
+     \textbf{d.) When does it hit the ground?}
+     \smallbreak \noindent
+     \textbf{e.) With what velocity does it hit the ground?}
+   \end{mdframed}
+
+   \bigbreak \noindent 
+   \textbf{a.) To get v(t), take the derivative of h and plug in values 2 and 4:}
+   \begin{align*}
+     v(t) = h^{\prime}(t) = 40-32t
+   .\end{align*}
+   \begin{align*}
+     v(2) = 40-64 \\
+     = -24 ft\diagdown s
+   .\end{align*}
+   \begin{align*}
+     v(4) = 40 - 128 \\
+     = -88 ft\diagdown s
+   .\end{align*}
+
+   \bigbreak \noindent
+   \textbf{b.) Set v(t) =  0}
+   \begin{align*}
+     40 - 32t = 0 \\
+     t = \frac{40}{32} \\
+     = \frac{4}{5}\ seconds
+   .\end{align*}
+
+   \bigbreak \noindent 
+   \nt{we set the velocity function equal to zero, because when the projectile reaches
+     its max height, it will stop moving before the velocity changes to negative
+   }
+
+   \bigbreak \noindent 
+   \textbf{c.) Plug $\frac{5}{4}$ into h from the original equation:}
+   \begin{align*}
+     h(\frac{5}{4}) = 3+40(\frac{5}{4}) - 16(\frac{5}{4})^{2} \\
+     = 28ft
+   .\end{align*}
+
+   \bigbreak \noindent 
+   \textbf{d.) Set h equal to zero and solve:}
+   \begin{align*}
+     3+40t-16t^{2} =  0 \\
+     = 16t^{2} -40t -3
+   .\end{align*}
+    \textit{Since this will not factor, we must use the quadratic formula:}
+    \bigbreak \noindent 
+    \textbf{If:}
+    \begin{align*}
+     \frac{-b\pm \sqrt{b^{2}-4ac}}{2a} 
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{And:}
+    \begin{align*}
+      a = 16 \\
+      b = -40 \\
+      c = -3
+    .\end{align*}
+    \bigbreak \noindent 
+    \textit{Then:}
+    \begin{align*}
+      t = \frac{40\pm \sqrt{40^{2}-4(16)(-3)}}{2(16)} \\
+      t = \frac{40 \pm \sqrt{1792}}{32} \\ 
+      t = \frac{40 \pm 16\sqrt{7}}{32} \\
+      t = \frac{5 \pm 2\sqrt{7}}{4}
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \textit{Since we are dealing with time, we will only report the positive value}
+
+    \bigbreak \noindent
+    \textit{So:}
+    \begin{align*}
+      \frac{5 + 2 \sqrt{7}}{4}\ seconds
+    \end{align*}
+
+    \bigbreak \noindent 
+    \textbf{e.) Plug what we found for t into the velocity function:}
+    \begin{align*}
+      v(\frac{5+2\sqrt{7}}{4}) = 40-32(\frac{5+2\sqrt{7}}{4}) \\
+      = 40 - 40-16\sqrt{7} \\
+      = -16\sqrt{7} ft\diagdown s
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \begin{mdframed}
+      \textbf{\textit{\underline{Example:}}} if a rock is thrown vertically upward from the surface of Mars 
+      with a velocity of $15 m \diagdown s$, then its height after $t$ seconds is $h = 15t - 1.86t^{2}$
+       \bigbreak \noindent 
+       \textbf{a.) What is the velocity of the rock after 2 seconds?}
+       \smallbreak \noindent
+       \textbf{b.) What is the velocity of the rock when its height is 25m on its way up? On its way down?}
+    \end{mdframed}
+
+    \bigbreak \noindent 
+    \textbf{a.) Find the derivitate of h and plug in 2}
+    \bigbreak \noindent
+    \textit{So:}
+    \begin{align*}
+      v(t) = h^{\prime} = 15 - 3.72t
+    \end{align*}
+    \begin{align*}
+      v(2)=  15 - 3.72(2) \\ 
+      = 7.56 m \diagdown s
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \textbf{b.) Set h(t) = 25} 
+
+    \bigbreak \noindent 
+    \textit{Graph to visualize:}
+    \begin{center}
+      \includegraphics[scale=0.8]{4.png}
+    \end{center}
+
+    \bigbreak \noindent
+    \textit{So:}
+    \begin{align*}
+      25 = 15t-1.86t^{2} \\ 
+      = 1.86t^{2} -15t -25
+    \end{align*}
+
+    \bigbreak \noindent 
+    \textit{Now we will use the quadratic formula}
+    \begin{align*}
+      t = \frac{15\pm \sqrt{225 - 4(1.86)(25)}}{2(1.86)} \\
+      = \frac{15\pm \sqrt{225-186}}{3.72} \\
+      =  \frac{15\pm \sqrt{39}}{3.72} 
+      \approx 5.71, 2.35
+    .\end{align*}
+      
+    \bigbreak \noindent 
+    \nt{The earlier time is on the way up, and the later time is on the way down.}
+
+    \bigbreak \noindent 
+    \textit{From here we need to find the velocity at each of these times, so we plug them both into the velocity function:}
+    \begin{align*}
+      v(2.35) = 15-3.72(2.35) \\
+      \approx 6.26 m \diagdown s 
+    .\end{align*}
+    \begin{align*}
+      v(5.71) = 15-3.72(5.71) \\
+      \approx - 6.24 m \diagdown s 
+    .\end{align*}
+
+    \bigbreak \noindent 
+    \textbf{\textit{\underline{Summerize:}}}
+    \begin{center}
+      $s(t)$  $\longrightarrow$ position fxn, also sometimes ($h(t), x(t), y(t), f(t)\ etc...$) 
+      \smallbreak \noindent
+      $s^{\prime}(t) = v(t)\ (velocity\ function)$ 
+      \smallbreak \noindent
+      $s^{\prime\prime}(t) = v^{\prime}(t) = a(t)\ (acceleration\ function)$
+    \end{center}
+
+    \pagebreak \bigbreak \noindent
+    \begin{Large}
+        \begin{mdframed}
+            \begin{center}
+                \textbf{3.8}
+            \end{center}
+        \end{mdframed}
+    \end{Large}
+    \begin{Large}
+        \begin{center}
+            \textbf{Exponentialaouoe Growth and Decay}
+        \end{center}
+    \end{Large}
+    \line(1,0){490}
+    
+    \bigbreak \noindent \bigbreak \noindent \bigbreak \noindent 
+    
+
+
+  
 \end{document}
