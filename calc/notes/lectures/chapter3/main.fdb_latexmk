@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1678141839 "main.tex" "main.pdf" "main" 1678141841
+["pdflatex"] 1678149386 "main.tex" "main.pdf" "main" 1678149389
   "/home/datura/dev/latex/template/macros.tex" 1677288391 3389 93000260d2aea292d29c76d4ace77a29 ""
   "/home/datura/dev/latex/template/preamble.tex" 1677796096 20246 f4848280ab4806378b97b92ef7b8ecd6 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1650183167 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -276,8 +276,8 @@
   "2.png" 1678138865 6341 0cb871bc0aebe2c146235a3ba0e5f222 ""
   "3.png" 1678139119 139402 ed7f03d5fd96a2434ac2a832232ee183 ""
   "4.png" 1678141247 30695 f7f8d641ca290c819f7b11a9fc4ef670 ""
-  "main.aux" 1678141840 844 77bc64b38fe980a4678ed4e84cb183c6 "pdflatex"
-  "main.tex" 1678141839 74475 353b5ebc60517a91f7bf1adde47e3b29 ""
+  "main.aux" 1678149388 844 1ba7f1b9c373014a71770317b9ae65ac "pdflatex"
+  "main.tex" 1678149386 84428 ffdd102ee8a687b097ee600ac8f533a8 ""
   (generated)
   "main.aux"
   "main.log"
